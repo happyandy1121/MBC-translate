@@ -1,0 +1,1402 @@
+Stats:
+  Lore:
+    Flux:
+    - '&7找到的總 悉石: &a%total%'
+    - '&7發現基本 悉石: &a%basic%'
+    - '&7發現閃耀 悉石: &a%blazed%'
+    General:
+    - '§7賺錢: §a$%money%'
+    - '§7發現寶石: §a%gems%'
+    - '§7殺死符文守衛: §a%runes%'
+    - '§7神諭者被殺: §a%oracles%'
+    - '§7發現文物: §a%artifacts%'
+    - '§7文物鑑定: §a%artifacts_identified%'
+    Passive:
+    - '§7澤塔: §a%zeta%'
+    - '§7挖礦級別: §a%level%'
+    - '§7當前經驗值: §a%current%'
+    - '§7所需經驗值: §a%required%'
+  Names:
+    General: '&b&l一般統計'
+    Passive: '&6&l被動統計'
+    Flux: '&2&l悉石 統計'
+GUI:
+  Journal:
+    Vessels:
+      Lore:
+      - §2Vessels §7類似於自定義魔法
+      - §7 但僅適用於鎬。製作一個
+      - §7你需要 §2Vessel 的所有 §38 §7 部分
+      - §7可以作為§6化石§7從
+      - §a人工製品§7。將所有 §38 §7 部分放在一個
+      - §6Refinery§7 以製作 §2Vessel§7。
+      - §7
+      - §6§o點擊我查看完整的容器列表。
+      - §7
+      - §2Vessels §7必需品你猜對
+      - §4Requium §7為了能夠殺死老闆。
+      - §7您可以在 §9/礦船 §7 清單的 §7 中查看您之前的嘗試。那裡 -§7 是該 GUI 中的更多信息。
+      Name: '&2&lVessels'
+    Oracles:
+      Lore:
+      - §c神諭 §7是最終遊戲的老闆，可以是
+      - §7使用§e帶電甲骨文§7召喚。
+      - §7這是從§8神秘之塵§7獲得的。
+      - §7
+      - §c神諭 §7應該只在相同等級時戰鬥
+      - §b35 §7在 §3/mine stats§7。一旦你殺了
+      - §7第一個 §3 階段 §7 你會得到一個 §5 june §7 來召喚
+      - §7下一個§3階段。
+      - §7
+      - §7你召喚 §c神諭 §7通過使用 §e帶電
+      - §e甲骨文 §7在 §a綠寶石礦§7。
+      - §7
+      - §c神諭 §7 將丟棄插件中使用的項目
+      - §7和§6Blacksmithing§7。
+      Name: '&c&l神諭'
+    Refinery:
+      Lore:
+      - §3精煉廠 §7需要處理 §f神秘之塵§7。
+      - §7創建一個§3精煉廠§7放置一個§f§n投擲器§7面向
+      - §f§n向上§7。然後你需要放置一個§f§n柵欄 §7在
+      - §7在此之上創建§3精煉廠§7。
+      - §7
+      - §7放置 §f神秘之塵 §7§3精煉廠內
+      - §7 將其處理成不同的組件。
+      - §7
+      - §7或者，放置一個§2容器的所有§38塊
+      - §7在那裡製作一個§2Vessel§7。
+      Name: '&b&l精煉廠'
+    Gemstones:
+      Lore:
+      - §2寶石§7從每個礦石中掉落
+      - §6黃金 §7 和 §f 鐵 §7 礦石。你可以賣
+      - §7這些使用 §a/mine shop §7 或右鍵單擊
+      - §7可以§f確定§7他們的品質
+      - §7可以§增加§7或§減少
+      - §7§2寶石§7的總售價。
+      Name: '&a&l寶石'
+    Flux:
+      Name: '&3&l悉石'
+      Lore:
+      - §3悉石 §7 可以從開採所有礦石中找到。
+      - §7- §f基本 悉石 §7 將從 §f主世界 §7 礦石中掉落。
+      - §7- §c熾熱的悉石 §7 將從 §c下界 §7 礦石中掉落。
+      - §7
+      - §3悉石 §7可以賣給 §a/mine shop
+      - §7為了錢。它們目前沒有其他用途.
+    Blacksmith:
+      Name: '&6&l鐵匠'
+      Lore:
+      - §7此功能目前未實現
+      - §7 並將在未來的版本中實現。
+      - §7
+      - §7§6鐵匠§7是鍛造的地方
+      - §7並使用材料創建自定義鎬
+      - §7 來自插件。
+      - §7
+      - §7這些鎬具有獨特的§3特徵§7和
+      - §3a能力 §7這對每個人都是獨一無二的
+      - §7鎬。
+    Fossils:
+      Lore:
+      - §6化石§7來自§3神器§7。
+      - §7一旦你有一個 §6不明化石 §7地方
+      - §7它位於 §a/mine artifacts 中的一個空槽中§7.
+      - §7
+      - §7身份識別過程完成後，您
+      - '§7將獲得隨機的一部分 §2Vessel§7. 你 '
+      - §7需要 §a8 §7製作零件 §2Vessel§7.
+      Name: '&6&l化石'
+    Forge:
+      Name: '&2&l鍛造'
+      Lore:
+      - §7要創建 §2 Vessels §7，您需要一個鍛造廠。 -§7 這是一個多塊結構。
+      - §7
+      - §6§o單擊以查看多塊結構佈局。
+      - §7
+      - §7要使用鍛造，請放下所有 §a8 §7 部分
+      - §2Vessel §7you want to craft into the center and
+      - §7用任何東西打它！如果你有材料
+      - §7 它將為您製作一個 §2Vessel §7！
+    RuneGuardians:
+      Name: '&5&l符文守護者'
+      Lore:
+      - §5符文守護者 §7 是小BOSS -§7 可以使用 §5 符文塵 §7 召喚
+      - §7是從 §8神秘之塵§7.
+      - §7
+      - §7要召喚一個，§在§紅石礦石上§c §7
+      - §7使用§5符文之塵 §7訪問召喚
+      - §7庫存。完成此操作後，您可以召喚
+      - §7他們。他們在召喚之間有冷卻時間。
+      - §7
+      - §5升級和升級需要符文 §7
+      - §7你的 §b它是獨一無二的y§7.
+    NewSingularity:
+      Lore:
+      - §7§奇點 §7 基於 §5 符文§7.
+      - ''
+      - §7使用這些§5符文，§7你可以升級它
+      - §7賺取§bpoints§7。有了這些你就可以升級
+      - §7幫助你進步的不同能力
+      - §7在插件的其他區域，例如 §e更便宜
+      - §e升級 §7 或 §增加鎮魂曲 XP§7.
+      Name: '&b&l奇點'
+    Artifacts:
+      Lore:
+      - §3神器 §7 是挖礦的最新版本。
+      - §7這些可以在具有 §61% §7base 的礦石中找到
+      - §7掉落機會。然後你需要§f右鍵點擊
+      - §7它將它轉換成可用的 §3神器§7.
+      - §7
+      - §7然後你把它放在裡面 §a/mine artifacts
+      - §7在其中一個空插槽中啟動
+      - §7識別過程。時間到後
+      - §7你有機會獲得 §6化石 §7其中
+      - §7用於製作 §2容器§7.
+      - §7
+      - §7這裡有升級來幫助處理.
+      Name: '&3&l神器'
+    Requiums:
+      Name: '&4&l必需品'
+      Lore:
+      - §4必需品 §7用於殺死 §2Vessel
+      - §7對於 Boss 你有. 三個 §4必需品
+      - §7需要成功殺死 Boss.
+      - §7
+      - §7有12種不同 §4必需品 §7和每個
+      - §7代表不同的數字。 1至12.
+      - §7
+      - §4必需品 §7可以通過升級獲得
+      - §f最後一點 §7升級裡面的
+      - §3/mine artifacts §7菜單。一旦你有
+      - §7這樣做你需要確定層 §b3
+      - §7或更高的 §3 工件 §7得到他們.
+      - §7
+      - §7殺死一個boss後，你會得到三個
+      - §7破碎的球體可以變成新的
+      - §4鎮魂球§7.
+  Main:
+    BackArrow:
+      Name: '&c&l返回'
+      Lore:
+      - '&7點擊返回.'
+    Blacksmith:
+      Name: '&7&l鐵匠'
+      Lore:
+      - '&7鍛造自己的道路戰士.'
+      - '&7&o你會做什麼樣的自訂鎬?'
+    PickaxeView:
+      Name: '&9&l鎬視圖:'
+      Lore:
+      - §7用你的鎬 §a蹲下-右擊
+      - §7你可以熱鍵一個挖礦菜單為你打開。
+      - §7單擊此處旋轉可用菜單.
+      - ''
+      - '§7當前鎬熱鍵: §a%view%'
+    Shop:
+      Lore:
+      - '&7點擊開啟挖礦市場!'
+      - '&7&o在這裡賣掉你所有的悉石!'
+      Name: '&6&l礦山商店'
+    Journal:
+      Name: '&3&lWiki'
+      Lore:
+      - '&7遊戲內 Wiki!'
+      - '&7&o考古有什麼?'
+    Vessels:
+      Lore:
+      - '&7自定義附魔!'
+      - '&7&o你會把它們都收集起來嗎?'
+      Name: '&b&l容器'
+    Fossils:
+      Name: '&6&l化石'
+      Lore:
+      - '&7關於化石!'
+      - '&7&o你會發現什麼未知生物?'
+    Artifacts:
+      Lore:
+      - '&7點擊管理您的 神器!'
+      - '&7&o你會發現什麼?'
+      Name: '&9&l神器'
+    Stats:
+      Lore:
+      - '&7點擊查看您的統計數據!'
+      - '&7&o誰在排行榜上?'
+      Name: '&e&l統計數據'
+    Singularity:
+      Name: '&b&l奇點'
+      Lore:
+      - '&7邪惡能量的巔峰.'
+      - '&7&o你會吸收奇點嗎?'
+  Vessels:
+    VesselBossInfo:
+      Lore:
+      - '§7容器 訊息:'
+      - '§7- 容器級別: §3%level%'
+      - '§7- 血量: §3%health%'
+      - '§7- 傷害: §3%damage%'
+      - '§7- 姓名: §3%name%'
+      - '§7- 憤怒等級: §3%anger%'
+      - '§7- 奴隸死亡: §3%thralls%'
+      - '§7- 古怪: §3%quirk%'
+      - '§7- 奴隸 CD: §3%time%'
+      Name: '&3&l容器 訊息'
+    Information:
+      '2':
+        Name: '&3&l訊息 (&b2/4&3)'
+      '4':
+        Name: '&3&l訊息 (&b4/4&3)'
+      '1':
+        Name: '&3&l訊息 (&b1/4&3)'
+      '3':
+        Name: '&3&l訊息 (&b3/4&3)'
+    NotEnough澤塔: '&7你還不夠 &e澤塔 &7去做這個.'
+    VesselInfo:
+      Lore:
+      - §7選擇帶有容器的鎬以查看
+      - §7並跟踪您當前的進度.
+      Name: '&c&l容器 訊息'
+    Requium:
+      '1':
+        Name: '&c&l鎮魂曲 #1'
+      '2':
+        Name: '&c&l鎮魂曲 #2'
+      '3':
+        Name: '&c&l鎮魂曲 #3'
+    PreviousAttempts:
+      Name: '&c&l以前的嘗試'
+      Lore:
+      - §7選擇帶有容器的鎬以查看
+      - §7並跟踪您當前的進度.
+    Withdraw澤塔:
+      Lore:
+      - '&7點擊 提出 &e10,000 &7澤塔.'
+      - '&7再次右鍵單擊它來獲得 澤塔.'
+      - ''
+      - '&7&o不要這麼快發送垃圾郵件.'
+      Name: '&6提取 澤塔 (&e10,000&6)'
+    Info:
+      '1':
+      - '§b容器:'
+      - §2容器 §7本質上是自定義魔法
+      - §7但有一個轉折。他們是 Boss 而你有
+      - §7打敗它使用 §4必需品§7. 每個 §2容器
+      - §7被殺死時會對你施加獨特的效果
+      - §7鎬。有關這些的完整列表，請參閱期刊。
+      - §7
+      - §7每個 §2容器 §7有獨特的能力反映其
+      - §7元素類型。越多 §2容器 §7你添加
+      - §7下一個更強 §2容器 §7你添加將是。
+      - §7
+      - §7升級一個 §2容器 §7等級，簡單的再加一個
+      - §2容器 §7相同類型（古怪無關緊要）
+      - §7你的鎬一旦完成，它將再次升級。
+      - §7
+      - §7你創造一個 §2容器 §7通過把所有 §38§7 部分
+      - §7它裡面的 §6煉油廠§7.
+      - §7
+      - §7查看全部 §2容器 §7代替 §3/mine journal§7.
+      '2':
+      - '§b必需品:'
+      - §7正確的需要其中三個
+      - §7為了擊敗和破壞 §2容器§7.
+      - §7你可以隨機猜測並嘗試找出答案
+      - §7正確的順序或者你可以殺死 §3奴隸§7.
+      - §7
+      - §7殺死 §3奴隸 §7將取得進展
+      - §7解鎖正確的 §4鎮魂曲 §7那個插槽.
+      - §7一旦你得到 §b100% §7它會告訴你哪個
+      - §7§4鎮魂曲 §7你應該在那個插槽中使用。
+      - §7
+      - §7如果你猜對了並且它是正確的
+      - §7秩序，你會被告知，§4鎮魂曲 §7將
+      - §7解鎖，因為你會知道的。
+      - §7
+      - §7如果您可以查看以前的嘗試
+      - §7將鼠標懸停在頂部的書上。
+      - §7
+      - §7你得到 §4必需品 §7從 §a神器§7.
+      - §7使用 §a/mine artifacts §7查看更多 訊息
+      '3':
+      - '§b古怪:'
+      - §7每個 §2容器 §7有機會一起來
+      - §7一個獨特的 §3古怪 §7 這給了它一個獨特的
+      - '§7能力. 技能列表如下:'
+      '4':
+      - '§7因為不知為何 3/4 訊息消失 直接把這個拉到這裡'
+      - '§b古怪:'
+      - §7每個 §2容器 §7有機會一起來
+      - §7一個獨特的 §3古怪 §7 這給了它一個獨特的
+      - '§7能力. 技能列表如下:'
+      - '§b奴隸:'
+      - §7每個 §2容器 §7有 §3奴隸§7. 這些都是
+      - §7採礦時產生的小生物
+      - §7某些塊。殺死這些會給你
+      - §7憤怒的進步和解鎖的進步
+      - §7正確的 §4必需品§7.
+      - §7
+      - §7有一個 §b2§7 找到他們之間的分鐘冷卻時間.
+    NotSet:
+      '2': '&7你的 &f第二 &4鎮魂曲 &c不是這樣設置的.'
+      '1': '&7你的 &f第一 &4鎮魂曲 &c不是這樣設置的.'
+      '3': '&7你的 &f第三 &4鎮魂曲 &c不是這樣設置的.'
+    NoPreviousAttempts: '&c您之前沒有嘗試過.'
+    Set:
+      '2': '&7你的 &f第二 &4鎮魂曲 &7現在是: &c%requium%&7.'
+      '3': '&7你的 &f第三 &4鎮魂曲 &7現在是: &c%requium%&7.'
+      '1': '&7你的 &f第一 &4鎮魂曲 &7現在是: &c%requium%&7.'
+    RemovedVessels:
+      Success: '&7您從鎬中移除了以下容器:'
+    NoVessels: '&7這把鎬沒有任何容器!'
+    NoActiveVessel: '&7這把鎬沒有主動 &2容器&7!'
+    RemoveVessels:
+      Lore:
+      - §7這將 §4移除 §7所有容器來自
+      - §7你的鎬確保你拿著
+      - §7在這樣做之前你的鎬。這將
+      - §7還刪除當前任何活動的容器
+      - §7進行中.
+      - §7
+      - §7這樣做將返回所有容器
+      - §7以完成狀態返回您的庫存.
+      - §7
+      - §7這樣做需要 §4100,000 §7澤塔.
+      - §7
+      - §c§o沒有“你確定嗎”按鈕
+      - §c§o單擊此後。當心！
+      Name: '&4刪除所有容器'
+    ClickPickaxe:
+      Name: '&b點擊你的鎬'
+      Lore:
+      - '&7點擊您要查看的鎬'
+      - '&7你的 &2容器 &7進展.'
+    HoldingPickaxe: '&7做這件事之前你必須拿著鎬!'
+    WithdrawzetaMessage: '&7You have withdraw &e10,000 &7澤塔.'
+    PreviousAttemptsInfo:
+    - §7- §a 綠色 §7 中的鎮魂曲在正確的位置。
+    - §7- §c 紅色 §7§中的§a鎮魂曲可能順序錯誤
+    - §7§o或者根本不在組合中。
+    PreviousAttemptsName: '&c&l以前的嘗試'
+    PlaceFirstRequium:
+    - §7將 §f§n第一的§r §3鎮魂曲 §7 放在這個插槽下方.
+    - ''
+    - §7§o在嘗試這個之前。
+    - §7§o請務必閱讀 §3必需品
+    - ''
+    PlaceRequium: '&7在這個地方 你應該使用 &c%requium%.'
+    PlaceSecondRequium:
+    - §7放置 §f§n第二§r §3鎮魂曲 §7在這個插槽下面.
+    - ''
+    - §7§o請務必閱讀 §3必需品
+    - §7§o在嘗試這個之前.
+    - ''
+    HoldingPickaxeRequium: '&7你必須在裝備前選擇一把鎬 &4必需品&7.'
+    LockedRequium:
+    - §7你還沒有解鎖真實身份
+    - §7這個的 §c鎮魂曲 §7但你可以使用
+    - §7一個隨機的，看看它是否有效。
+    PlaceThirdRequium:
+    - §7放置 §f§n第三§r §3鎮魂曲 §7在這個插槽下面.
+    - ''
+    - §7§o請務必閱讀 §3必需品
+    - §7§o在嘗試這個之前.
+    - ''
+    LoadedData: '&7您當前的 &2容器 &7進度已加載.'
+    NotEnoughZeta: '&7你還不夠 &e澤塔 &7 做到這一點.'
+    WithdrawZeta:
+      Lore:
+      - '&7點擊提領 &e10,000 &7澤塔.'
+      - '&7再次右鍵點擊即可消耗澤塔.'
+      - ''
+      - '&7&o不要這麼快發送垃圾郵件.'
+      Name: '&6撤回 澤塔 (&e10,000&6)'
+    WithdrawZetaMessage: '&7您已撤回 &e10,000 &7澤塔.'
+  Singularity:
+    Runes:
+      Nature:
+        Name: '&a自然符文'
+      Ghost:
+        Name: '&7幽靈符文'
+      Fairy:
+        Name: '&d仙女符文'
+      Water:
+        Name: '&b水符文'
+      Fire:
+        Name: '&c火符文'
+      Lightning:
+        Name: '&e閃電符文'
+      Ground:
+        Name: '&6大地符文'
+    Upgrades:
+      CHEAPER_UPGRADES:
+        Name: '&b更便宜的升級 &7| 等級: &9%points%'
+      REQUIUM_PROGRESS:
+        Name: '&b鎮魂曲進展 &7| 等級: &9%points%'
+      ORACLE_DAMAGE:
+        Name: '&b神諭傷害 &7| 等級: &9%points%'
+      RUNE_DROP_CHANCE:
+        Name: '&b符文掉落機率 &7| 等級: &9%points%'
+      MORE_ZETA:
+        Name: '&b更多澤塔商品 &7| 等級: &9%points%'
+    Upgrade:
+      Name: '&2升級奇點'
+      REQUIUM_PROGRESS:
+        Lore:
+        - §7此次升級帶來更多 §3鎮魂曲 XP
+        - §7對於你殺死的每一個奴隸。
+        - ''
+        - '§7數據:'
+        - '§8➵ §7花費: §9%points%'
+        - '§8➵ §7效果: §3%effect%% 額外 XP 增益'
+        - '§8➵ §7下一階級: §b+%next%% XP 增益'
+        - ''
+      MORE_澤塔:
+        Lore:
+        - §7此次升級為您帶來更多
+        - §e澤塔 §7從所有來源.
+        - ''
+        - '§7數據:'
+        - '§8➵ §7花費: §9%points%'
+        - '§8➵ §7效果: §3%effect%% 額外 澤塔'
+        - '§8➵ §7下一階級: §b+%next%% 額外 澤塔'
+        - ''
+      Lore:
+      - §7升級您的 §a奇點 §7到
+      - '§7下一級, 您需要以下內容 §5符文§7:'
+      - ''
+      - '%runesneeded%'
+      - ''
+      - '§7當前等級: §3%level%'
+      - §7§o點擊升級.
+      LoreLine: '&8➛ %runecolor%%rune% x%runecolor%%amount%'
+      Upgraded: '&7升級 &3%name% &7現在有 &b%points%.'
+      CHEAPER_UPGRADES:
+        Lore:
+        - §7此次升級讓一切 §a升級 §7更便宜.
+        - §7就像神器菜單中一樣.
+        - ''
+        - '§7數據:'
+        - '§8➵ §7花費: §9%points%'
+        - '§8➵ §7效果: §3%effect%% Reduced Cost'
+        - '§8➵ §7下一階級: §b+%next%% Reduced Cost'
+        - ''
+      ORACLE_DAMAGE:
+        Lore:
+        - §7此升級減少了您受到的傷害
+        - §7可以抵擋 §e神諭§7 所做的攻擊.
+        - ''
+        - '§7數據:'
+        - '§8➵ §7花費: §9%points%'
+        - '§8➵ §7效果: §3%effect%% 減少傷害'
+        - '§8➵ §7下一階級: §b+%next%% 減少傷害'
+        - ''
+      RUNE_DROP_CHANCE:
+        Lore:
+        - §7這次升級有很高的掉落機率
+        - §7對於 §5 符文 §7 來自 §5符文衛士s§7.
+        - ''
+        - '§7數據:'
+        - '§8➵ §7花費: §9%points%'
+        - '§8➵ §7效果: §3%effect%% 額外 機率'
+        - '§8➵ §7下一階級: §b+%next%% 額外 機率'
+        - ''
+      MORE_ZETA:
+        Lore:
+        - §7此次升級為您帶來更多
+        - §e澤塔 §7 來自所有來源。
+        - ''
+        - '§7數據:'
+        - '§8➵ §7花費: §9%points%'
+        - '§8➵ §7效果: §3%effect%% 額外 澤塔'
+        - '§8➵ §7下一階級: §b+%next%% 額外 澤塔'
+        - ''
+    StoredBlocks:
+      Name: '&b&lStored Blocks:'
+      Lore:
+      - '&7You currently have &b%amount% &7stored blocks.'
+      - '&7Use these to upgrade your &bSingularity &7or'
+      - '&7to create &2Vessels&7. Learn more &b/mine vessels&7.'
+      - ''
+      - '&b&oSingularity &7upgrades can be purchased below.'
+      - '&2&oVessels &7are crafted inside of &b/mine vessels&7.'
+    Info:
+      Lore:
+      - §7To upgrade your §aSingularity §7to the
+      - §7下一級, you need different §5Runes§7.
+      - ''
+      - §5Runes §7can be earned from killing §5Rune
+      - §5Guardians §7which can be summoned using
+      - §cRedstone Ore §7and §dRune Dust§7.
+      - ''
+      - §7Every time you upgrade the §aSingularity
+      - §7you will need one additional §5Rune§7.
+      - ''
+      - §7This is no limit to the 最大等級 of this.
+      - ''
+      - §7Spend your points on the upgrades below.
+      - ''
+      - '§7Singularity Level: §3%level%'
+      - '§7Free Points: §3%points%'
+      Name: '&a訊息'
+    NoPoints: '&7You do not have any &cSingularity Points &7left.'
+    NotEnoughRunes: '&7You do not have enough &5Runes &7to do this.'
+    Upgraded: '&7You have upgraded your &aSingularity &7to level &3%level%&7.'
+  Names:
+    ManageArcanes: '&9&lManage Arcanes'
+    Singularity: '&9&lSingularity'
+    Journal:
+      VesselList: '&2&lVessel List'
+    Blacksmith: '&8&lBlacksmith'
+    JournalMain: '&9&lMiners Journal'
+    Shop: '&9&lMine Shop'
+    JournalGemstones: '&9&lGemstones'
+    Artifact: '&9&lArtifacts'
+    Vessel: '&9&lVessels'
+  Shop:
+    Prices:
+      Name: '&2&lShop Prices:'
+      Lore:
+      - '§7These are the sell prices:'
+      - ''
+      - '§7Flux:'
+      - '§7- §eBasic Flux: %basic%'
+      - '§7- §4Blazed Flux: %blaze%'
+      - ''
+      - '§7Artifacts:'
+      - §7- Price is stated on the item.
+      - ''
+      - '§7Gemstones: (Price §f§nbefore§r§7 examining)'
+    SellPlayerInventory:
+      Lore:
+      - '&7This will sell all of the sellable items'
+      - '&7inside of &f&nyour&r&7 inventory. Great if you don''t'
+      - '&7want to collect &5artifacts &7or &6fluxes&7.'
+      Name: '&bSell All &9(Player Inventory)'
+    SellInventory:
+      Lore:
+      - '&7This will sell all of the sellable items'
+      - '&7inside of the &bmining shop inventory&7. This'
+      - '&7will &f&nnot&r&7 sell anything inside of your'
+      - '&7inventory. Great if you want to sell &6fluxes'
+      - '&7but keep &5artifacts&7 and such instead.'
+      Name: '&2Sell All &a(Mine Shop Inventory)'
+    Back:
+      Name: '&c&lBack'
+      Lore:
+      - '&7Click to return to the main menu.'
+  Artifacts:
+    Indentifying:
+      Fossil: '&7You have started identifying an &6Unidentified Fossil &7and will
+        take %time% &7.'
+    EmptySlot:
+      Lore:
+      - '&7Place an Artifact or Fossil here'
+      - '&7to begin the identification process.'
+      Name: '&cEmpty Slot'
+    Lore:
+      BeingIdentified: '&7This item is currently being identified.'
+    Upgrades:
+      MaxLevel: '&7This upgrade is already 最大等級!'
+      Upgraded: '&7You spent &3%zeta% 澤塔 &7and upgraded &3%name% &7to level &b%level%&7.'
+    Identifying: '&7This item is currently being identified.'
+    NotEnough澤塔: '&7You do not have enough &c澤塔 &7to upgrade this. You need another
+      &c%zeta% &7more &c澤塔&7!'
+    NoLoot: '&7You were unlucky and got no loot from that Artifact!'
+    PlaceFossil: '&7Please place an &cUnidentified Artifact / Fossil &7inside this
+      slot to identify this item!'
+    Information:
+      Lore:
+      - §7Place §eUnidentified Artifacts §7/ §eFossils
+      - §7inside one of the slots below to start
+      - §7to identify them. Once it is complete
+      - §7you can collect your rewards and loot.
+      - ''
+      - §7You can purchase upgrades at the bottom.
+      - §7You can view all fossils inside §b/mine journal
+      - §7You find §eArtifacts §7from mining ores.
+      - §eFossils §7come from §eArtifacts§7.
+      - ''
+      - §eFossils §7are used to craft §2Vessels§7.
+      - §7You will need a §5Vessel Forge §7for this.
+      - §2/mine vessels §7for more 訊息.
+      Name: '&a訊息:'
+    NotReady: '&7This item is not ready for collection yet.'
+    NotEnoughZeta: '&7You do not have enough &cZeta &7to upgrade this. You need another
+      &c%zeta% &7more &cZeta&7!'
+  Oracle:
+    Cancel:
+      Name: '&c&lCancel Summon'
+    Info:
+      Name: '&6&lOracle 訊息'
+      Lore:
+      - §7The §e神諭§7 work in three phases.
+      - §7Each phase can be started after killing
+      - §7the previous phase. Each phase will get
+      - §7progressively harder until you meet the
+      - §7third phase boss. When an §eOracle §7is killed
+      - §7they will drop a §5Rune §7which can be used to
+      - §7summon the next phase, or used for other
+      - §7plugin related features.
+      - ''
+      - §7神諭 will teleport to you if trapped in a block.
+      - §7神諭 have minions that will help them fight.
+      - §7神諭 all excel at one thing. e.g. fire damage.
+      - ''
+      - §7Hover over the Glass below to read 訊息
+      - §7about each individual §eOracle §7and their phase.
+    Summon:
+      Phase3: '&7You are about to summon &5Tohka&7.'
+      Phase2: '&7You are about to summon &eImpulse&7.'
+      Phase1: '&7You are about to summon &cRadalite&7.'
+      Lore:
+      - §7Click to summon the §eOracle§7.
+      - §7You should hover over the book to
+      - §7read about how the §e神諭§7 work
+      - §7before attempting to fight this.
+      Name: '&2&lConfirm Summon - Phase'
+    Bosses:
+      '3':
+      - §5Tohka §7is the 3rd and final §eOracle§7.
+      - §7She is based around §8Darkness §7and is
+      - §7not to be taken lightly. She will swap
+      - §7resistances every 20 seconds and become
+      - §7immune to all damage exept from the source
+      - §7she states at the time of the swap. She
+      - §7will also summon minions to help fight.
+      - §7When she loses §c500 §7health she will cast
+      - §4Astral Starfall §7which will constantly
+      - §7damage players in a huge radius. When she
+      - §7reaches §c300 §7health she will cast
+      - §4§lAstral Empire§r§7 which buffs all her stats
+      - §7and will deal large amounts of damage.
+      - ''
+      - '§7Oracle Stats:'
+      - '§7- Health: §6%health%'
+      - '§7- Damage: §6%damage%'
+      - '§7- Element: §8Darkness'
+      - ''
+      - '§7Drops:'
+      '2':
+      - §eImpulse §7is the second §eOracle§7.
+      - §7He focuses mainly on electricity, casting
+      - §7lightning and dealing AoE damage
+      - §7and zoning out attackers before they
+      - §7get close. Careful when killing him
+      - §7as he likes to explode!
+      - ''
+      - §7When killed, use the §f光符文 §7on
+      - §7another Emerald Ore to summon the
+      - §7next Oracle.
+      - ''
+      - '§7Oracle Stats:'
+      - '§7- Health: §6%health%'
+      - '§7- Damage: §6%damage%'
+      - '§7- Element: §eLightning'
+      - ''
+      - '§7Drops:'
+      '1':
+      - §cRadalite §7is the first §eOracle§7.
+      - §7She is fire based and deals bonus
+      - §7damage when she is fought in water.
+      - §7She will set the world on fire with
+      - §7her firey abilities.
+      - ''
+      - §7When killed, use the §4地獄符文 §7on
+      - §7another Emerald Ore to summon the
+      - §7next Oracle.
+      - ''
+      - '§7Oracle Stats:'
+      - '§7- Health: §6%health%'
+      - '§7- Damage: §6%damage%'
+      - '§7- Element: §cFire'
+      - ''
+      - '§7Drops:'
+  FossilTransmutation:
+    Transmuted: '&7You have &btransmuted&7 3 of your fossils into a %vessel% %part%.'
+Events:
+  CollectorsItem:
+    Lore:
+    - '&7A collectors item found from defeating'
+    - '&7a &c%type% class Variant&7.'
+    - ''
+    - '&7This trophy shows that you have defeated'
+    - '&7and took part in the &cHalloween Event&7.'
+    Name: '&cShards of %type%'
+  Halloween:
+    InState: '&7You are already marked for a variant.'
+    Marked: '&7You have been marked by an &cUnknown Variant&7. The next Unknown you
+      find will be a &cVarient&7.'
+    NotEnoughShards: '&7You need &c10 &7Unknown Shards to do this.'
+  UnknownShard:
+    Lore:
+    - '&7A Unknown Shard of mysterious origin.'
+    - '&7Obtained from dealing damage to '
+    - '&7The Unknown when they appear.'
+    - ''
+    - '&7Click with 10 of these to mark yourself'
+    - '&7by an Unknown Varient to obtain mythical'
+    - '&7treasures and items.'
+    Name: '&7Unknown Shard'
+Fossils:
+  Parts:
+    FOOT: Foot
+    TAIL: Tail
+    SPINE: Spine
+    LEG: Leg
+    ARM: Arm
+    SKULL: Skull
+    RIB: Rib
+    WING: Wing
+  Species:
+    PHOENIX: Phoenix
+    WRAITH: Wraith
+    DRAGON: Dragon
+    MANTICORE: Manticore
+  Unidentified:
+    Name: '&6Unidentified %species% Fossil'
+LightRuneLore:
+- §7A rare and mythical rune that
+- §7emits a mysterious aura...
+- §7
+- §7Use this on §aemerald ore §7to
+- §7summon §5Tohka§7.
+Gemstones:
+  '6':
+    Name: '&eTiger''s Eye'
+    Description: '&7This Gemstone is stronger than every creature.'
+    ColorA: '&6'
+    ColorB: '&e'
+  '2':
+    Name: '&cRuby'
+    Description: '&7This Gemstone shimmers in the light.'
+    ColorB: '&4'
+    ColorA: '&c'
+  '1':
+    Description: '&7This bright Gemstone lights the way.'
+    ColorA: '&a'
+    ColorB: '&2'
+    Name: '&aPeridot'
+  '3':
+    Description: '&7This Gemstone''s beauty blinds you.'
+    ColorB: '&6'
+    ColorA: '&e'
+    Name: '&eTopaz'
+  '4':
+    Description: '&7This Gemstone glows in the night sky.'
+    Name: '&dAmethyst'
+    ColorB: '&5'
+    ColorA: '&d'
+  '5':
+    Description: '&7This Gemstone glows in the sea.'
+    Name: '&9Sapphire'
+    ColorB: '&b'
+    ColorA: '&9'
+Vessels:
+  NEFARIS_SHADOWS:
+    Lore:
+    - '&8Nefaris'' Shadows &7gives you a higher'
+    - '&7chance to get runes from 符文衛士s.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&860% Chance to drop a bonus Rune'
+    - '&7&o(Must be hotbar when killing the'
+    - '&7&oguardian for the buff to apply)'
+    Name: Nefaris' Vessel
+  Added: '&7You have successfully killed %name% &7and their &2Vessel &7has been added
+    to your pickaxe! You may start another &2Vessel &7now.'
+  REZOTHS_DESTRUCTION:
+    Lore:
+    - '&cRezoth''s Destruction &7gives you a chance'
+    - '&7when mining an ore for it to drop a'
+    - '&7mineral from another ore.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&c10% Chance to Double the bonus Mineral'
+    Name: Rezoths' Vessel
+  IMPEROS_WINDS:
+    Name: Imperos' Vessel
+    Lore:
+    - '&eImperos''s Winds &7gives you a higher chance'
+    - '&7to find rarer Artifacts when mining ores.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&e5% Increased Fossil Chance when'
+    - '&eopening Artifacts.'
+  Lore:
+    Completed:
+    - ''
+    - '&7This Vessel is completed and can be'
+    - '&7added without doing the process again.'
+    ItemStack:
+    - '&7To add this to your pickaxe, drag'
+    - '&7and drop it onto the pickaxe.'
+    - '%completed%'
+    - '&8&m---------&r&8[ %color%Stats &8]&m---------'
+    - '%color%Vessel Name: &8➤ &7%name%'
+    - '%color%Required Level: &8➤ &7%reqlevel%'
+    - '%color%Maximum Vessel Level: &8➤ &7%maxlevel%'
+    - '%color%澤塔 Cost: &8➤ &7%cost%'
+    - '%color%Element: &8➤ &7%element%'
+    - '%color%Quirk: &8➤ &7%quirk%'
+    - '&8&m---------&r&8[ %color%Stats &8]&m---------'
+    - '%description%'
+    - '&8&m---------&r&8[ %color%Stats &8]&m---------'
+  AURORAS_BLAZE:
+    Lore:
+    - '&4Aurora''s Blaze &7will automatically smelt'
+    - '&7iron and gold ores that you mine.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&425% Chance for a Bonus Ingot to Drop'
+    Name: Auroras' Vessel
+  VARIANTS_WRATH:
+    Name: Variants' Vessel
+    Lore:
+    - '&4Variant''s Wrath &7gives you higher chances'
+    - '&7to find fluxes, artifacts and gemstones'
+    - '&7below Y Level 20.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&4Bonus Extended to below Y Level 50.'
+  NAGYNS_TRANQUILITY:
+    Lore:
+    - '&5Nagyn''s Tranquility &7gives you a higher'
+    - '&7chance to get &8神秘之塵&7 from'
+    - '&7mining ores. Higher level the better the chance.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&520% Chance for 2x 神秘之塵'
+    Name: Nagyns' Vessel
+  NotOwner: '&7You do not own this &cVessel&7!'
+  XOSTRANS_GLARE:
+    Lore:
+    - '&9Xostran''s Glare &7gives you a higher chance'
+    - '&7to get Oracle drops when killing 神諭.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&920% Chance for Double Drops'
+    Name: Xostrans' Vessel
+  MEMENTOS_STOPWATCH:
+    Lore:
+    - '&3Mementos Stopwatch &7gives you a chance'
+    - '&7to get double drops from breaking an ore'
+    - '&7without silktouch.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&3Small chance for triple drops.'
+    Name: Mementos' Vessel
+  NEPTULUS_WAVE:
+    Lore:
+    - '&bNeptulus'' Wave &7gives you bonus XP'
+    - '&7to leveling up your 考古 level.'
+    - '&7Higher the level, the more XP you get.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&b10% Chance to Triple XP'
+    Name: Neptulus' Vessel
+  VALAKAS_NIGHTFALL:
+    Name: Valakas' Vessel
+    Lore:
+    - '&6Valakas Nightfall &7gives you a chance to'
+    - '&7get &eHaste II &7from breaking an ore'
+    - '&7for &630 - 100 &7seconds.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&6Gives Haste III instead of Haste II'
+  NECROS_REALM:
+    Name: Necros' Vessel
+    Lore:
+    - '&8Necros'' Realm &7gives bonus XP when'
+    - '&7unlocking Requiums and increases thrall'
+    - '&7spawn chance.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&850% Reduced Thrall Spawn Cooldown'
+  SKYLARKS_DREAM:
+    Lore:
+    - '&aSkylark''s Dream &7makes all fluxes that'
+    - '&7you find sell for a higher price. Higher'
+    - '&7the level, the more fluxes will sell for.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&a20% Chance for a Bonus Flux'
+    Name: Skylarks' Vessel
+  SERAPHS_GRASP:
+    Name: Seraphs' Vessel
+    Lore:
+    - '&2Seraphs'' Grasp &7gives you bonus 澤塔'
+    - '&7from all ores you mine with it.'
+    - ''
+    - '&7最大等級 Bonus:'
+    - '&215% Chance to Triple 澤塔 gained'
+  ManualKill: '&7You need to kill the &2Vessel &7manually. You will have to find the
+    &2Vessel &7again.'
+  PlayerDied: '&7You died and the &2Vessel &7vanished into the delve.'
+  NeedPickaxe: '&7You need to have the pickaxe in your inventory that the &2Vessel
+    &7was summoned from.'
+  WaterImmune: '&2Vessels &7are immune to damage while in water!'
+Items:
+  BoneMarrow:
+    Name: '&fBone Marrow'
+    Lore:
+    - §7Obtained as a rare drop from §cRadalite§7.
+    - ''
+    - §7Drag and drop onto an §eidentified fossil
+    - §7to duplicate it into another idenitical fossil.
+    - ''
+    - §7Very useful when used in conjunction with
+    - §7a §bFossil Transmuter§7.
+  SealedArtifact:
+    Lore:
+    - §8§m=----------=§r§8[%color%Artifact§8]§m--------------=
+    - §7Right click to open to get a random artifact
+    - §7of this rarity. There are %color%9 §7rarities of artifacts.
+    - §7This is an artifact of the old war between
+    - §7the Humans and 神諭. Maybe this artifact
+    - §7still contains some Oracle energy...
+    - ''
+    - '§8➣ §7Artifact Rarity: %color%%tier%'
+    - '§8➣ §7Base Identify Time: %color%%time% Minutes'
+    - §7§oArtifacts come sealed to save inventory space.
+    - §8§m=----------=§r§8[%color%Artifact§8]§m--------------=
+  FossilTransmuter:
+    Lore:
+    - §7Obtained as a rare drop from §eImpulse§7.
+    - ''
+    - §7Drag and drop onto a stack of §e3 Fossils
+    - §7to transmute it into another fossil of the
+    - §7same type. e.g. Skylark's Arm > Nagyn's Arm.
+    - ''
+    - §7Very useful when used in conjunction
+    - §7with §fBone Marrow§7.
+    Name: '&bFossil Transmuter'
+  Fossil:
+    Lore:
+    - §7This mythical creature was lost to the old
+    - §7war with the §e神諭§7. Maybe with all
+    - §7the pieces you could make a §2Vessel§7 to
+    - §7harness the power of the long lost creature...
+    - ''
+    - '§7Fossil 訊息:'
+    - '§7- Fossil Part: §e%part%'
+    - '§7- Fossil Species: §e%species%'
+    - ''
+    - §7§oPut this inside the §6§oArtifact Identifier
+    - §7§oto uncover the origin of this fossil.
+  IdentifiedFossil:
+    Lore:
+    - §7This is one part of the §e%set% §7fossil set.
+    - §7Collect all §68 §7fossils to craft a §2Vessel§7.
+    - ''
+    - '§7Fossil 訊息:'
+    - '§7- Fossil Part: §e%part%'
+    - '§7- Fossil Species: §e%species%'
+    - '§7- Fossil Name: §e%name%'
+    - ''
+    - §7Use all §28 §7parts inside a §6Refinery
+    - §7to craft a §2Vessel§7.
+  Artifact:
+    Lore:
+    - §8§m=----------=§r§8[%color%Artifact§8]§m--------------=
+    - '§7Artifact Info:'
+    - '§8➢ §7Tier: %color%%tier%'
+    - '§8➢ §7Fossil Chance: %color%%fossilchance%%'
+    - '§8➢ §7Identify Time: %color%%time% Minutes'
+    - '§8➢ §7Sell Price: %color%$%price%'
+    - '§8➣ §7Artifact Rarity: %color%%rarity%'
+    - §8§m=----------=§r§8[%color%Artifact§8]§m--------------=
+    - §7You can either sell this item in the %color%/mine shop
+    - §7or identify it inside of %color%/mine artifacts§7
+    - §7to get loot and maybe a rare fossil.
+    - §8§m=----------=§r§8[%color%Artifact§8]§m--------------=
+澤塔Tear:
+- §7Click to redeem §e10,000 §7澤塔.
+- §7
+- §7Create these inside of §2/mine vessels§7.
+- §7These can be traded between players.
+RequiumOrb:
+  Name: '&4Requium Orb (&c%name%&4)'
+  Lore:
+  - '&7An unknown dark and evil energy source'
+  - '&7from the unknown realm of &cDelve&7.'
+  - ''
+  - '&7Requium Info:'
+  - '&7➛ Time: &c%time%'
+  - ''
+  - '%quote%'
+  - ''
+  - '&7Used when attempting to defeat and obtain'
+  - '&7a &2Vessel&7. Three &4Requiums in the correct'
+  - '&7order could be used to take down a &2Vessel&7.'
+  - '&2/mine vessels &7for more 訊息.'
+CommandList:
+- ''
+- '&8&m]-----------+&r&8[ &9&l考古 &r&8]&m+-----------['
+- ''
+- '&b/mine help &7- 顯示此命令列表.'
+- '&b/mine menu &7- 打開主挖礦菜單.'
+- '&b/mine shop &7- 開設採礦商店.'
+- '&b/mine singularity &7- 開啟挖礦奇點.'
+- '&b/mine journal &7- 顯示有​​關插件具有的項目的信息.'
+- '&b/mine stats <player> &7- 打開被動菜單.'
+- '&b/mine artifacts &7- 打開工件菜單.'
+- '&b/mine vessels &7- 打開容器菜單.'
+- '&b/mine blacksmith &7- 打開鐵匠菜單.'
+- '&b/mine zeta &7- 顯示您的澤塔餘額.'
+- '&9/mine reload &7- 重新加載插件.'
+- '&9/mine cullmobs &7- 剔除所有插件生物.'
+- '&9/mine give <item> <player> <amount> &7- 給予物品.'
+- '&9/mine addxp <player> <amount> &7- 增加採礦 XP.'
+- '&9/mine addzeta <player> <amount> &7- 添加 澤塔.'
+- '&9/mine addvessel <vessel> <amount> &7- 立即添加容器.'
+- ''
+- '&8&m]-----------+&r&8[ &3Page (1/1) &r&8]&m+------------['
+- ''
+AncientRelic:
+  Name: '&3遠古遺物'
+  Lore:
+  - '&7拖放到一個 &3&n封印神器'
+  - '&7增加其等級 1.'
+  - ''
+  - '&7一次性使用物品.'
+  - ''
+  - '&7從 &e衝動 獲得 &7或者 &5神秘之塵&7.'
+RuneDust:
+  Rune:
+    Lore:
+    - §7從獲得的神秘符文
+    - §7殺死一個 §d符文衛士§7.
+    - ''
+    - §7升級時可以使用
+    - §7裡面的奇點 §b/mine singularity§7.
+    - ''
+    - §7符文衛士 可以召喚
+    - §7拿著符文之塵
+    - §7對著紅石原礦右鍵.
+  Lore:
+  - §7從精煉中發現 神秘之塵.
+  - §7可以用來召喚 符文衛士.
+  - §7§o符文衛士 是小Boss.
+  - ''
+  - '§d如何使用:'
+  - §7拿著符文之塵右擊紅石原礦
+  - §7這是為了召喚一個隨機的 符文衛士.
+  - ''
+  - '§7血量: §d%health%'
+  - '§7傷害: §d%damage%'
+  Name: '&5符文之塵'
+AbyssalAccelerator:
+  Name: '&5深淵加速器'
+  Lore:
+  - §7作為稀有掉落物從 §5十香§7.
+  - ''
+  - §7右鍵單擊立即扭曲時間並完成
+  - §7§e神器 會標識符中的所有項目§7.
+Runes:
+  Names:
+    Ghost: '&7幽靈符文'
+    Ground: '&6大地符文'
+    Fairy: '&d仙女符文'
+    Lightning: '&e閃電符文'
+    Water: '&b水符文'
+    Nature: '&a自然符文'
+    Fire: '&c火符文'
+AstralRune:
+  Lore:
+  - '&7一種罕見而神秘的符文'
+  - '&7散發出神秘的氣息……'
+  - '&7你也許可以使用這個'
+  - '&7進一步探索以太.'
+  Name: '&5A光芒四射的符文'
+Artifacts:
+  Upgrades:
+    Archaeologist:
+      Lore:
+      - §7這次升級給你更好的機會
+      - §7找到 §e化石§7。每級增加
+      - §7基本機率增加 §b1%.
+      Name: '&7升級: &e考古學家'
+    Overclocked:
+      Name: '&7升級: &e超頻'
+      Lore:
+      - §7此升級減少了所需的時間
+      - §7識別 §c神器 §7每級減少 §b1%.
+    LuckyCharm:
+      Lore:
+      - §7此次升級讓您有更好的機會
+      - §7從掉落表中獲得戰利品 §c神器§7.
+      - §7基本機率增加 §b1%.
+      Name: '&7升級: &e幸運符'
+    Patience:
+      Name: '&7升級: &e耐心'
+      Lore:
+      - §7此升級減少了所需的時間
+      - §7識別§e化石 §7每級減少 §b1 分鐘.
+    FinalWhisper:
+      Lore:
+      - §7此次升級讓您更有機會
+      - §7在掉落物中找到 §4鎮魂球 §7
+      - §7桌子。了解更多信息 §2/mine vessels§7.
+      - §7每級增加掉落機率 §b0.5%
+      - §7§o您只能在 §b階級三的 §7神器 或更高級別中找到球體.
+      Name: '&7升級: &e最後的耳語'
+  Misc:
+    Minutes: ' 分鐘'
+    FlatBonus: '% 金額'
+    MaxLevel: 最大等級
+Requium:
+  Description:
+    DALETH: '&7看著這個你覺得時間開始倒流.'
+    YUD_ALEPH: '&7你覺得自己進入了未來.'
+    TET: '&7你從中感受到別人的感覺.'
+    ALEPH: '&7這個球體散發出類似於速度的光環.'
+    YUD_BET: '&7你感覺回到了過去的時間裂縫.'
+    YUD: '&7窺視這個物體的過去.'
+    BET: '&7你覺得這個球體時間停滯.'
+    ZAYIN: '&7當你拿著這個時，時間會凍結.'
+    VAV: '&7你的思想傳送到你過去的身體.'
+    HET: '&7你散發出克隆自己的光環.'
+    HEH: '&7你從這裡看到了未來的一瞥.'
+    GIMEL: '&7拿著這個你會覺得自己變老了.'
+Fluxes:
+  Lore:
+  - '&7從左側創建的不常見材料'
+  - '&7舊戰爭的神諭能量.'
+  - ''
+  - '&7這個可以賣 &b$%price%'
+  - '&7可以到 &2/mine shop &7販賣.'
+  Names:
+    Blazed: '&c閃耀悉石'
+    Basic: '&e基本悉石'
+AbyssalShard:
+  Name: '&5深淵碎片'
+  Lore:
+  - §7作為稀有掉落物從 §5十香§7.
+  - ''
+  - §7拖放到 §c鎮魂球 上
+  - §7將它複製到另一個相同的鎮魂曲.
+  - ''
+  - §7結合使用時非常有用
+  - §7採礦 §2容器§7.
+NotEnoughRunes: '&7你沒有足夠的 &5符文 &7解鎖這個!'
+OracleSummonCooldownPhase2: '&7你還不能召喚 &e衝動 &7你還需要 &c%seconds%&7 秒.'
+OracleSummonCooldownPhase1: '&7你還不能召喚 &c拉達爾 &7你還需要 &c%seconds%&7 秒.'
+OracleSummonCooldownPhase3: '&7你還不能召喚 &5十香 &7你還需要 &c%seconds%&7 秒.'
+DarkImbued:
+  Already: '&7你已經被標記為死亡 &4未知&7.'
+  Imbued: '&7你粉碎了一個 &4黑暗灌注&7. 你感到一陣寒意流過你的身體
+    脊柱...'
+DarkCrystal:
+  Name: '&5黑水晶'
+  Lore:
+  - '&7這塊水晶脈動著豐富的黑暗'
+  - '&7活力。你可以用它來標記自己'
+  - '&7對於&3未知&7 的死亡。他會'
+  - '&7標記時隨機出現。如果他是'
+  - '&7被殺，標記被移除，你'
+  - '&7會得到一個 &8黑暗灌注&7. 這是'
+  - '&7需要召喚 &5十香&7!'
+  - '&7'
+  - '&7如果你被殺，你將被放置'
+  - '&7在一個 &4鬧鬼的 &7詛咒持續 &460 &7分鐘.'
+  - '&7你受到所有傷害的 1.5 倍額外傷害'
+  - '&7傷害來源.'
+ErrorPrefix: '&c&l考古 &8➤ '
+PlayerNotFound: '&c該玩家不在線或從未加入服務器.'
+PickaxeView:
+  SINGULARITY_MENU: 奇點
+  SHOP_MENU: 商店
+  ARTIFACTS_MENU: 神器
+  BLACKSMITH: 鐵匠
+  NONE: 無
+  MAIN_MENU: 主菜單
+  VESSELS_MENU: 船舶
+  STATS_MENU: 統計數據
+LevelUp: '&7您將採礦等級升級到: &3%level%'
+Astralite:
+  Lore:
+  - '&7神話般的水晶生命體'
+  - '&7發出低沉的嚎叫.'
+  - '&7也許它想告訴你'
+  - '&7某物？也許你可以升級'
+  - '&7和工藝 &5星光裝備&7.'
+  Name: '&5星石'
+Oracle:
+  NewUnchargedOracleite:
+    Lore:
+    - '&7從精煉中發現 神秘之塵.'
+    - '&7需要充電才可以'
+    - '&7變得有用。按住充電'
+    - '&7它在你的副手中，堆疊大小為 1.'
+    - '&7要充能，開採鑽石​​礦石.'
+    - ''
+    - '&7要充能，開採鑽石​​礦石.'
+    - '&7當前費用: &8[&c%current%&4/&c%total%&8]'
+  Charged:
+    Name: '&e帶電甲骨文'
+    Lore:
+    - §7從...獲取 §c和帶電甲骨文§7.
+    - §7可以用來召喚 神諭.
+    - §7§o神諭 是 最終考古 的老闆
+    - §7§o很難打敗.
+    - ''
+    - '§6如何使用:'
+    - §7按住鼠標右鍵點擊綠寶石原礦
+    - §7這是為了召喚神諭.
+GemLore:
+- §8§m-----------§r§8[%colorB% 訊息 §8]§8§m-----------
+- '%colorA%機率:§8 ➤ §7%dropchance%%'
+- '%colorA%發現:§8 ➤ §7%ore%'
+- '%colorA%售價:§8 ➤ §7$%money%'
+- '%colorA%質量:§8 ➤ §7%quality%'
+- §8§m-----------§r§8[%colorB% 信息 §8]§8§m-----------
+- §7賣我裡面 %colorA%/mine shop§7.
+- '%id%§7右鍵單擊以顯示寶石的質量.'
+- '%id%§7通過這樣做，您可能會獲得或失去基礎'
+- '%id%§7寶石的售價。僅在需要時執行此操作'
+- '%id%§7試試運氣賺點額外經濟!'
+- '%ad%§7這顆寶石已經過檢驗.'
+- §8§m-----------§r§8[%colorB% 信息 §8]§8§m-----------
+Commands:
+  AddXP:
+    Sender: '&7你給了 &3%amount% &7挖掘經驗 到 &3%target%&7.'
+    Target: '&7你獲得 &3%amount%&7 採礦經驗!'
+  Add澤塔:
+    Sender: '&7你給了 &3%amount% &7澤塔 到 &3%target%&7.'
+    Target: '&7你獲得 &3%amount%&7 澤塔!'
+  InvalidUsername: '&7您輸入了無效的用戶名.'
+  AddZeta:
+    Sender: '&7You have given &3%amount% &7Zeta to &3%target%&7.'
+    Target: '&7You have been given &3%amount%&7 Zeta!'
+RadaliteTear:
+  Used: '&7你的 &5符文衛士 &7冷卻時間已重置!'
+  CantUse: '&7你現在沒有冷卻時間.'
+GUINames:
+  FossilTransmuter: '&9&l化石轉換器'
+  Stats: '&9&l統計數據: '
+ShatteredOrbs:
+  Failed: '&7你沒有足夠的 &c破碎的鎮魂球 &7 來執行此操作!'
+  Success: '&7您打碎了 4 個 &c鎮魂球 &7 並創造了一個新的充能球!'
+ReloadedPlugin: '&9考古 已重新加載成功.'
+PickaxeViewDisabled: '&7鎬視圖已被禁用，您不能使用它.'
+RuneGuardian:
+  Summon: '&7你召喚了一個 %guardian%&7!'
+ServerPrefix_NoColor: 考古
+ChargedOracleite: '&7您剛剛 &e帶電 &7的 &e甲骨文 &7 在您的副手中。'
+RuneGuardians:
+  BonusRune: '&7你的 &8奈法瑞斯暗影 &7給了你一個額外的符文!'
+  NoRune: '&7你很不幸，而且 &5符文衛士 &7沒有掉落符文!'
+  ImmuneInWater: '&5符文衛士s &7在水中時免疫傷害!'
+BossAlive: '&7當你的 BOSS 還活著的時候，你不能訪問這個菜單！'
+RuneGuardianSummonCooldown: '&7你不能在 &c%seconds%&7 內召喚另一個 &5符文衛士 &7 seconds.'
+HellRuneLore:
+- §7一種罕見而神秘的符文
+- §7散發出神秘的氣息……
+- §7
+- §7在 §a綠寶石 礦石 §7上使用它
+- §7召喚§e衝動§7.
+GuardianDropRune: '&7你殺死了一個 &5符文守護者 &7 它掉落了一個 &5符文&7!'
+MysteriousDustDrops:
+  Lore:
+  - '&7- &5符文之塵 &7(&a%runedust%%&7)'
+  - '&7- &e甲骨文 &7(&a%oracleite%%&7) -級別 20+'
+  - '&7- &3遠古遺物 &7(&a%ancientrelic%%&7) -等級 25+'
+  - '&7- &c破碎的鎮魂球 & 7(&%shattered requiumorb%%&7) -等級 30+'
+ShatteredRequium:
+  Lore:
+  - §7黑暗邪惡的能量源有
+  - §7從這個球體中消散。 §c4 §7的
+  - §7這些可以用來創建另一個
+  - §4鎮魂曲 §7 及其剩餘能量。
+  - ''
+  - §7§o鼠標右鍵消耗 4 個 碎片
+  - §7§o創建一個隨機的 §4§o鎮魂球§7§o.
+  Name: '&4破碎的鎮魂球'
+Misc:
+  Time:
+    NoHours: '%minutes% 分鐘和 %seconds% 秒'
+    Hours: '%hours% 小時, %minutes% 分鐘和 %seconds% 秒'
+SellMessage: '&7您通過銷售 &b 已售出 &7 件物品賺取了 &b掙錢了$ &7！'
+DarkImbuement:
+  Lore:
+  - '&7一種罕見而神秘的符文'
+  - '&7散發出神秘的氣息……'
+  - '&7你也許可以使用這個'
+  - '&7進一步探索以太。'
+  Name: '&8黑暗灌注'
+FoundMysteriousDust: '&7你已經找到了一些 &7&o神秘之塵&7&r.'
+SpigotURLNoAccess: '&c您無權預覽此內容.'
+SuccessPrefix: '&b&l考古 &8➤ '
+RadaliteClaw:
+  Name: '&c拉達石爪'
+  Lore:
+  - '&7消耗以移除任何冷卻時間'
+  - '&7用於召喚 &5 個符文守護者&7.'
+  - ''
+  - '&7由 &c拉達爾 掉落&7.'
+GiveCommandLore:
+- '&8&m]-----------+&r&8[ &9&l項目 &8]&m+-----------['
+- '§7物品清單:'
+- §7► §9神秘之塵
+- §7► §9符文之塵
+- §7► §9帶電甲骨文
+- §7► §9甲骨文
+- §7► §9地獄符文
+- §7► §9LightRune
+- §7► §9容器：<名字>
+- §7► §9鎮魂曲：<名字>
+- §7► §9寶石：<名稱>
+- §7► §9神器：<名稱>
+- §7► §9化石：<名稱>
+- §7► §9熾熱悉石
+- §7► §9基本通量
+- §7► §9破碎的鎮魂球
+- §7► §9未識別的龍化石
+- §7► §9身份不明的鳳凰化石
+- §7► §9未識別的蠍尾獅化石
+- §7► §9輻射石爪
+- '&8&m]-----------+&r&8[ &9&l項目 &8]&m+-----------['
+澤塔Redeemed: '&7您已兌換 &e10,000 &7澤塔，現在擁有 &6%zeta%&7 澤塔。'
+CannotSpawnRuneGuardianInLocation: '&7你不能在其中生成 &5符文衛士 &7 地點！您至少需要在礦石上方 3 個方塊才能生成它。'
+MysteriousDust:
+  Name: '&7神秘之塵'
+  Lore:
+  - §7開採礦石時發現.
+  - §7可以使用§b精煉廠精煉§7.
+  - §7製作一個§b精煉廠§7放置一個§f§n投擲器
+  - §7面對§f§n向上§r§7，上面有一個§f§n柵欄§r§7。放置
+  - §7裡面的物品並與圍欄互動。
+  - ''
+  - '§7可能掉落:'
+FoundFlux: '&7你找到了 &a悉石 &7悉石.'
+SummonedPhase1Oracle: '&7你召喚了 &c&l拉達爾（第一階段）&7!'
+LightRuneName: '&f光符文'
+CannotSpawnOracleInLocation: '&7您不能在此位置生成 &e甲骨文 &7。你 需要在礦石上方至少 6 個方塊才能生成它。'
+MainGUIPrefix: '&9&l考古'
+澤塔TearName: '&6澤塔之淚 (&e10,000&6)'
+HellRuneName: '&4地獄符文'
+Oracles:
+  Oracleite:
+    Name: '&cUn帶電甲骨文'
+SummonedPhase3Oracle: '&7你召喚了 &5&l十香 (Phase 3)&7!'
+NoPermission: '&7您無權執行此操作.'
+DisabledMobWorld: '&7自定義採礦暴徒在這個世界上被禁用.'
+CreativeMode: '&7您無法在 &ccreative 模式下訪問此菜單&7.'
+ArtifactUpgradeInfoLore:
+- '&7'
+- '&7升級統計:'
+- '&7- 現在的等級: &b%current%'
+- '&7- 下一級: &9%next%'
+- '&7- 升級費用: &3%cost% 澤塔'
+- '&7- 最大等級: &3%max%'
+- '&7'
+- '&7左鍵點擊 升級.'
+SummonedPhase2Oracle: '&7你召喚了 &e&l衝動（第 2 階段）&7!'
+ZetaTear:
+- §7點擊兌換 §e10,000 §7澤塔.
+- §7
+- §7在裡面創建這些 §2/mine vessels§7.
+- §7這些可以在玩家之間進行交易.
+ZetaRedeemed: '&7你已贖回 &e10,000 &7澤塔 現在有 &6%zeta%&7 澤塔.'
+ZetaTearName: '&6澤塔 之淚 (&e10,000&6)'
