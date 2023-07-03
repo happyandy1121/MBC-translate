@@ -1,73 +1,73 @@
-# 有些地方汉化因为我本人学业问题，到后面很粗糙翻译了下，如果翻译有误，还请见谅，后面我会完善修改 -HuYa_Death
+# 有些地方汉化因為我本人学业问题，到後面很粗糙翻译了下，如果翻译有误，還請見谅，後面我會完善修改 -HuYa_Death
 tournyCmds:
 - ''
-- '&8]&8&m----------+&r&8[ &6&l钓鱼锦标赛 帮助 &8]&8&m+-----------&r&8['
+- '&8]&8&m----------+&r&8[ &6&l釣魚錦標賽 幫助 &8]&8&m+-----------&r&8['
 - ''
-- '&6/ft start <tournamentType> [time] &7- S开始指定比赛.'
-- '&6/ft stop [giveRewards] &7- 停止比赛并给与玩家奖励.'
-- '&6/ft remove <player> &7- 比赛中删除玩家.'
-- '&e/ft types &7- 空闲比赛类型.'
-- '&e/ft info &7- 显示当前比赛信息.'
-- '&e/ft time &7- 下场比赛时间.'
+- '&6/ft start <tournamentType> [time] &7- S開始指定比賽.'
+- '&6/ft stop [giveRewards] &7- 停止比赛並給與玩家獎勵.'
+- '&6/ft remove <player> &7- 比赛中刪除玩家.'
+- '&e/ft types &7- 空閒比赛類型.'
+- '&e/ft info &7- 顯示當前比赛信息.'
+- '&e/ft time &7- 下場比赛時間.'
 - ''
 - '&8]&m--------------------------------------------&r&8['
 - ''
-Prefix: '&3&l钓鱼 &8➤ '
-ErrorPrefix: '&c&l钓鱼 &8➤ '
+Prefix: '&3&l釣魚 &8➤ '
+ErrorPrefix: '&c&l釣魚 &8➤ '
 Fish:
   FishNameColour: '&e'
 FishLore:
 - '&a%description%'
 - ''
-- '&6详细信息:'
-- '&e➤ &7品质: &f%tier%'
+- '&6詳細信息:'
+- '&e➤ &7品質: &f%tier%'
 - '&e➤ &7重量: &f%weight%'
-- '&e➤ &7价格: &f%price% 精靈幣'
-- '&e➤ &7出现群系:'
+- '&e➤ &7價格: &f%price% 精靈幣'
+- '&e➤ &7出現群系:'
 - '&e★ &f%biome%'
-FirstCaught: '&7你是第一个钓到 &e%fish% &7的人!'
-EatFish: '&b你吃掉了一条 FISHNAME!'
+FirstCaught: '&7你是第一個釣到 &e%fish% &7的人!'
+EatFish: '&b你吃掉了一條 FISHNAME!'
 GUITitleColour: '&9&l'
-CaughtFish: '&7你钓到了一条 &bFISHNAME&7!'
-SellMessage: '&7你出售了 &bFISHSOLD &7条鱼并得到了&bMONEYEARNED &7精靈幣!'
+CaughtFish: '&7你釣到了一條 &bFISHNAME&7!'
+SellMessage: '&7你出售了 &bFISHSOLD &7條魚並得到了&bMONEYEARNED &7精靈幣!'
 SellFish:
-  SpecialFishMoney: '&7你获得了额外的 &bMONEY&7 &7精靈幣 因出售了特殊的鱼!'
-ShopTitleInformation: '&a点击出售鱼'
-ShopLoreInformation: '&7将鱼类放在这里，然后关闭以出售!'
-MainLevelUp: '&a你将你的钓鱼主技能升级至：&b%level%&7!'
-NotRequiredLevel: '&4你没有足够的等级解锁这个. 你最低需要等级: &c'
-CaughtFirstFish: '&a你钓到了你的第一条鱼!你可以使用指令 &3/fish menu &7或 &3手持钓竿蹲下并右键 &7打开钓鱼主页面.'
-NotEnoughEntropy: '&7你没有足够的鱼露。你还需要  &c%entropy% &7鱼露以升级这个.'
-CreativeMode: '&7您不能在创造性模式下 &c使用此功能&7.'
-InvalidItem: '&7检测到无效鱼竿：无附件或无效物品.'
-KillFish: '&7你杀死了一条 &3FISHTYPE &7而它掉落了一条 &bFISHNAME&7.'
-PlatinumCatchBroadcast: '&3PLAYER &7刚刚抓住了一条 &3铂金 &7鱼!'
-MythicalCatchBroadcast: '&3PLAYER &7刚刚抓住了一条 &5神话 &7鱼!'
+  SpecialFishMoney: '&7你獲得了額外的 &bMONEY&7 &7精靈幣 因出售了特殊的魚!'
+ShopTitleInformation: '&a點擊出售魚'
+ShopLoreInformation: '&7將魚類放在這裡，然後關閉以出售!'
+MainLevelUp: '&a你將你的釣魚主技能升級至：&b%level%&7!'
+NotRequiredLevel: '&4你没有足夠的等級解鎖這個. 你最低需要等級: &c'
+CaughtFirstFish: '&a你釣到了你的第一條魚!你可以使用指令 &3/fish menu &7或 &3手持釣竿蹲下並右鍵 &7打開釣魚主頁面.'
+NotEnoughEntropy: '&7你没有足夠的魚露。你還需要  &c%entropy% &7魚露以升級這個.'
+CreativeMode: '&7您不能在創造模式下 &c使用此功能&7.'
+InvalidItem: '&7檢測到無效魚竿：無附件或無效物品.'
+KillFish: '&7你殺死了一條 &3FISHTYPE &7而它掉落了一條 &bFISHNAME&7.'
+PlatinumCatchBroadcast: '&3PLAYER &7刚刚抓住了一條 &3鉑金 &7魚!'
+MythicalCatchBroadcast: '&3PLAYER &7刚刚抓住了一條 &5神話 &7魚!'
 GutFish:
-  Entropy: '&7你切片了 &3FISH &7条鱼并获得了 &3ENTROPY &7鱼露.'
-  NoFish: '&c这里没有等待切片的鱼!'
-CaughtCrab: '&7你钓上了一只 &c螃蟹&7!'
+  Entropy: '&7你切片了 &3FISH &7條魚並獲得了 &3ENTROPY &7魚露.'
+  NoFish: '&c這裡没有等待切片的魚!'
+CaughtCrab: '&7你釣上了一只 &c螃蟹&7!'
 Scales:
-  SelectRisk: '&7在进行称重之前你需要先选择一个称重风险等级!'
-  RiskSelected: '&7你已经选中这个风险等级了!'
-  ScaledFish: '&7你将称重台上的所有鱼称重了!'
+  SelectRisk: '&7在進行秤重之前你需要先选择一個秤重風險等級!'
+  RiskSelected: '&7你已經选中這個風險等級了!'
+  ScaledFish: '&7你將秤重台上的所有魚秤重了!'
 Commands:
-  PlayerNotFound: '&7无法在数据库找到此玩家!'
-  NoPermission: '&7你没有权限使用这个指令!'
-  InvalidSubCommand: '&7无效指令. 使用 /fish 查看全部钓鱼指令.'
-  InvalidNumber: '&7你输入了一个无效数字.'
-  InvalidArgument: '&7无效配件. 使用 /fish 查看全部钓鱼指令.'
-  ReloadPlugin: '&3PyroFishingPro &7已经成功重载!  汉化者:&6HuYa_Death,Zimrs.'
-  InvalidAugment: '&7那不是有效的扩充,不要使用空格或下划线. Example: &chotspot&7.'
-  AddedEntropy: '&b%player% &7现在有 &b%entropy% &7鱼露. 他们现在有 &b%total%&7 鱼露.'
-  AddedXP: '&b%player% &7现在有 &b%xp% &7经验. 他们现在有 &b%total%&7 经验.'
-  GivenEntropy: '&7你获得了  &b%entropy% &7鱼露. 现在你总共拥有 &b%total%&7 鱼露.'
-  GivenXP: '&7你被赋予了 &b%xp% &7经验. 你现在有 &b%total%&7 经验.'
-  NotAnItem: '&7您输入了无效的项目.'
-  InvalidUsername: '&7您输入无效用户名.'
-  EntropyBoosterFailed: '&7您为鱼露增强器输入了错误的数字.'
+  PlayerNotFound: '&7無法在數據库找到此玩家!'
+  NoPermission: '&7你没有權限使用這個指令!'
+  InvalidSubCommand: '&7無效指令. 使用 /fish 查看全部釣魚指令.'
+  InvalidNumber: '&7你输入了一個無效數字.'
+  InvalidArgument: '&7無效配件. 使用 /fish 查看全部釣魚指令.'
+  ReloadPlugin: '&3PyroFishingPro &7已經成功重载!  汉化者:&6HuYa_Death,Zimrs.'
+  InvalidAugment: '&7那不是有效的擴充,不要使用空格或下划线. Example: &chotspot&7.'
+  AddedEntropy: '&b%player% &7現在有 &b%entropy% &7魚露. 他们現在有 &b%total%&7 魚露.'
+  AddedXP: '&b%player% &7現在有 &b%xp% &7經驗. 他们現在有 &b%total%&7 經驗.'
+  GivenEntropy: '&7你獲得了  &b%entropy% &7魚露. 現在你總共擁有 &b%total%&7 魚露.'
+  GivenXP: '&7你被赋予了 &b%xp% &7經驗. 你現在有 &b%total%&7 經驗.'
+  NotAnItem: '&7您输入了無效的項目.'
+  InvalidUsername: '&7您输入無效用户名.'
+  EntropyBoosterFailed: '&7您為魚露增强器输入了错误的數字.'
   CommandList:
-    TitleLine: '&8]&m-----------+&8[ &6钓鱼 &8]&m+-----------&8['
+    TitleLine: '&8]&m-----------+&8[ &6釣魚 &8]&m+-----------&8['
     BottomLine: '&8]&m------------------------------------------&8['
     PrimaryColour: '&e'
     SecondaryColour: '&7'
@@ -107,20 +107,20 @@ Commands:
         &lWhat rewards are there?&r
 
         &l»&r 雪球强化
-        &l»&r 热点增强
-        &l»&r 鱼露晶
-        &l»&r 螃蟹诱饵
-        &l»&r 铂金诱饵
-        &l»&r 神話诱惑
+        &l»&r 熱點增强
+        &l»&r 魚露晶
+        &l»&r 螃蟹誘餌
+        &l»&r 鉑金誘餌
+        &l»&r 神話誘惑
         &l»&r 蟹爪 x2
         &l»&r 蟹鳞 x2
         &l»&r 海豚尾巴 x2
-        &l»&r 鱿鱼触手 x2
+        &l»&r 魷魚触手 x2
       - |-
-        &l»&r 鱼露助推器 (1.25x)
-        &l»&r 鱼露助推器 (1.65x)
-        &l»&r 鱼露助推器 (2x)
-        &l»&r 鱼露助推器 (4x)
+        &l»&r 魚露助推器 (1.25x)
+        &l»&r 魚露助推器 (1.65x)
+        &l»&r 魚露助推器 (2x)
+        &l»&r 魚露助推器 (4x)
     NotActive: '&7That event is not active until &c%date%&7.'
   StartTournament:
     InvalidArgs: '&7Correct Usage: &c/ft start <tournament> [duration]'
@@ -148,164 +148,164 @@ Commands:
     Broadcast: '&7The current tournament was stopped by an administrator.'
 CommandsList:
 - ''
-- '&8]&m-----------+&8[ &6钓鱼系统 &8]&m+-----------&8['
+- '&8]&m-----------+&8[ &6釣魚系统 &8]&m+-----------&8['
 - ''
-- '&e/fish help &7- 查看钓鱼指令.'
-- '&e/fish menu &7- 打开钓鱼菜单.'
-- '&e/fish codex &7- 查看鱼种类.'
-- '&e/fish shop &7- 打开鱼店.'
-- '&e/fish stats <player> &7- 查看你的钓鱼信息.'
-- '&e/fish scales &7- 打开称重台.'
-- '&e/fish bag &7- 打开鱼袋.'
-- '&e/fish gut &7- 打开片鱼机.'
-- '&e/fish deliveries &7- 打开钓鱼任务.'
-- '&e/fish augment &7- 打开鱼竿配件.'
+- '&e/fish help &7- 查看釣魚指令.'
+- '&e/fish menu &7- 打開釣魚菜單.'
+- '&e/fish codex &7- 查看魚種類.'
+- '&e/fish shop &7- 打開魚店.'
+- '&e/fish stats <player> &7- 查看你的釣魚信息.'
+- '&e/fish scales &7- 打開秤重台.'
+- '&e/fish bag &7- 打開魚袋.'
+- '&e/fish gut &7- 打開片魚機.'
+- '&e/fish deliveries &7- 打開釣魚任務.'
+- '&e/fish augment &7- 打開魚竿配件.'
 - '&e/fish augments &7- 查看所有配件.'
-- '&e/fish entropy &7- 查看您的鱼露平衡.'
-- '&e/fish totem &7- 查看您的钓鱼图腾.'
-- '&e/fish market &7- 查看钓鱼市场.'
+- '&e/fish entropy &7- 查看您的魚露平衡.'
+- '&e/fish totem &7- 查看您的釣魚圖騰.'
+- '&e/fish market &7- 查看釣魚市場.'
 - '&6/fish reload &7- 重新加载插件.'
-- '&6/fish give <player> <fishName> <amount> &7- 给玩家鱼.'
-- '&6/fish giveitem <player> <item> <amount> &7- 给一个项目.'
+- '&6/fish give <player> <fishName> <amount> &7- 給玩家魚.'
+- '&6/fish giveitem <player> <item> <amount> &7- 給一個項目.'
 - '&6/fish version &7- 查看插件的版本.'
-- '&6/fish giveaugment <augment> <player> <amount> &7- 给您特定的增强.'
-- '&6/fish addentropy <player> <amount> &7- 给玩家鱼露.'
-- '&6/fish addxp <player> <amount> &7- 给玩家钓鱼经验.'
+- '&6/fish giveaugment <augment> <player> <amount> &7- 給您特定的增强.'
+- '&6/fish addentropy <player> <amount> &7- 給玩家魚露.'
+- '&6/fish addxp <player> <amount> &7- 給玩家釣魚經驗.'
 - ''
 - '&8]&m------------------------------------------&8['
 - ''
 Lores:
   ScalesGUI:
     Information:
-    - §7将鱼类放在这里，然后点击
-    - §7铁砧将上方的全部鱼类进行
-    - §7称重.选择不同的风险等级
-    - §7可以钓到不同的鱼。承担风险并获得更高收益吧!
-AntiAFKFisher: '&7检测到挂机钓鱼，请更换钓鱼位置.'
+    - §7將魚類放在這裡，然後點擊
+    - §7鐵砧將上方的全部魚類進行
+    - §7秤重.选择不同的風險等級
+    - §7可以釣到不同的魚。承擔風險並獲得更高收益吧!
+AntiAFKFisher: '&7檢測到掛機釣魚，請更换釣魚位置.'
 HelpInChat:
 - '&7--------------------------------------------------'
-- '&7在手持钓竿时 &7蹲下 &7并 &7右键 打开'
-- '&7钓鱼主菜单。（基岩版操作为蹲下并长按）.'
+- '&7在手持釣竿時 &7蹲下 &7並 &7右鍵 打開'
+- '&7釣魚主菜單。（基岩版操作為蹲下並長按）.'
 - ''
-- '&7你可以在菜单中出售，称重，片切你的鱼'
-- '&7这会允许你赚到更多的钱'
+- '&7你可以在菜單中出售，秤重，片切你的魚'
+- '&7這會允许你賺到更多的錢'
 - ''
-- '&7钓竿可以装配 &a配件&7. 配件可以增强'
-- '&7钓竿的属性。查看所有的配件属性，请'
-- '&7在配件菜单中点击顶部的配件帮助，'
-- '&7其中罗列了全部不同种类的配件.'
+- '&7釣竿可以装配 &a配件&7. 配件可以增强'
+- '&7釣竿的屬性。查看所有的配件屬性，請'
+- '&7在配件菜單中點擊頂部的配件幫助，'
+- '&7其中羅列了全部不同種類的配件.'
 - ''
-- '&7您还可以通过提升你的钓鱼等级获得技能点'
-- '&7技能点可以在钓鱼时被消耗'
-- '&7（有关如何打开主菜单，请参见上文）'
+- '&7您還可以通過提升你的釣魚等級獲得技能點'
+- '&7技能點可以在釣魚時被消耗'
+- '&7（有關如何打開主菜單，請参見上文）'
 - '&7--------------------------------------------------'
 Augments:
-  NoFishingRod: '&7请在第二个槽位中摆入钓竿而不是其他物品.'
-  NoAugment: '&7请在第二个槽位中摆入配件而不是其他物品.'
-  AugmentMaxLevel: '&7这个配件已经达到最高等级了.'
-  NotHighEnoughLevel: '&7你没有足够等级制作此配件.'
-  NotValidAugment: '&7这不是一个有效配件.'
-  CraftedAugment: '&7你在鱼竿上装配了配件%augment% &7等级  &3%amount%.'
-  SolarRage: '&7&7钓竿上的 &e金色风暴 &7配件 给予了你额外的 &e%money% &7精靈幣.'
-  AugmentDisabled: '&7此配件已被禁用，无法合成.'
-  PrecisionCutting: '&7钓竿上的 &c精准切割 &7配件 在片鱼时给了你额外的 &3%entropy% &7鱼露.'
-  CallOfTheStorm: '&7钓竿上的 &9风暴召唤 &7配件 给予了你额外抓到鱼的机会'
-  HotSpot: '&7钓竿上的 &6热成像 &7配件 给予了你额外抓到鱼的机会.'
-  Saturate: '&7钓竿上的 &3饱腹 &7配件 补充了一些你的饥饿.'
-  NoCraftingPermission: '&7你没有 &c权限 &7合成 %augment%&7.'
+  NoFishingRod: '&7請在第二個槽位中擺入釣竿而不是其他物品.'
+  NoAugment: '&7請在第二個槽位中擺入配件而不是其他物品.'
+  AugmentMaxLevel: '&7這個配件已經達到最高等級了.'
+  NotHighEnoughLevel: '&7你没有足夠等級制作此配件.'
+  NotValidAugment: '&7這不是一個有效配件.'
+  CraftedAugment: '&7你在魚竿上装配了配件%augment% &7等級  &3%amount%.'
+  SolarRage: '&7&7釣竿上的 &e金色風暴 &7配件 給予了你額外的 &e%money% &7精靈幣.'
+  AugmentDisabled: '&7此配件已被禁用，無法合成.'
+  PrecisionCutting: '&7釣竿上的 &c精準切割 &7配件 在片魚時給了你額外的 &3%entropy% &7魚露.'
+  CallOfTheStorm: '&7釣竿上的 &9風暴召唤 &7配件 給予了你額外抓到魚的機會'
+  HotSpot: '&7釣竿上的 &6热成像 &7配件 給予了你額外抓到魚的機會.'
+  Saturate: '&7釣竿上的 &3飽腹 &7配件 補充了一些你的飢餓.'
+  NoCraftingPermission: '&7你没有 &c權限 &7合成 %augment%&7.'
   Lores:
     hotspot:
-    - §6热点 §7使您有机会在每次捕捞中
-    - §7获得一条以上的鱼. 级别越高
-    - §7钓到鱼机会更多.
-    - §7一次捕获的鱼就更多
+    - §6熱點 §7使您有機會在每次捕捞中
+    - §7獲得一條以上的魚. 級别越高
+    - §7釣到魚機會更多.
+    - §7一次捕獲的魚就更多
     sage:
-    - §2智者 §7给您更多的钓鱼经验值
-    - §7每当您抓到鱼时，插件即会出现.
-    - §7增强水平越高，经验越多
-    - §7您会从捕获定制鱼中受益!
+    - §2智者 §7給您更多的釣魚經驗值
+    - §7每當您抓到魚時，插件即會出現.
+    - §7增强水平越高，經驗越多
+    - §7您會從捕獲定制魚中受益!
     Misc:
       UseAugment: '&7使用增强: '
       InfoLine: '&8&m-----------&r&8[%color% 信息 &8]&8&m-----------'
       Crafting: '&7工艺要求: '
       CraftingPermission: '&7制作许可: '
     trophy:
-    - §e奖杯 §7给您更好的机会
-    - §7从鱼鳞中获利
+    - §e獎杯 §7給您更好的機會
+    - §7從魚鳞中获利
     - §7水平越高
-    - §7赚钱的机会就越大!
+    - §7賺錢的機會就越大!
     precisioncutting:
-    - §c精确切割§7可以让你从使用
-    - §7钓鱼亭的鱼中更多的鱼露，级别越高
-    - §7你将获得更多的鱼露.
+    - §c精确切割§7可以讓你從使用
+    - §7釣魚亭的魚中更多的魚露，級别越高
+    - §7你將獲得更多的魚露.
     tsunami:
-    - §9海啸 §7可以让你水中引发海啸的机会.
-    - §7在次海啸中捕获的
-    - §7任何鱼都会高出一层等级
-    - §7银=金等.
-    - §7海啸对任何玩家都有效.
-    - §7无论他们在钓鱼竿上增加力量.
+    - §9海嘯 §7可以讓你水中引发海嘯的機會.
+    - §7在次海嘯中捕獲的
+    - §7任何魚都會高出一层等級
+    - §7銀=金等.
+    - §7海嘯對任何玩家都有效.
+    - §7無论他们在釣魚竿上增加力量.
     masterfisherman:
-    - §d渔夫大师 §7让您有更高的机会
-    - §7就像是有一个声望的令牌.任何东西
-    - §7仅限于排行榜前7名玩家，
+    - §d漁夫大師 §7讓您有更高的機會
+    - §7就像是有一個聲望的令牌.任何東西
+    - §7僅限於排行榜前7名玩家，
     crabbait:
-    - §b蟹饵 §7给您钓鱼时钓到螃蟹
-    - §7机会更高. 研磨
-    - §7蟹鳞和蟹爪用于其他增补非常有用.
+    - §b蟹餌 §7給您釣魚時釣到螃蟹
+    - §7機會更高. 研磨
+    - §7蟹鳞和蟹爪用於其他增補非常有用.
     perception:
-    - §6通知 §7从捕获自定义鱼中获得更多的鱼露
+    - §6通知 §7從捕獲自定義魚中獲得更多的魚露
     - §7增强程度越高
-    - §7增强水平，鱼露越大
-    - §7捕获自定义鱼的鱼露就越大！
+    - §7增强水平，魚露越大
+    - §7捕獲自定義魚的魚露就越大！
     biomedisruption:
-    - §2生物破坏 §7给您一次抓住的机会.
-    - §7钓鱼时来自其他生物群系的随机一条.鱼
-    - §7等级越高，机会越大.
+    - §2生物破壞 §7給您一次抓住的機會.
+    - §7釣魚時来自其他生物群系的隨機一條魚
+    - §7等級越高，機會越大.
     intellect:
-    - §a智慧 §7给您带来更多的捕捞经验.
-    - §7智慧等级越高,您将获得的经验越多
-    - §7从捕鱼中得到.
+    - §a智慧 §7給您带来更多的捕捞經驗.
+    - §7智慧等級越高,您將獲得的經驗越多
+    - §7從捕魚中得到.
     saturate:
-    - §3饱和 §7给您随机补充的机会
-    - §7钓鱼时您会感到饥饿，等级越高
-    - §7获得食物机会越大.
+    - §3飽和 §7給您隨機補充的機會
+    - §7釣魚時您會感到飢餓，等級越高
+    - §7獲得食物機會越大.
     solarrage:
-    - §e子墨 §7卖给您更多的钱
-    - §7鱼在鱼店里,等级越高
-    - §7您获得的将近就越多.
+    - §e子墨 §7賣給您更多的錢
+    - §7魚在魚店裡,等級越高
+    - §7您獲得的獎金就越多.
     callofthestorm:
-    - §9暴风雨的呼唤 §7使你有一个机会钓到
-    - §7更多的鱼,增强的等级越高
-    - §7获得更多的鱼机会越大.
+    - §9暴風雨的呼喚 §7使你有一個機會釣到
+    - §7更多的魚,增强的等級越高
+    - §7獲得更多的魚機會越大.
     tornado:
-    - §c龙卷风 §7给你一个很小的机会
-    - §7使附近的鱼群激增
-    - §7并给您随机复制鱼.
+    - §c龍捲風 §7給你一個很小的機會
+    - §7使附近的魚群激增
+    - §7並給您隨機複製魚.
     snowglobe:
-    - §f雪球 §7随机创建雪球
-    - §7当被钓到时会赋予玩家更多的鱼露和钓鱼经验
-    - §7级别越高，奖金越大
-    - §7适用于在半径范围内钓鱼的每个人.
+    - §f雪球 §7隨機創建雪球
+    - §7當被釣到時會赋予玩家更多的魚露和釣魚經驗
+    - §7級别越高，獎金越大
+    - §7适用於在半径範圍内釣魚的每個人.
   Lore:
-  - '&7在您的鱼竿上增加一级等级.'
-  - '&7打开“增强”菜单以添加这些增强.'
+  - '&7在您的魚竿上增加一級等級.'
+  - '&7打開“增强”菜單以添加這些增强.'
   - '&8&m-----------&r&8[%color% 信息 &8]&8&m-----------'
-  - '%color%必须捕鱼等级:&8 ➤ &7%requiredlevel%'
-  - '%color%鱼露费用:&8 ➤ &7%cost%'
-  - '%color%最大增强级别:&8 ➤ &7%maxlevel%'
-  - '%color%可用于:&8 ➤ &7钓鱼竿'
+  - '%color%必须捕魚等級:&8 ➤ &7%requiredlevel%'
+  - '%color%魚露費用:&8 ➤ &7%cost%'
+  - '%color%最大增强級别:&8 ➤ &7%maxlevel%'
+  - '%color%可用於:&8 ➤ &7釣魚竿'
   - '&8&m-----------&r&8[%color% 信息 &8]&8&m-----------'
   - '%description%'
   - '&8&m-----------&r&8[%color% 信息 &8]&8&m-----------'
-  Cooldown: '&7在执行这个操作前,您需等待 &c1秒 &7.'
+  Cooldown: '&7在执行這個操作前,您需等待 &c1秒 &7.'
   'True': 'true'
   Misc:
-    Entropy: '&7你不能制作此物品. 你还需要 &c%entropy%&7 鱼露.'
-    NoValidRecipe: '&7你掉落的物品与任何增强配方不符,请核对后再试.'
-    Crafted: '&7你制作出了 %name% &7并花费了 &3%cost% &7鱼露.'
-    TooManyItems: '&7你掉落东西过多,请重新再试!'
-    CreativeMode: '&7你不能在&c创造模式&7下制作!'
+    Entropy: '&7你不能制作此物品. 你還需要 &c%entropy%&7 魚露.'
+    NoValidRecipe: '&7你掉落的物品與任何增强配方不符,請核對後再试.'
+    Crafted: '&7你制作出了 %name% &7並花費了 &3%cost% &7魚露.'
+    TooManyItems: '&7你掉落東西過多,請重新再试!'
+    CreativeMode: '&7你不能在&c創造模式&7下制作!'
     RemoveEntropyOnApply:
       Removed: '&7You have spent &b%entropy% &7to apply that augment.'
       Failed: '&7You do not have enough entropy to add all of these augments. You
@@ -333,7 +333,7 @@ Augments:
     NAUTILUS_SHELL: 鸚鵡螺殼
     CAKE: 蛋糕
     GLISTERING_MELON_SLICE: 閃閃發光的西瓜片
-    LAPIS_BLOCK: 青金石塊
+    LAPIS_BLOCK: 青晶石塊
     HEART_OF_THE_SEA: 海洋之心
     DIAMOND_BLOCK: 鑽石塊
     GLOWSTONE: 螢光石
@@ -348,26 +348,26 @@ Augments:
     WITHER_SKELETON_SKULL: 凋靈骷髏頭
     GUNPOWDER: 火藥
     COOKED_BEEF: 熟牛肉
-    SAND: 沙
+    SAND: 沙子
     EMERALD: 綠寶石
     KELP: 海帶
     STRING: 線
     SUGAR: 糖
-    TURTLE_EGG: 龜蛋
+    TURTLE_EGG: 海龜蛋
     LEAD: 栓繩
   Extra:
     PerItem: '&7- %color%%amount%x %item%'
-NoPermission: '&c抱歉!&7你没有权限!'
+NoPermission: '&c抱歉!&7你没有權限!'
 Tournament:
   Length:
-    CaughtMessage: '&7你钓上了一条 &bFISHNAME&7 长 &bLENGTHcm&7.'
-    LongestFish: '&7新纪录! 你钓上了一条更长的鱼! 旧记录: &3%before%cm &7 新纪录: &b%new%cm&7!'
+    CaughtMessage: '&7你釣上了一條 &bFISHNAME&7 長 &bLENGTHcm&7.'
+    LongestFish: '&7新紀錄! 你釣上了一條更長的魚! 舊紀錄: &3%before%cm &7 新紀錄: &b%new%cm&7!'
   NoTournament: '&7There is currently no Tournament Active.'
   LongestCast:
     Message: '&7您在本次比賽中創造了新的最長施放時間 &b%distance%m&7.'
 Tournaments:
-  AlreadyActive: '&7已经有一个 &3锦标赛 &7正在进行了!'
-  NoTournament: '&7这里还没有 &c锦标赛 &7进行中.'
+  AlreadyActive: '&7已經有一個 &3錦標賽 &7正在進行了!'
+  NoTournament: '&7這裡還没有 &c錦標賽 &7進行中.'
   Misc:
     With: '&7和 '
   Names:
@@ -388,436 +388,436 @@ Tournaments:
     Name: N/A
   InvalidArgument: '&cInvalid arguments. Do /ft for a list of sub-commands.'
 Deliveries:
-  Dismissed: '&7你已经取消了这批货.'
+  Dismissed: '&7你已經取消了這批货.'
   CannotDismiss: '&7不能取消此交付.'
-  NotEnoughFish: '&7你没有足够的鱼来运送.'
-  Started: '&7你已经开始任务 &b%name%&7 需要 &9%time%&7.'
-  Finished: '&7你已经完成了 &b%name% &7获得 %item%&7.'
-  NewDelivery: '&7你完成了一个任务. &b输入 /fish deliveries 进行查看&7.'
+  NotEnoughFish: '&7你没有足夠的魚来運送.'
+  Started: '&7你已經開始任務 &b%name%&7 需要 &9%time%&7.'
+  Finished: '&7你已經完成了 &b%name% &7獲得 %item%&7.'
+  NewDelivery: '&7你完成了一個任務. &b输入 /fish deliveries 進行查看&7.'
   NoSpace: '&7You need at least one empty slot to claim this delivery.'
 Items:
   SquidTentacle:
-    Name: '&9鱿鱼触须'
+    Name: '&9魷魚觸鬚'
     Lore:
-    - '&7击杀鱿鱼获得。'
-    - '&7用于合成配件和'
-    - '&7升级钓鱼图腾.'
+    - '&7擊殺魷魚獲得。'
+    - '&7用於合成配件和'
+    - '&7升級釣魚圖騰.'
   MythicalLure:
-    Name: '&5神话诱饵'
+    Name: '&5神話誘餌'
     Lore:
-    - '&7从任务或&b鱼市（/fish market）'
-    - '&7获得。 这将会使你'
-    - '&7钓到 &5神仙鱼 &7的几率提高 &d400%&7.'
+    - '&7從任務或&b魚市（/fish market）'
+    - '&7獲得。 這將會使你'
+    - '&7釣到 &5神話魚 &7的機率提高 &d400%&7.'
     - ''
-    - '&a右击 &7使用.'
+    - '&a右鍵 &7使用.'
   PlatinumLure:
-    Name: '&c铂金诱饵'
+    Name: '&c鉑金誘餌'
     Lore:
-    - '&7从任务或&b鱼市（/fish market）'
-    - '&7获得。 这将会使你'
-    - '&7钓到 &c铂金鱼 &7的几率提高 by &d400%&7.'
+    - '&7從任務或&b魚市（/fish market）'
+    - '&7獲得。 這將會使你'
+    - '&7釣到 &c鉑金魚 &7的機率提高 by &d400%&7.'
     - ''
-    - '&a右击 &7使用.'
+    - '&a右鍵 &7使用.'
   CrabLure:
-    Name: '&b螃蟹诱饵'
+    Name: '&b螃蟹誘餌'
     Lore:
-    - '&7从任务或&b鱼市（/fish market）'
-    - '&7获得。 这将会使你'
-    - '&7钓到 &b螃蟹的几率提高 &d200%&7.'
+    - '&7從任務或&b魚市（/fish market）'
+    - '&7獲得。 這將會使你'
+    - '&7釣到 &b螃蟹的機率提高 &d200%&7.'
     - ''
-    - '&a右击 &7使用.'
+    - '&a右鍵 &7使用.'
   EntropyBooster:
-    Name: '&b鱼露加速器 &8(&3%multi%x&8)'
+    Name: '&b魚露加速器 &8(&3%multi%x&8)'
     Lore:
-    - '&7从任务或市场获得.'
-    - '&7通过钓上鱼类获得鱼露。'
-    - '&7这不会影响到片鱼机器。'
+    - '&7從任務或市場獲得.'
+    - '&7通過釣上魚類獲得魚露。'
+    - '&7這不會影響到片魚機器。'
     - ''
-    - '&7这个加速器能持续 &b30 分钟&7.'
+    - '&7這個加速器能持续 &b30 分鐘&7.'
     - ''
-    - '&a右击 &7使用.'
+    - '&a右鍵 &7使用.'
   EtherealOrb:
-    Name: '&3以太球'
+    Name: '&3空靈寶珠'
     Lore:
-    - '&7从任务或市场获得.'
-    - '&7重置你的钓鱼图腾冷却时间.'
+    - '&7從任務或市場獲得.'
+    - '&7重置你的釣魚圖騰冷卻時間.'
     - ''
-    - '&7只能用在你的钓鱼图腾.'
+    - '&7只能用在你的釣魚圖騰.'
     - ''
-    - '&a右击 &7使用.'
+    - '&a右鍵 &7使用.'
   EntropyCrystal:
     Lore:
-    - '&7点击兑换 &b10,000 &7鱼露.'
-    - '&7你可以输入 &3/fish augment &7打开界面.'
-    - '&7这些可以在玩家之间进行交易.'
-    Name: '&b鱼露晶体 &8(&310,000&8)'
+    - '&7點擊兌換 &b10,000 &7魚露.'
+    - '&7你可以输入 &3/fish augment &7打開界面.'
+    - '&7這些可以在玩家之間進行交易.'
+    Name: '&b魚露晶體 &8(&310,000&8)'
   CrabClaw:
     Lore:
-    - '&7杀死螃蟹掉落.'
-    - '&7可以在制作扩充物时使用.'
+    - '&7殺死螃蟹掉落.'
+    - '&7可以在制作擴充物時使用.'
     Name: '&9蟹爪'
   DolphinTail:
     Lore:
-    - '&7杀死海豚中掉下来.'
-    - '&7可以在制作扩充物时使用.'
+    - '&7殺死海豚中掉下来.'
+    - '&7可以在制作擴充物時使用.'
     Name: '&3海豚尾巴'
   CrabScales:
     Name: '&e蟹鳞'
     Lore:
-    - '&7杀死螃蟹掉落.'
-    - '&7可以在制作扩充物时使用.'
+    - '&7殺死螃蟹掉落.'
+    - '&7可以在制作擴充物時使用.'
   Christmas2020:
     Lore:
-    - '&7从抓鱼中发现.'
+    - '&7從抓魚中發現.'
     - ''
-    - '&f&n可能的抢到:'
-    - '&7➛ &b鱼露晶体'
+    - '&f&n可能的搶到:'
+    - '&7➛ &b魚露晶體'
     - '&7➛ &b蟹鳞'
     - '&7➛ &b蟹爪'
-    - '&7➛ &b鱿鱼触角'
+    - '&7➛ &b魷魚触角'
     - '&7➛ &bD海豚尾巴'
-    - '&7➛ &b鱼露助推器 &3(1.1x)'
-    - '&7➛ &b鱼露助推器 &3(1.3x)'
-    - '&7➛ &b鱼露助推器 &3(1.85x)'
-    - '&7➛ &b蟹饵'
-    - '&7➛ &b铂金诱饵'
-    - '&7➛ &b神话般的诱惑'
+    - '&7➛ &b魚露助推器 &3(1.1x)'
+    - '&7➛ &b魚露助推器 &3(1.3x)'
+    - '&7➛ &b魚露助推器 &3(1.85x)'
+    - '&7➛ &b蟹餌'
+    - '&7➛ &b鉑金誘餌'
+    - '&7➛ &b神話般的誘惑'
     - '&7➛ &b海洋之心'
-    - '&7➛ &b鹦鹉螺的壳'
-    - '&7➛ &b随机神话鱼'
+    - '&7➛ &b鹦鹉螺的殼'
+    - '&7➛ &b隨機神話魚'
     - '&7➛ &bS雪球增强'
-    - '&7➛ &b热点增强'
-    - '&7➛ &b生物群系破坏增强'
+    - '&7➛ &b熱點增强'
+    - '&7➛ &b生物群系破壞增强'
     - '&7➛ &b精密切割增强'
     - ''
-    - '&f&o打开这个礼物的地方.'
-    Name: '&8&l► &b钓鱼礼物 &8&l◄ &8(&92020年版.&8)'
+    - '&f&o打開這個禮物的地方.'
+    Name: '&8&l► &b釣魚禮物 &8&l◄ &8(&92020年版.&8)'
 GUINames:
-  Main: '&9钓鱼菜单'
-  Shop: '&9卖鱼店'
-  Deliveries: '&9任务'
-  Codex: '&9鱼类图鉴'
-  Scales: '&9称重台'
-  FishBag: '&9鱼袋'
-  GuttingStation: '&9片鱼机'
-  SkillPoints: '&9技能点'
+  Main: '&9釣魚菜單'
+  Shop: '&9賣魚店'
+  Deliveries: '&9任務'
+  Codex: '&9魚類圖鑑'
+  Scales: '&9秤重台'
+  FishBag: '&9魚袋'
+  GuttingStation: '&9片魚機'
+  SkillPoints: '&9技能點'
   Augments: '&9配件'
-  Totem: '&9钓鱼图腾'
-  Market: '&9渔业市场'
-  FishingAugments: '&9钓鱼配件'
-  Stats: '&9状态: &3%player%'
-  TotemStructure: '&9图腾结构'
-  PerCodex: '&9&l鱼类宝典 &8- &3%tier%'
-  Skills: '&9&l钓鱼技能'
-  BaitShop: '&9&l鱼饵店'
+  Totem: '&9釣魚圖騰'
+  Market: '&9漁业市場'
+  FishingAugments: '&9釣魚配件'
+  Stats: '&9狀態: &3%player%'
+  TotemStructure: '&9圖騰結構'
+  PerCodex: '&9&l魚類宝典 &8- &3%tier%'
+  Skills: '&9&l釣魚技能'
+  BaitShop: '&9&l魚餌店'
 GUI:
   Main:
     Shop:
-      Name: '&3卖鱼店'
+      Name: '&3賣魚店'
       Lore:
-      - '&7点击打开卖鱼商店!'
-      - '&7&o卖掉你所有的鱼!'
+      - '&7點擊打開賣魚商店!'
+      - '&7&o賣掉你所有的魚!'
     Deliveries:
-      Name: '&6任务'
+      Name: '&6任務'
       Lore:
-      - '&7点击查看当前任务.'
-      - '&7&o完成任务任务可获得一定奖励!'
+      - '&7點擊查看當前任務.'
+      - '&7&o完成任務任務可獲得一定獎勵!'
       NewLore:
-      - '&7点击查看当前任务.'
-      - '&7&o完成任务任务可获得一定奖励!'
+      - '&7點擊查看當前任務.'
+      - '&7&o完成任務任務可獲得一定獎勵!'
       - ''
-      - '&7你还需要 &3%amount% &7 鱼'
-      - '&7才能完成你的钓鱼任务!'
+      - '&7你還需要 &3%amount% &7 魚'
+      - '&7才能完成你的釣魚任務!'
     Codex:
-      Name: '&3鱼类图鉴'
+      Name: '&3魚類圖鑑'
       Lore:
-      - '&7点击查看鱼类图鉴!'
-      - '&7&o看看有什么鱼!'
+      - '&7點擊查看魚類圖鑑!'
+      - '&7&o看看有什麼魚!'
     Scales:
-      Name: '&b称重台'
+      Name: '&b秤重台'
       Lore:
-      - '&7点击打开称重台!'
-      - '&7&o承担风险会获得更多的收益?!'
+      - '&7點擊打開秤重台!'
+      - '&7&o承擔風險會獲得更多的收益?!'
     Stats:
-      Name: '&e统计'
+      Name: '&e統計'
       Lore:
-      - '&7查看你的钓鱼数据!'
+      - '&7查看你的釣魚數據!'
       - '&7&o第一名是你吗?'
     SkillPoints:
-      Name: '&9技能点'
+      Name: '&9技能點'
       Lore:
-      - '&7单击以管理您的技能点!'
-      - '&7&o您将升级什么技能呢?'
+      - '&7單擊以管理您的技能點!'
+      - '&7&o您將升級什麼技能呢?'
       - ''
-      - '&c&o即将来临'
+      - '&c&o即將来臨'
     Bag:
-      Name: '&3鱼袋'
+      Name: '&3魚袋'
       Lore:
-      - '&7点击查看你的鱼袋!'
-      - '&7&o你抓到什么鱼了?'
+      - '&7點擊查看你的魚袋!'
+      - '&7&o你抓到什麼魚了?'
     Gut:
-      Name: '&2片鱼机'
+      Name: '&2片魚機'
       Lore:
-      - '&7点击打开片鱼机!'
-      - '&7&o将你的鱼片成 鱼露 / 物品吧!'
+      - '&7點擊打開片魚機!'
+      - '&7&o將你的魚片成 魚露 / 物品吧!'
     Augments:
       Name: '&2配件'
       Lore:
-      - '&7点击管理你的鱼竿配件.'
-      - '&7&o你的鱼竿有多少配件呢?'
+      - '&7點擊管理你的魚竿配件.'
+      - '&7&o你的魚竿有多少配件呢?'
     Market:
-      Name: '&6渔业市场'
+      Name: '&6漁市場'
       Lore:
-      - '&7点击查看钓鱼市场.'
-      - '&7&o你会购买什么?'
+      - '&7點擊查看釣魚市場.'
+      - '&7&o你會購買什麼?'
     Totem:
-      Name: '&b钓鱼图腾'
+      Name: '&b釣魚圖騰'
       Lore:
-      - '&7点击查看你的图腾.'
-      - '&7&o你要召唤什么?'
+      - '&7點擊查看你的圖騰.'
+      - '&7&o你要召唤什麼?'
     NoRod:
-      Name: '&4没有钓鱼竿'
+      Name: '&4没有釣魚竿'
       Lore:
-      - '&7你没有拿鱼竿.'
+      - '&7你没有拿魚竿.'
     ChristmasEvent:
-      Name: '&3&l圣诞活动'
+      Name: '&3&l聖誕活動'
       NewPlaceholderLore:
-      - '&7从现在到 &b312月1日'
-      - '&7你可以从每个赚到礼物'
-      - '&3你钓到&7 400条鱼!'
+      - '&7從現在到 &b312月1日'
+      - '&7你可以從每個賺到禮物'
+      - '&3你釣到&7 400條魚!'
       - ''
-      - '&7你需要 &a%fish%&7 更多的鱼，直到'
-      - '&7你的下一个礼物.'
+      - '&7你需要 &a%fish%&7 更多的魚，直到'
+      - '&7你的下一個禮物.'
     Bait:
       Lore:
-      - '&7点击查看鱼饵店.'
-      - '&7&o你会钓到什么鱼?'
-      Name: '&9&l鱼饵店'
+      - '&7點擊查看魚餌店.'
+      - '&7&o你會釣到什麼魚?'
+      Name: '&9&l魚餌店'
     Skills:
-      Name: '&9&l钓鱼技能'
+      Name: '&9&l釣魚技能'
       Lore:
-      - '&7单击以管理 钓鱼技能.'
-      - '&7&o你会升级什么?'
+      - '&7單擊以管理 釣魚技能.'
+      - '&7&o你會升級什麼?'
   Shop:
     Info:
       Name: '&a信息'
       Lore:
-      - '&7将鱼放在这里，然后'
-      - '&7关闭或点击我来卖鱼!'
+      - '&7將魚放在這裡，然後'
+      - '&7關閉或點擊我来賣魚!'
     Back:
       Name: '&c返回'
       Lore:
-      - '&7单击以返回到主菜单.'
+      - '&7單擊以返回到主菜單.'
     Prices:
-      Name: '&2价格'
+      Name: '&2價格'
       Lore:
-      - '§7以下是所有等级的鱼的价格:'
-      - '§7生鱼: §3%RawFishMoney%'
-      - '§7铜星鱼: §3%BronzeMoney%'
-      - '§7银星鱼: §3%SilverMoney%'
-      - '§7金星鱼: §3%GoldMoney%'
-      - '§7钻星鱼: §3%DiamondMoney%'
-      - '§7铂金鱼: §3%PlatinumMoney%'
-      - '§7神话鱼: §3%MythicalMoney%'
+      - '§7以下是所有等級的魚的價格:'
+      - '§7生魚: §3%RawFishMoney%'
+      - '§7銅星魚: §3%BronzeMoney%'
+      - '§7銀星魚: §3%SilverMoney%'
+      - '§7金星魚: §3%GoldMoney%'
+      - '§7鑽星魚: §3%DiamondMoney%'
+      - '§7鉑金魚: §3%PlatinumMoney%'
+      - '§7神話魚: §3%MythicalMoney%'
     SpecialFish:
-      Name: '&a特殊鱼'
+      Name: '&a特殊魚'
       Lore:
       - §8§m--------------------------
-      - '§7特殊鱼类:'
-      - '§8➤ §7鱼: §3%name%'
-      - '§8➤ §7级别: §3%tier%'
-      - '§8➤ §7卖出倍数: §3%multiplier%x'
+      - '§7特殊魚類:'
+      - '§8➤ §7魚: §3%name%'
+      - '§8➤ §7級别: §3%tier%'
+      - '§8➤ §7賣出倍數: §3%multiplier%x'
       - §8§m--------------------------
-      - §7§3%minutes% §7分钟后重置。
+      - §7§3%minutes% §7分鐘後重置。
       - §8§m--------------------------
   Deliveries:
     EmptySlot:
       Name: '&c空槽'
       Lore:
-      - '&7这个位置是空的. 从钓鱼市场接受'
-      - '&7一个新的任务或购买一个。'
+      - '&7這個位置是空的. 從釣魚市場接受'
+      - '&7一個新的任務或購買一個。'
     LockedSlot:
-      Name: '&4锁定槽'
+      Name: '&4鎖定槽'
       Lore:
-      - '&7此插槽已锁定'
-      - '&7使用升级 &e升级解锁 &7更多空间!'
+      - '&7此插槽已鎖定'
+      - '&7使用升級 &e升級解鎖 &7更多空間!'
     Info:
       Name: '&a信息:'
       Lore:
-      - '&7完成任务任务'
-      - '&7是赚钱的 &f主要途径之一&7!'
-      - '&7你可以提交任务任务获得奖励'
+      - '&7完成任務'
+      - '&7是賺錢的 &f主要途徑之一&7!'
+      - '&7你可以提交任務獲得獎勵'
       - ''
-      - '&7在底部有一些升级'
-      - '&7可以帮助您更快的完成任务!'
+      - '&7在底部有一些升級'
+      - '&7可以幫助您更快的完成任務!'
       - ''
-      - '&7任务等级：'
-      - '&7- 常见 &8(&e★&7☆☆&8)'
-      - '&7- 优秀 &8(&e★★&7☆&8)'
+      - '&7任務等級：'
+      - '&7- 常見 &8(&e★&7☆☆&8)'
+      - '&7- 優秀 &8(&e★★&7☆&8)'
       - '&7- 稀有 &8(&e★★★&8)'
-      - '&7- 市场常见 &8(&a★&7☆☆&8)'
-      - '&7- 市场优秀 &8(&a★★&7☆&8)'
-      - '&7- 市场稀有 &8(&a★★★&8)'
-      - '&7- 史诗 &8(&5★&8)'
+      - '&7- 市場常見 &8(&a★&7☆☆&8)'
+      - '&7- 市場優秀 &8(&a★★&7☆&8)'
+      - '&7- 市場稀有 &8(&a★★★&8)'
+      - '&7- 史詩 &8(&5★&8)'
     Upgrade:
       INCREASE_CAPACITY:
-        Name: '&7升级: &e增加容量'
+        Name: '&7升級: &e增加容量'
         Lore:
-        - '&7增加你的总交货量'
+        - '&7增加你的總交货量'
       OVERCLOCKED:
-        Name: '&7升级: &e超频'
+        Name: '&7升級: &e超频'
         Lore:
-        - '&7减少完成任务所需的时间'
+        - '&7减少完成任務所需的時間'
       EXPERT_DELIVERER:
-        Name: '&7升级: &c专家任务者'
+        Name: '&7升級: &c专家任務者'
         Lore:
-        - '&7减少正常任务任务所需的鱼量'
+        - '&7减少正常任務任務所需的魚量'
       PAY_RISE:
-        Name: '&7升级: &3鱼露升级'
+        Name: '&7升級: &3魚露升級'
         Lore:
-        - '&7使你完成任务后获得更多鱼露!'
+        - '&7使你完成任務後獲得更多魚露!'
       LUCKY_CHARM:
-        Name: '&7升级: &d幸运符'
+        Name: '&7升級: &d幸運符'
         Lore:
-        - '&7让你有更高的机会得到'
-        - '&7更稀有的战利品!'
+        - '&7讓你有更高的機會得到'
+        - '&7更稀有的戰利品!'
       Lore:
       - ''
-      - §7升级状态：
-      - '§7- 当前等级: §b%level%'
-      - '§7- 下一等级: §9%nextlevel%'
-      - '§7- 升级需要鱼露: §3%cost%'
-      - '§7- 最高等级: §3%maxlevel%'
+      - §7升級狀態：
+      - '§7- 當前等級: §b%level%'
+      - '§7- 下一等級: §9%nextlevel%'
+      - '§7- 升級需要魚露: §3%cost%'
+      - '§7- 最高等級: §3%maxlevel%'
       - ''
-      - §7点击升级.
+      - §7點擊升級.
       LUCKY_CHARM_NEW:
         Lore:
-        - '&7你的鱼数量不够'
-        - '&7请去钓更多的鱼吧!'
+        - '&7你的魚數量不夠'
+        - '&7請去釣更多的魚吧!'
     Misc:
-      Entropy: '&7鱼露奖励： &9'
-      Reward: '&7奖励： &9'
-      Fish: '&7所需鱼类: &9'
+      Entropy: '&7魚露獎勵： &9'
+      Reward: '&7獎勵： &9'
+      Fish: '&7所需魚類: &9'
     Upgrades:
       Misc:
-        EXPERT_DELIVERER: ' 需求数量减少'
+        EXPERT_DELIVERER: ' 需求數量减少'
         OVERCLOCKED: '%'
-        INCREASE_CAPACITY: 额外任务槽位
-        MaxLevel: 最大等级
-        LUCKY_CHARM: '% 几率更好奖励'
-        PAY_RISE: x 鱼露
-        LUCKY_CHARM_NEW: ' 少鱼'
-      NoEntropy: '&7你没有足够的鱼露. 你需要 &c%entropy% &7鱼露.'
-      Upgraded: '&7你已经升到 &e%name% &3%level%&7 级 。'
-    DeliveryFor: '&3任务对象: &b%name%'
+        INCREASE_CAPACITY: 額外任務槽位
+        MaxLevel: 最大等級
+        LUCKY_CHARM: '% 機率更好獎勵'
+        PAY_RISE: x 魚露
+        LUCKY_CHARM_NEW: ' 少魚'
+      NoEntropy: '&7你没有足夠的魚露. 你需要 &c%entropy% &7魚露.'
+      Upgraded: '&7你已經升到 &e%name% &3%level%&7 級 。'
+    DeliveryFor: '&3任務對象: &b%name%'
     MiddleClick:
-      NoLonger: '&9你不能再次完成这个任务。'
-      Failed: '&c你不能取消这次任务。'
-      Delete: '&9鼠标中键单击 &7可忽略此任务。'
+      NoLonger: '&9你不能再次完成這個任務。'
+      Failed: '&c你不能取消這次任務。'
+      Delete: '&9滑鼠中鍵單擊 &7可忽略此任務。'
     Status:
-      InProgress: '&6进行中'
-      NotStarted: '&c未开始'
-      Ready: '&a准备就绪'
+      InProgress: '&6進行中'
+      NotStarted: '&c未開始'
+      Ready: '&a準備就绪'
     TimeToDelivery:
-      InProgress: '&7交货所需时间: &9%time%'
-      Ready: '&7准备交货时间: &a准备交货！'
+      InProgress: '&7交货所需時間: &9%time%'
+      Ready: '&7準備交货時間: &a準備交货！'
     DeleteDelivery:
       Delete: '&9Shift-Right-Click &7to delete this delivery.'
   Augments:
     Remove:
-      Name: '&4删除升级配件'
+      Name: '&4刪除升級配件'
       Lore:
-      - '&7这会移除你鱼竿上'
-      - '&7所有的升级配件。'
-      - '&7这样做需要 &d25,000 鱼露&7.'
+      - '&7這會移除你魚竿上'
+      - '&7所有的升級配件。'
+      - '&7這样做需要 &d25,000 魚露&7.'
       - ''
-      - '&7确保你的鱼竿在里面背包里'
+      - '&7确保你的魚竿在裡面背包裡'
       - ''
-      - '&c&o单击此按钮'
+      - '&c&o單擊此按钮'
     Withdraw:
-      Name: '&3提取 10,000 鱼露'
+      Name: '&3提取 10,000 魚露'
       Lore:
-      - '&7这将从账户中提取 &d10,000 鱼露'
-      - '&7并给你一个鱼露晶体'
-      - '&3使用鱼露晶体'
-      - '&7将获得 &d10,000 鱼露&7.'
+      - '&7這將從账户中提取 &d10,000 魚露'
+      - '&7並給你一個魚露晶體'
+      - '&3使用魚露晶體'
+      - '&7將獲得 &d10,000 魚露&7.'
     Help:
-      Name: '&2帮助'
+      Name: '&2幫助'
       Lore:
-      - '&7点击查看所有增强配件.'
+      - '&7點擊查看所有增强配件.'
       - ''
-      - '&7鱼露数量: &b%entropy%'
-      - '&7钓鱼等级: &b%level%'
+      - '&7魚露數量: &b%entropy%'
+      - '&7釣魚等級: &b%level%'
     FishingRod:
-      Name: '&b鱼竿'
+      Name: '&b魚竿'
       Lore:
-      - '&7把你的钓竿放在这个槽里'
+      - '&7把你的釣竿放在這個槽裡'
     Augment:
       Name: '&b增强配件'
       Lore:
-      - '&7将你的配件放在这个槽里'
+      - '&7將你的配件放在這個槽裡'
     AcceptAugment:
-      Name: '&a开始增强'
+      Name: '&a開始增强'
       Lore:
-      - '&7单击此按钮确认增强'
+      - '&7單擊此按钮確認增强'
     CancelAugment:
-      Name: '&c放弃增强'
+      Name: '&c放棄增强'
       Lore:
-      - '&7放弃后将会把你的物品送回到背包'
+      - '&7放棄後將會把你的物品送回到背包'
     Confirm:
-      Name: '&a确认增强'
+      Name: '&a確認增强'
     Cancel:
-      Name: '&c放弃增强'
+      Name: '&c放棄增强'
   Codex:
     Main:
       Info1:
-        Name: '&a鱼类图鉴'
+        Name: '&a魚類圖鑑'
         Lore:
-        - '&7单击每个星级，查看该星级有哪些鱼!'
-        - '&7你还可以查看在哪个群系可以钓到什么鱼'
+        - '&7單擊每個星級，查看該星級有哪些魚!'
+        - '&7你還可以查看在哪個群系可以釣到什麼魚'
       Info2:
-        Name: '&a鱼类图鉴'
+        Name: '&a魚類圖鑑'
         Lore:
-        - '&7你还可以看到谁是第一个抓到'
-        - '&7这条鱼的玩家，总共有多少条'
-        - '&7鱼被抓到了!'
+        - '&7你還可以看到谁是第一個抓到'
+        - '&7這條魚的玩家，總共有多少條'
+        - '&7魚被抓到了!'
       Bronze:
-        Name: '&6铜星鱼'
+        Name: '&6銅星魚'
         Lore:
-        - '&7点击查看所有铜星鱼!'
+        - '&7點擊查看所有銅星魚!'
       Silver:
-        Name: '&6银星鱼'
+        Name: '&6銀星魚'
         Lore:
-        - '&7点击查看所有银星鱼!'
+        - '&7點擊查看所有銀星魚!'
       Gold:
-        Name: '&6金星鱼'
+        Name: '&6金星魚'
         Lore:
-        - '&7点击查看所有金星鱼!'
+        - '&7點擊查看所有金星魚!'
       Diamond:
-        Name: '&6钻星鱼'
+        Name: '&6鑽星魚'
         Lore:
-        - '&7点击查看所有钻星鱼!'
+        - '&7點擊查看所有鑽星魚!'
       Platinum:
-        Name: '&6铂金鱼'
+        Name: '&6鉑金魚'
         Lore:
-        - '&7点击查看所有铂金鱼!'
+        - '&7點擊查看所有鉑金魚!'
       Mythical:
-        Name: '&5神话鱼'
+        Name: '&5神話魚'
         Lore:
-        - '&7点击查看所有神话鱼!'
+        - '&7點擊查看所有神話魚!'
     InfoEmerald:
       Name: '&a信息'
       Lore:
-      - '&7这些都是 &3%tier% 的鱼!'
-      - '&7悬停在每一条鱼上看它的信息!'
+      - '&7這些都是 &3%tier% 的魚!'
+      - '&7悬停在每一條魚上看它的信息!'
     Misc:
       Sun: 白天
       Night: 夜晚
-      TotalCaught: '&7总捕获量: &a'
+      TotalCaught: '&7總捕獲量: &a'
       Day: 白天
-      FoundDuring: '&7发现于: &a'
-      FirstCaught: '&7首先被发现: &a'
-      FoundBetween: '&7发现在 Y 高度之间: &a'
+      FoundDuring: '&7發現於: &a'
+      FirstCaught: '&7首先被發現: &a'
+      FoundBetween: '&7發現在 Y 高度之間: &a'
       Rain: 雨
       PerBait: '  &7» &a%bait%'
       Bait: '&7Requires Bait:'
@@ -828,23 +828,23 @@ GUI:
   Scales:
     Risk:
       Lore:
-      - '&7一个 %risk% 风险等级的称重'
+      - '&7一個 %risk% 風險等級的秤重'
       - '&7'
-      - '&7详细信息:'
-      - '&8➤ &7盈利几率: &3%profit%%'
-      - '&8➤ &7价格改变： &3+-%%moneychange%。'
+      - '&7詳細信息:'
+      - '&8➤ &7盈利機率: &3%profit%%'
+      - '&8➤ &7價格改變： &3+-%%moneychange%。'
     LowRisk:
-      Name: '&7低级风险'
+      Name: '&7低級風險'
     MediumRisk:
-      Name: '&f中级风险'
+      Name: '&f中級風險'
     HighRisk:
-      Name: '&6高级风险'
+      Name: '&6高級風險'
     ExtremeRisk:
-      Name: '&b极高风险'
+      Name: '&b極高風險'
     ScaleFish:
       Lore:
-      - '&7点击称重台上的所有鱼.'
-      Name: '&a点击称重'
+      - '&7點擊秤重台上的所有魚.'
+      Name: '&a點擊秤重'
     Misc:
       Selected: '&a已选'
     Risks:
@@ -854,572 +854,572 @@ GUI:
       Medium: Medium
   Totem:
     Unlock:
-      Unlocked: '&7你打开了图腾.在下一次更新中检查以使用其功能.'
-      NotLevel: '&7这是一个你目前无法打开的高级项目. 等你达到&c50&7级后再来吧.'
-      Required: '&7旧战争的图腾.如果你带上下列物品，你也许可以使用它的力量.'
+      Unlocked: '&7你打開了圖騰.在下一次更新中檢查以使用其功能.'
+      NotLevel: '&7這是一個你目前無法打開的高級項目. 等你達到&c50&7級後再来吧.'
+      Required: '&7舊戰爭的圖騰.如果你带上下列物品，你也许可以使用它的力量.'
       Items:
-      - '&8- &c6x 铂金品质鱼'
+      - '&8- &c6x 鉑金品質魚'
       - '&8- &c64x 蟹鳞'
       - '&8- &c64x 蟹爪'
       - '&8- &c32x 海豚尾巴'
-      - '&8- &c32x 鱿鱼触须'
-      NotLevelNew: '&7&7这是一个你目前无法打开的高级项目.等你达到 &c20&7.'
-      NoItems: '&7您没有足够的项目将其转换为&6钓鱼 图腾&7.'
+      - '&8- &c32x 魷魚觸鬚'
+      NotLevelNew: '&7&7這是一個你目前無法打開的高級項目.等你達到 &c20&7.'
+      NoItems: '&7您没有足夠的項目將其转换為&6釣魚 圖騰&7.'
       NewItems:
       - '&7所需物品:'
-      - '&8- &c6x 铂金品质鱼'
+      - '&8- &c6x 鉑金品質魚'
       - '&8- &c16x 蟹鳞'
       - '&8- &c16x 蟹爪'
       - '&8- &c16x 海豚尾巴'
-      - '&8- &c16x 鱿鱼触须'
+      - '&8- &c16x 魷魚觸鬚'
   Stats:
     Stat:
-      MoneyMade: '&7总赚钱: &a'
-      PlatinumFishCaught: '&7钓上铂金鱼数量: &a'
-      TotalCustomCaught: '&7总自定义抓捕 &a'
-      FishKilled: '&7杀死鱼数量: &a'
-      GoldFishCaught: '&7钓上金星鱼数量: &a'
-      CrabsKilled: '&7杀死螃蟹数量: &a'
-      DeliveriesMade: '&7接受任务: &a'
-      CurrentXP: '&7当前经验: &a'
-      DiamondFishCaught: '&7钓上钻石鱼数量: &a'
-      TotalFishCaught: '&7总钓上鱼数量: &a'
-      MythicalFishCaught: '&7钓上神话鱼数量: &a'
-      Entropy: '&7鱼露数量：: &a'
-      Level: '&7等级： &a'
-      BronzeFishCaught: '&7钓上铜星鱼数量： &a'
-      LongestFish: '&7最长的鱼： &a'
-      AugmentsCrafted: '&7合成配件数量： &a'
-      FishGutted: '&7片鱼数量： &a'
-      SilverFishCaught: '&7钓上银星鱼数量: &a'
-      SkillPoints: '&7技能点: &a'
-      RequiredXP: '&7经验需要: &a'
+      MoneyMade: '&7總賺錢: &a'
+      PlatinumFishCaught: '&7釣上鉑金魚數量: &a'
+      TotalCustomCaught: '&7總自定義抓捕 &a'
+      FishKilled: '&7殺死魚數量: &a'
+      GoldFishCaught: '&7釣上金星魚數量: &a'
+      CrabsKilled: '&7殺死螃蟹數量: &a'
+      DeliveriesMade: '&7接受任務: &a'
+      CurrentXP: '&7當前經驗: &a'
+      DiamondFishCaught: '&7釣上鑽石魚數量: &a'
+      TotalFishCaught: '&7總釣上魚數量: &a'
+      MythicalFishCaught: '&7釣上神話魚數量: &a'
+      Entropy: '&7魚露數量：: &a'
+      Level: '&7等級： &a'
+      BronzeFishCaught: '&7釣上銅星魚數量： &a'
+      LongestFish: '&7最長的魚： &a'
+      AugmentsCrafted: '&7合成配件數量： &a'
+      FishGutted: '&7片魚數量： &a'
+      SilverFishCaught: '&7釣上銀星魚數量: &a'
+      SkillPoints: '&7技能點: &a'
+      RequiredXP: '&7經驗需要: &a'
       TournamentsWon: '&7Tournaments Won: &a'
-    GeneralStats: '&3状态'
-    SkillTree: '&b技能书'
+    GeneralStats: '&3狀態'
+    SkillTree: '&b技能書'
     Stats1:
-    - '&7总捕鱼量: &a%TotalFishCaught%'
-    - '&7自定义捕获总数 &a%TotalCustomCaught%'
+    - '&7總捕魚量: &a%TotalFishCaught%'
+    - '&7自定義捕獲總數 &a%TotalCustomCaught%'
     - ''
-    - '&7青 捕捉: &a%BronzeFishCaught%'
-    - '&7银 捕捉: &a%SilverFishCaught%'
+    - '&7青銅 捕捉: &a%BronzeFishCaught%'
+    - '&7銀 捕捉: &a%SilverFishCaught%'
     - '&7金 捕捉: &a%GoldFishCaught%'
-    - '&7钻石 捕捉: &a%DiamondFishCaught%'
-    - '&7铂 捕捉: &a%PlatinumFishCaught%'
-    - '&7神话 捕捉: &a%MythicalFishCaught%'
+    - '&7鑽石 捕捉: &a%DiamondFishCaught%'
+    - '&7鉑金 捕捉: &a%PlatinumFishCaught%'
+    - '&7神話 捕捉: &a%MythicalFishCaught%'
     - ''
-    - '&7赚钱: &a%MoneyMade%'
-    - '&7螃蟹 被杀次数: &a%CrabsKilled%'
-    - '&7鱼去内脏 &a%FishGutted%'
-    - '&7已交付次数: &a%DeliveriesMade%'
+    - '&7賺錢: &a%MoneyMade%'
+    - '&7螃蟹 被殺次數: &a%CrabsKilled%'
+    - '&7魚去内臟 &a%FishGutted%'
+    - '&7已交付次數: &a%DeliveriesMade%'
     - ''
     - '&7增强制作: &a%AugmentsCrafted%'
-    - '&7鱼死了: &a%FishKilled%'
-    - '&7最长的鱼: &a%LongestFish%'
+    - '&7魚死了: &a%FishKilled%'
+    - '&7最長的魚: &a%LongestFish%'
     - ''
-    - '&7锦标赛获胜: &a%TournamentsWon%'
+    - '&7錦標賽獲勝: &a%TournamentsWon%'
     Stats2:
-    - '&7等级: &a%Level%'
-    - '&7技能点: &a%SkillPoints%'
-    - '&7当前的 XP: &a%CurrentXP%'
+    - '&7等級: &a%Level%'
+    - '&7技能點: &a%SkillPoints%'
+    - '&7當前的 XP: &a%CurrentXP%'
     - '&7必需的 XP: &a%RequiredXP%'
-    - '&7鱼露: &a%Entropy%'
+    - '&7魚露: &a%Entropy%'
   FishBag:
     Deliveries:
-      Name: '&3送货鱼袋'
+      Name: '&3送货魚袋'
       Lore:
-      - '&7单击以切换'
-      - '&7开始交货时使用鱼袋检测所需的鱼'
+      - '&7單擊以切换'
+      - '&7開始交货時使用魚袋檢測所需的魚'
       - ''
-      - '&7状态: %status%'
+      - '&7狀態: %status%'
       Status:
         'true': '&a可用'
         'false': '&c禁用'
     InfoEmerald:
       Lore:
-      - '&7点击出售鱼袋里所有的鱼'
-      Name: '&a点击卖鱼'
+      - '&7點擊出售魚袋裡所有的魚'
+      Name: '&a點擊賣魚'
   Gutting:
     GutForEntropy:
       Lore:
-      - §7单击此按钮
-      - §7可将鱼切成鱼露.
+      - §7單擊此按钮
+      - §7可將魚切成魚露.
       - ''
       - '§7转换比率:'
-      - '§8➤ §7铜星鱼: §3%bronze%'
-      - '§8➤ §7银星鱼: §3%silver%'
-      - '§8➤ §7金星鱼: §3%gold%'
-      - '§8➤ §7铂金鱼: §3%diamond%'
-      - '§8➤ §7神话鱼: §3%platinum%'
-      Name: '&6片鱼机'
+      - '§8➤ §7銅星魚: §3%bronze%'
+      - '§8➤ §7銀星魚: §3%silver%'
+      - '§8➤ §7金星魚: §3%gold%'
+      - '§8➤ §7鉑金魚: §3%diamond%'
+      - '§8➤ §7神話魚: §3%platinum%'
+      Name: '&6片魚機'
   Deliveies:
     Upgrades:
-      MaxLevel: '&7此升级已达到最高级别.'
+      MaxLevel: '&7此升級已達到最高級别.'
   Totems:
     Passives:
       TreasureHunter:
         Lore:
-        - '&7这个被动技能会给您一次机会.'
-        - '&7当随机钓鱼时.'
-        - '&7寻找稀有和随机物品/战利品.'
+        - '&7這個被動技能會給您一次機會.'
+        - '&7當隨機釣魚時.'
+        - '&7尋找稀有和隨機物品/戰利品.'
         - ''
-        - '&7- 需要被动插槽: &3%slots%'
-        - '&7- 要求捕鱼水平: &b%level%'
-        Name: '&6淘金者 &7被动能力'
+        - '&7- 需要被動插槽: &3%slots%'
+        - '&7- 要求捕魚水平: &b%level%'
+        Name: '&6淘金者 &7被動能力'
       EntropyHorder:
-        Name: '&b鱼露阶 &7被动能力'
+        Name: '&b魚露阶 &7被動能力'
         Lore:
-        - '&7这种被动将使您'
-        - '&7从图腾半径内捕鱼'
-        - '&7获得更多的鱼露.'
+        - '&7這種被動將使您'
+        - '&7從圖騰半径内捕魚'
+        - '&7獲得更多的魚露.'
         - ''
-        - '&7- 需要被动插槽: &3%slots%'
-        - '&7- 要求捕鱼水平: &b%level%'
+        - '&7- 需要被動插槽: &3%slots%'
+        - '&7- 要求捕魚水平: &b%level%'
       FishSchool:
-        Name: '&e鱼学校 &7被动能力'
+        Name: '&e魚學校 &7被動能力'
         Lore:
-        - '&7这种被动将使热点'
-        - '&7更频繁地激活.'
+        - '&7這種被動將使熱點'
+        - '&7更頻繁地激活.'
         - ''
-        - '&7- 需要被动插槽: &3%slots%'
-        - '&7- 要求捕鱼水平: &b%level%'
+        - '&7- 需要被動插槽: &3%slots%'
+        - '&7- 要求捕魚水平: &b%level%'
       LittleCritters:
-        Name: '&9小小动物 &7被动能力'
+        Name: '&9小小動物 &7被動能力'
         Lore:
-        - '&7这种被动将使您更有机会'
-        - '&7杀死半径较大的螃蟹,'
-        - '&7从而获得与螃蟹有关的战利品.'
+        - '&7這種被動將使您更有機會'
+        - '&7殺死體型較大的螃蟹,'
+        - '&7從而獲得與螃蟹有關的戰利品.'
         - ''
-        - '&7- 需要被动插槽: &3%slots%'
-        - '&7- 要求捕鱼水平: &b%level%'
+        - '&7- 需要被動插槽: &3%slots%'
+        - '&7- 要求捕魚水平: &b%level%'
       Misc:
-        Disabled: '&7您已禁用被动: &b%passive% &7.'
-        PurchasedSlot: '&7您购买了另一个 &e被动插槽 &7现在有 &b%slots% &7插槽&7.'
-        NoItemsForSlot: '&7您没有足够的&5神话之鱼&7来购买另一个 &epassive 插槽&7'
-        MaxSlots: '&7您已经购买了最大数量的被动插槽.'
-        NotLevel: '&7您的级别不够高，无法激活此功能.'
-        AlreadyActive: '&7这个被动已经启用.'
-        NoSlots: '&7您没有足够的可用被动插槽.'
-        Activated: '&7您已启用被动: &b%passive% &7.'
+        Disabled: '&7您已禁用被動: &b%passive% &7.'
+        PurchasedSlot: '&7您購買了另一個 &e被動插槽 &7現在有 &b%slots% &7插槽&7.'
+        NoItemsForSlot: '&7您没有足夠的&5神話之魚&7来購買另一個 &epassive 插槽&7'
+        MaxSlots: '&7您已經購買了最大數量的被動插槽.'
+        NotLevel: '&7您的級别不夠高，無法激活此功能.'
+        AlreadyActive: '&7這個被動已經啟用.'
+        NoSlots: '&7您没有足夠的可用被動插槽.'
+        Activated: '&7您已啟用被動: &b%passive% &7.'
         Active:
         - ''
         - '&a&l活性'
-        NoItemsForNewSlot: '&7你没有足够的 &5神话鱼 &7或 &c铂金鱼 &7购买另一个 &e被动槽位&7'
+        NoItemsForNewSlot: '&7你没有足夠的 &5神話魚 &7或 &c鉑金魚 &7購買另一個 &e被動槽位&7'
       ExperiencedFisherman:
-        Name: '&a经验丰富的渔夫 &7被动能力'
+        Name: '&a經驗豐富的漁夫 &7被動能力'
         Lore:
-        - '&7这个被动会增加'
-        - '&7大量＆a钓鱼经验'
-        - '&7你在图腾钓鱼时得到.'
+        - '&7這個被動會增加'
+        - '&7大量＆a釣魚經驗'
+        - '&7你在圖騰釣魚時得到.'
         - ''
-        - '&7- 需要被动插槽: &3%slots%'
-        - '&7- 要求捕鱼水平: &b%level%'
+        - '&7- 需要被動插槽: &3%slots%'
+        - '&7- 要求捕魚水平: &b%level%'
       StarFall:
-        Name: '&dStar Fall &7被动能力'
+        Name: '&dStar Fall &7被動能力'
         Lore:
-        - '&7这个被动技能会让您有机会抓住一条鱼,'
-        - '&7随机召唤一条召唤一条强鱼的雷电'
-        - '&7杀死它可以得到战利品和大量的鱼露.'
+        - '&7這個被動技能會讓您有機會抓住一條魚,'
+        - '&7隨機召唤一條强大的魚'
+        - '&7殺死它可以得到戰利品和大量的魚露.'
         - ''
-        - '&7- 需要被动插槽: &3%slots%'
-        - '&7- 要求捕鱼水平: &b%level%'
+        - '&7- 需要被動插槽: &3%slots%'
+        - '&7- 要求捕魚水平: &b%level%'
       MythicalWaters:
         Lore:
-        - '&7这种被动将使您有机会'
-        - '&7在捕获鱼时随机将其升级为更高级别的鱼.'
+        - '&7這種被動將使您有機會'
+        - '&7在捕獲魚時隨機將其升級為更高級别的魚.'
         - ''
-        - '&7- 需要被动插槽: &3%slots%'
-        - '&7- 要求捕鱼水平: &b%level%'
-        Name: '&5Mythical Waters &7被动能力'
+        - '&7- 需要被動插槽: &3%slots%'
+        - '&7- 要求捕魚水平: &b%level%'
+        Name: '&5Mythical Waters &7被動能力'
       RandomDrops:
         Lore:
-        - '&7被动会给你机会'
-        - '&7杀死螃蟹时会随机获得鱿鱼'
-        - '&7海豚或其他钓鱼物品.'
+        - '&7被動會給你機會'
+        - '&7殺死螃蟹時會隨機獲得魷魚'
+        - '&7海豚或其他釣魚物品.'
         - ''
-        - '&7- 需要被动插槽: &3%slots%'
-        - '&7- 要求捕鱼水平: &b%level%'
-        Name: '&2随机掉落 &7被动能力'
+        - '&7- 需要被動插槽: &3%slots%'
+        - '&7- 要求捕魚水平: &b%level%'
+        Name: '&2隨機掉落 &7被動能力'
       ConfigDisabled: '&7That totem passive has been disabled by your administators.'
     Activate:
       Lore:
-      - '&7点击激活您的 &a图腾&7.'
+      - '&7點擊激活您的 &a圖騰&7.'
       - ''
-      - '&7活动时间: &a%active_time%'
-      - '&7技能冷却时间: &c%cooldown_time%'
+      - '&7活動時間: &a%active_time%'
+      - '&7技能冷卻時間: &c%cooldown_time%'
       - '&7半径: &6%radius% blocks'
-      Name: '&a点击激活'
+      Name: '&a點擊激活'
     Upgrades:
       COOLDOWN_REDUCTION:
-        Name: '&e减少冷却时间 &7升级'
+        Name: '&e减少冷卻時間 &7升級'
         Lore:
-        - '&7此升级减少了冷却时间'
-        - '&7图腾使用之间的时间.'
+        - '&7此升級减少了冷卻時間'
+        - '&7圖騰使用之間的時間.'
         - ''
-        - '&7升级统计:'
-        - '&8➛ &7当前水平: &b%level%'
-        - '&8➛ &7当前持续时间: &3%time%'
-        - '&8➛ &7升级费用: &9%upgrade_cost% 魚露'
-        - '&8➛ &7下一级持续时间: &9%upgrade_time%'
-        - '&8➛ &7最高等级: &9%max_level%'
+        - '&7升級統計:'
+        - '&8➛ &7當前水平: &b%level%'
+        - '&8➛ &7當前持续時間: &3%time%'
+        - '&8➛ &7升級費用: &9%upgrade_cost% 魚露'
+        - '&8➛ &7下一級持续時間: &9%upgrade_time%'
+        - '&8➛ &7最高等級: &9%max_level%'
       ACTIVE_TIME:
         Lore:
-        - '&7此升级增加了活动'
-        - '&7图腾的时间和持续时间.'
+        - '&7此升級增加了活動'
+        - '&7圖騰的時間和持续時間.'
         - ''
-        - '&7升级统计:'
-        - '&8➛ &7当前水平: &b%level%'
-        - '&8➛ &7当前持续时间: &3%time%'
-        - '&8➛ &7升级费用: &9%upgrade_cost% 魚露'
-        - '&8➛ &7下一级持续时间: &9%upgrade_time%'
-        - '&8➛ &7最高等级: &9%max_level%'
-        Name: '&a活动时间 &7升级'
+        - '&7升級統計:'
+        - '&8➛ &7當前水平: &b%level%'
+        - '&8➛ &7當前持续時間: &3%time%'
+        - '&8➛ &7升級費用: &9%upgrade_cost% 魚露'
+        - '&8➛ &7下一級持续時間: &9%upgrade_time%'
+        - '&8➛ &7最高等級: &9%max_level%'
+        Name: '&a活動時間 &7升級'
       RANGE:
         Lore:
-        - '&7此升级增加了范围'
-        - '&7图腾的效果和能力.'
+        - '&7此升級增加了範圍'
+        - '&7圖騰的效果和能力.'
         - ''
-        - '&7升级统计'
-        - '&8➛ &7当前水平: &b%level%'
-        - '&8➛ &7当前持续时间: &3%range%'
-        - '&8➛ &7升级费用: &9%upgrade_cost% 魚露'
-        - '&8➛ &7下一级持续时间: &9%upgrade_range%'
-        - '&8➛ &7最高等级: &9%max_level%'
-        Name: '&a活动时间 &7升级'
+        - '&7升級統計'
+        - '&8➛ &7當前水平: &b%level%'
+        - '&8➛ &7當前持续時間: &3%range%'
+        - '&8➛ &7升級費用: &9%upgrade_cost% 魚露'
+        - '&8➛ &7下一級持续時間: &9%upgrade_range%'
+        - '&8➛ &7最高等級: &9%max_level%'
+        Name: '&a活動時間 &7升級'
     Information:
       Name: '&a信息'
       Lore:
-      - '&3图腾被动 &7在以下情况下活动'
-      - '&7您的 &e图腾 &7也处于活动.'
+      - '&3圖騰被動 &7在以下情况下活動'
+      - '&7您的 &e圖騰 &7也处於活動.'
       - ''
-      - '&7被动效果 &f&nnot'
-      - '&7工作的时候 &e图腾&7 在 &c冷却&7.'
+      - '&7被動效果 &f&nnot'
+      - '&7工作的時候 &e圖騰&7 在 &c冷卻&7.'
       - ''
-      - '&7破坏 &e图腾 &7将保存数据'
-      - '&7并为您提供特殊物品'
-      - '&7因此您可以移动它并将其放下'
-      - '&7而无需花费成本.'
+      - '&7破壞 &e圖騰 &7將保存數據'
+      - '&7並為您提供特殊物品'
+      - '&7因此您可以移動它並將其放下'
+      - '&7而無需花費成本.'
     InUse:
-      Name: '&c图腾活跃 &7| &c%time%'
+      Name: '&c圖騰活躍 &7| &c%time%'
       Lore:
-      - '&7您的 &c图腾 &7将在'
-      - '&7另一个 &c%time%&7.'
+      - '&7您的 &c圖騰 &7將在'
+      - '&7另一個 &c%time%&7.'
     PassiveSlots:
-      Name: '&3被动插槽 - &7增加插槽'
+      Name: '&3被動插槽 - &7增加插槽'
       Lore:
-      - '&7升级它会增加'
-      - '&7可以使用的被动插槽数'
-      - '&7分配给你 &3被动&7.'
+      - '&7升級它會增加'
+      - '&7可以使用的被動插槽數'
+      - '&7分配給你 &3被動&7.'
       - ''
-      - '&7升级费用:'
-      - '&7- &d%mythicalAmount%x 神话鱼 &n（任何）'
-      - '&7- &d%platinumAmount%x 铂金鱼 &n（任何）'
+      - '&7升級費用:'
+      - '&7- &d%mythicalAmount%x 神話魚 &n（任何）'
+      - '&7- &d%platinumAmount%x 鉑金魚 &n（任何）'
       - ''
-      - '&7当前最大被动插槽: &3%slots% &7插槽.'
-      - '&7主动被动插槽: (&b%active_slots%&7/&3%slots%&7) &7插槽.'
+      - '&7當前最大被動插槽: &3%slots% &7插槽.'
+      - '&7主動被動插槽: (&b%active_slots%&7/&3%slots%&7) &7插槽.'
       - ''
-      - '&3点击升级.'
+      - '&3點擊升級.'
       NewLore:
-      - '&7升级它会增加'
-      - '&7可以使用的被动插槽数'
-      - '&7分配给你 &3被动&7.'
+      - '&7升級它會增加'
+      - '&7可以使用的被動插槽數'
+      - '&7分配給你 &3被動&7.'
       - ''
-      - '&7升级费用:'
-      - '&7- &d%amount%x 神话鱼 &n（任何）'
-      - '&7- &d%platinumAmount%x 铂金鱼 &n（任何）'
+      - '&7升級費用:'
+      - '&7- &d%amount%x 神話魚 &n（任何）'
+      - '&7- &d%platinumAmount%x 鉑金魚 &n（任何）'
       - ''
-      - '&7当前最大被动插槽: &3%slots% &7插槽.'
-      - '&7主动被动插槽: (&b%active_slots%&7/&3%slots%&7) &7插槽.'
+      - '&7當前最大被動插槽: &3%slots% &7插槽.'
+      - '&7主動被動插槽: (&b%active_slots%&7/&3%slots%&7) &7插槽.'
       - ''
-      - '&3点击升级.'
+      - '&3點擊升級.'
     Cooldown:
-      Name: '&e图腾冷却 &7| &e%time%'
+      Name: '&e圖騰冷卻 &7| &e%time%'
       Lore:
-      - '&7您的 &e图腾 &7正在冷却'
-      - '&7另一个 &e%time%&7.'
+      - '&7您的 &e圖騰 &7正在冷卻'
+      - '&7另一個 &e%time%&7.'
     TotemPassives:
       LittleCritters:
         Lore:
-        - '&7这种被动会给你更高'
-        - '&7有机会获得与螃蟹有关的战利品'
-        - '&7杀死半径范围内的螃蟹.'
+        - '&7這種被動會給你更高'
+        - '&7有機會獲得與螃蟹有關的戰利品'
+        - '&7殺死半径範圍内的螃蟹.'
         - ''
-        - '&8➛  &7需要被动插槽: &3%slots%'
-        - '&8➛  &7要求捕鱼水平: &b%level%'
-        - '&8➛  &7当前效果: &b%buff%'
-        Name: '&9小小动物 &7被动能力'
+        - '&8➛  &7需要被動插槽: &3%slots%'
+        - '&8➛  &7要求捕魚水平: &b%level%'
+        - '&8➛  &7當前效果: &b%buff%'
+        Name: '&9小小動物 &7被動能力'
       TreasureHunter:
         Lore:
-        - '&7被动会给你机会'
-        - '&7随机抓鱼时'
-        - '&7寻找稀有和随机物品/战利品.'
+        - '&7被動會給你機會'
+        - '&7隨機抓魚時'
+        - '&7尋找稀有和隨機物品/戰利品.'
         - ''
-        - '&8➛  &7需要被动插槽: &3%slots%'
-        - '&8➛  &7要求捕鱼水平: &b%level%'
-        - '&8➛  &7当前效果: &b%buff%'
-        Name: '&6淘金者 &7被动能力'
+        - '&8➛  &7需要被動插槽: &3%slots%'
+        - '&8➛  &7要求捕魚水平: &b%level%'
+        - '&8➛  &7當前效果: &b%buff%'
+        Name: '&6淘金者 &7被動能力'
       ExperiencedFisherman:
         Lore:
-        - '&7被动会给你机会'
-        - '&7获得钓鱼的&a经验'
-        - '&7你会在图腾钓鱼时得到.'
+        - '&7被動會給你機會'
+        - '&7獲得釣魚的&a經驗'
+        - '&7你會在圖騰釣魚時得到.'
         - ''
-        - '&8➛  &7需要被动插槽: &3%slots%'
-        - '&8➛  &7要求捕鱼水平: &b%level%'
-        - '&8➛  &7当前效果: &b%buff%'
-        Name: '&a经验丰富的渔夫 &7被动能力'
+        - '&8➛  &7需要被動插槽: &3%slots%'
+        - '&8➛  &7要求捕魚水平: &b%level%'
+        - '&8➛  &7當前效果: &b%buff%'
+        Name: '&a經驗豐富的漁夫 &7被動能力'
       StarFall:
-        Name: '&d星落 &7被动能力'
+        Name: '&d星落 &7被動能力'
         Lore:
-        - '&7被动会给你机会'
-        - '&7随机抓鱼时'
-        - '&7召唤一个召唤的闪电'
-        - '&7一条强壮的鱼。 杀死它得到回报'
-        - '&7有很多战利品和鱼露.'
+        - '&7被動會給你機會'
+        - '&7隨機抓魚時'
+        - '&7召唤一個召唤的闪电'
+        - '&7一條强壮的魚。 殺死它得到回报'
+        - '&7有很多戰利品和魚露.'
         - ''
-        - '&8➛  &7需要被动插槽: &3%slots%'
-        - '&8➛  &7要求捕鱼水平: &b%level%'
-        - '&8➛  &7当前效果: &b%buff%'
+        - '&8➛  &7需要被動插槽: &3%slots%'
+        - '&8➛  &7要求捕魚水平: &b%level%'
+        - '&8➛  &7當前效果: &b%buff%'
       MythicalWaters:
-        Name: '&5神话般的水域 &7被动能力'
+        Name: '&5神話般的水域 &7被動能力'
         Lore:
-        - '&7被动会给你机会'
-        - '&7随机抓鱼时'
-        - '&7升级到更高等级的鱼.'
+        - '&7被動會給你機會'
+        - '&7隨機抓魚時'
+        - '&7升級到更高等級的魚.'
         - ''
-        - '&8➛  &7需要被动插槽: &3%slots%'
-        - '&8➛  &7要求捕鱼水平: &b%level%'
-        - '&8➛  &7当前效果: &b%buff%'
+        - '&8➛  &7需要被動插槽: &3%slots%'
+        - '&8➛  &7要求捕魚水平: &b%level%'
+        - '&8➛  &7當前效果: &b%buff%'
       EntropyHorder:
         Lore:
-        - '&7被动会给你更多'
-        - '&7从里面抓鱼的鱼露'
-        - '&7图腾半径.'
+        - '&7被動會給你更多'
+        - '&7從裡面抓魚的魚露'
+        - '&7圖騰半径.'
         - ''
-        - '&8➛  &7需要被动插槽: &3%slots%'
-        - '&8➛  &7要求捕鱼水平: &b%level%'
-        - '&8➛  &7当前效果: &b%buff%'
-        Name: '&b鱼露阶 &7被动能力'
+        - '&8➛  &7需要被動插槽: &3%slots%'
+        - '&8➛  &7要求捕魚水平: &b%level%'
+        - '&8➛  &7當前效果: &b%buff%'
+        Name: '&b魚露阶 &7被動能力'
       FishSchool:
-        Name: '&e鱼学校 &7被动能力'
+        Name: '&e魚学校 &7被動能力'
         Lore:
         - '&7This passive will make Hot Spot'
         - '&7activate more frequently.'
         - ''
-        - '&8➛  &7需要被动插槽: &3%slots%'
-        - '&8➛  &7要求捕鱼水平: &b%level%'
-        - '&8➛  &7当前效果: &b%buff%'
+        - '&8➛  &7需要被動插槽: &3%slots%'
+        - '&8➛  &7要求捕魚水平: &b%level%'
+        - '&8➛  &7當前效果: &b%buff%'
       RandomDrops:
-        Name: '&2随机掉落 &7被动能力'
+        Name: '&2隨機掉落 &7被動能力'
         Lore:
-        - '&7被动会给你机会'
-        - '&7随机杀死螃蟹时'
-        - '&7鱿鱼，海豚或其他钓鱼物品.'
+        - '&7被動會給你機會'
+        - '&7隨機殺死螃蟹時'
+        - '&7魷魚，海豚或其他釣魚物品.'
         - ''
-        - '&8➛  &7需要被动插槽: &3%slots%'
-        - '&8➛  &7要求捕鱼水平: &b%level%'
-        - '&8➛  &7当前效果: &b%buff%'
+        - '&8➛  &7需要被動插槽: &3%slots%'
+        - '&8➛  &7要求捕魚水平: &b%level%'
+        - '&8➛  &7當前效果: &b%buff%'
     Misc:
-      BonusChance: 运气加成
-      Times: 机会
-      Chance: 机会
+      BonusChance: 運气加成
+      Times: 機會
+      Chance: 機會
   TotemsStructure:
     Info:
       Lore:
-      - '&7建立右侧所示的结构.'
-      - '&7区块必须是 &f&n精确&r&7.'
+      - '&7建立右側所示的結構.'
+      - '&7区塊必须是 &f&n精确&r&7.'
       - ''
-      - '&7建成后，右键单击 &f&n第一'
-      - '&7观察者 &f&n钓竿&7.'
+      - '&7建成後，右鍵單擊 &f&n第一'
+      - '&7观察者 &f&n釣竿&7.'
       - ''
-      - '&7然后，您将需要收集'
-      - '&7激活 &e图腾&7. 一旦'
-      - '&7完成后，您将拥有自己的 &e图腾&7.'
+      - '&7然後，您將需要收集'
+      - '&7激活 &e圖騰&7. 一旦'
+      - '&7完成後，您將擁有自己的 &e圖騰&7.'
       - ''
       - '&7&o每位玩家只允许一位.'
-      Name: '&a&资讯'
+      Name: '&a&資訊'
   Skills:
     Disabled:
       Name: '&4技能禁用'
       Lore:
-      - '&7该技能已被禁用并且'
+      - '&7該技能已被禁用並且'
       - '&7不能使用.'
     Messages:
-      UpgradedSkill: '&7您已将技能 &b%name% &7 升级到等级：&3%level%&7.'
+      UpgradedSkill: '&7您已將技能 &b%name% &7 升級到等級：&3%level%&7.'
       Skill:
-        BETTER_GUTTING: '&7您去除了 &3%fish% &7fish 的鱼露并获得了 &3%entropy% &7entropy。 (&b+%bonus%
+        BETTER_GUTTING: '&7您去除了 &3%fish% &7fish 的魚露並獲得了 &3%entropy% &7entropy。 (&b+%bonus%
           &7bonus entropy from skills).'
-        AUGMENT_INFUSION: '&7你的 &bAugment Infusion &7skill 退还了一些 制作材料。'
-      PurchasedSkill: '&7您已购买技能 &b%name%&7.'
-      NoPoints: '&7您没有足够的积分来升级/解锁此技能.'
-      NonUpgradableAlreadyOwned: '&7该技能只能购买一次并升级 通过你的 &cFishing Level&7.'
+        AUGMENT_INFUSION: '&7你的 &bAugment Infusion &7skill 退還了一些 制作材料。'
+      PurchasedSkill: '&7您已購買技能 &b%name%&7.'
+      NoPoints: '&7您没有足夠的積分来升級/解鎖此技能.'
+      NonUpgradableAlreadyOwned: '&7該技能只能購買一次並升級 通過你的 &cFishing Level&7.'
     Skill:
       BETTER_GUTTING:
         Name: '&b更好的品質 &7| Level: &9%level%'
         Lore:
-        - '&7这个技能给你更多'
-        - '&b鱼露 &7从鱼的内脏取出.'
+        - '&7這個技能給你更多'
+        - '&b魚露 &7從魚的内臟取出.'
         - ''
-        - '&7统计数据:'
-        - '&8➵ &7积分: &9%points%'
-        - '&8➵ &7影响: &3%current%% 鱼露数量'
-        - '&8➵ &7下一等级: &b+%next%% 鱼露数量'
+        - '&7統計數據:'
+        - '&8➵ &7積分: &9%points%'
+        - '&8➵ &7影響: &3%current%% 魚露數量'
+        - '&8➵ &7下一等級: &b+%next%% 魚露數量'
         - ''
-        - '&7该技能不与 &c精密切割 叠加&7'
-        - '&7并且是独立计算的.'
+        - '&7該技能不與 &c精密切割 疊加&7'
+        - '&7並且是獨立計算的.'
         - ''
-        - '&b点击升级该技能.'
+        - '&b點擊升級該技能.'
       AUGMENT_INFUSION:
         Lore:
-        - '&7这个技能有几率返还一些'
-        - '&7用于增强工艺的物品.'
+        - '&7這個技能有機率返還一些'
+        - '&7用於增强工艺的物品.'
         - ''
-        - '&7统计数据:'
-        - '&8➵ &7影响: &3%current%% 返还机会'
+        - '&7統計數據:'
+        - '&8➵ &7影響: &3%current%% 返還機會'
         - ''
-        - '&7这个技能增益 &b%bonus%% &7每 &9%levelsneeded%&7 钓鱼水平.'
+        - '&7這個技能增益 &b%bonus%% &7每 &9%levelsneeded%&7 釣魚水平.'
         - ''
-        - '&7百分比计算&3单独&7for'
-        - '&7食谱中使用的每一项。例如5% 退款'
-        - '&7每使用一件物品会有 &b5% 的几率&7.'
-        - '&7如果退还商品，则退还 50% 的材料'
-        - '&7无论机会如何，使用过的都会退还.'
+        - '&7百分比計算&3單独&7for'
+        - '&7食谱中使用的每一項。例如5% 退款'
+        - '&7每使用一件物品會有 &b5% 的機率&7.'
+        - '&7如果退還商品，则退還 50% 的材料'
+        - '&7無论機會如何，使用過的都會退還.'
         - ''
         - '%cost%'
         Name: '&b增强灌注 &7| %unlocked%'
       TRIBAL_SHOUT:
         Name: '&b部落呐喊 &7| %unlocked%'
         Lore:
-        - '&7该技能可以让附近的玩家进入'
-        - '&7你的 &6钓鱼图腾 &7的百分比'
-        - '&7总效应。 （见下面的注释）'
+        - '&7該技能可以讓附近的玩家進入'
+        - '&7你的 &6釣魚圖騰 &7的百分比'
+        - '&7總效应。 （見下面的注释）'
         - ''
         - '&7Stats:'
-        - '&8➵ &7影响: &3%current%% 效益'
+        - '&8➵ &7影響: &3%current%% 效益'
         - ''
-        - '&7该技能获得 &b%bonus%% &7每 &9%levelsneeded%&7 钓鱼等級.'
+        - '&7該技能獲得 &b%bonus%% &7每 &9%levelsneeded%&7 釣魚等級.'
         - ''
-        - '&7该技能和图腾效果不能叠加或重叠.'
-        - '&7你自己的图腾将取代别人的图腾领袖. (if'
-        - '&7你在你自己和其他玩家里面.'
-        - '&7所有者不会&fnot &7失去原来的增益.'
+        - '&7該技能和圖騰效果不能疊加或重疊.'
+        - '&7你自己的圖騰將取代别人的圖騰領袖. (if'
+        - '&7你在你自己和其他玩家裡面.'
+        - '&7所有者不會&fnot &7失去原来的增益.'
         - ''
         - '%cost%'
       COMBO_CATCHER:
         Lore:
-        - '&7该技能增加了一个组合，增加了'
-        - '&7你有机会钓到稀有的鱼。更高的'
-        - '&7技能等級，组合可以获得更高.'
+        - '&7該技能增加了一個組合，增加了'
+        - '&7你有機會釣到稀有的魚。更高的'
+        - '&7技能等級，組合可以獲得更高.'
         - ''
-        - '&7统计数据:'
-        - '&8➵ &7最大组合: &3%current% 捕获量'
-        - '&8➵ &7当前组合: &b%combo% 捕获量'
+        - '&7統計數據:'
+        - '&8➵ &7最大組合: &3%current% 捕獲量'
+        - '&8➵ &7當前組合: &b%combo% 捕獲量'
         - ''
-        - '&7这个技能增益 &b%bonus% &7每 &9%levelsneeded%&7 钓鱼等級.'
+        - '&7這個技能增益 &b%bonus% &7每 &9%levelsneeded%&7 釣魚等級.'
         - ''
-        - '&7最大连击数随等级变化.'
-        - '&7每个 &d20 catchs&7 大致等于'
-        - '&d10 &7 级别的 &d 渔夫大师&7.'
-        - '&7未抓到鱼 &a30 秒 &7 重置'
-        - '&7你的组合。 &bCurrent Combo&7 将'
-        - '&7更新以便您可以跟踪当前的组合.'
+        - '&7最大連擊數随等級變化.'
+        - '&7每個 &d20 catchs&7 大致等於'
+        - '&d10 &7 級别的 &d 漁夫大師&7.'
+        - '&7未抓到魚 &a30 秒 &7 重置'
+        - '&7你的組合。 &bCurrent Combo&7 將'
+        - '&7更新以便您可以跟蹤當前的組合.'
         - ''
         - '%cost%'
-        Name: '&b幸运钓鱼 &7| %unlocked%'
+        Name: '&b幸運釣魚 &7| %unlocked%'
       TOTEM_LEADER:
         Lore:
-        - '&7该技能会减少你的 &bTotem'
-        - '&7钓鱼时的冷却时间.'
+        - '&7該技能會减少你的 &bTotem'
+        - '&7釣魚時的冷卻時間.'
         - ''
-        - '&7统计数据:'
-        - '&8➵ &7积分: &9%points%'
-        - '&8➵ &7影响: &3%current% 减少秒数'
-        - '&8➵ &7下一等級: &b+%next% 减少秒数'
+        - '&7統計數據:'
+        - '&8➵ &7積分: &9%points%'
+        - '&8➵ &7影響: &3%current% 减少秒數'
+        - '&8➵ &7下一等級: &b+%next% 减少秒數'
         - ''
-        - '&7该技能不与增强叠加'
-        - '&7给你额外的鱼。例如&6热点&7.'
+        - '&7該技能不與增强疊加'
+        - '&7給你額外的魚。例如&6熱點&7.'
         - ''
-        - '&b点击升级该技能.'
-        Name: '&b图腾领袖 &7| Level: &9%level%'
+        - '&b點擊升級該技能.'
+        Name: '&b圖騰領袖 &7| Level: &9%level%'
       MASTER_AUGMENTER:
-        Name: '&b大师增加 &7| Level: &9%level%'
+        Name: '&b大師增加 &7| Level: &9%level%'
         Lore:
-        - '&7这个技能降低成本'
-        - '&7制作 &b钓鱼辅助&7.'
+        - '&7這個技能降低成本'
+        - '&7制作 &b釣魚辅助&7.'
         - ''
-        - '&7统计数据:'
-        - '&8➵ &7积分: &9%points%'
-        - '&8➵ &7影响: &3%current%% 降低成本'
-        - '&8➵ &7下一个等级: &b+%next%% 降低成本'
+        - '&7統計數據:'
+        - '&8➵ &7積分: &9%points%'
+        - '&8➵ &7影響: &3%current%% 降低成本'
+        - '&8➵ &7下一個等級: &b+%next%% 降低成本'
         - ''
-        - '&b点击升级该技能.'
+        - '&b點擊升級該技能.'
       DIVINE_JUDGEMENT:
         Lore:
-        - '&7该技能有几率召唤'
-        - '&7引发海啸的神圣打击&7.'
-        - '&7在海啸中钓鱼会使所有鱼翻倍'
+        - '&7該技能有機率召唤'
+        - '&7引发海嘯的神圣打擊&7.'
+        - '&7在海嘯中釣魚會使所有魚翻倍'
         - '&7夹在它的半径内.'
         - ''
-        - '&7统计数据:'
-        - '&8➵ &7影响: &3%current%% 触发机率'
+        - '&7統計數據:'
+        - '&8➵ &7影響: &3%current%% 觸發機率'
         - ''
-        - '&7这个技能增益 &b%bonus%% &7每 &9%levelsneeded%&7 钓鱼等級.'
+        - '&7這個技能增益 &b%bonus%% &7每 &9%levelsneeded%&7 釣魚等級.'
         - ''
-        - '&7来自同一用户的多个海啸不能共存。'
-        - '&7其他玩家可以从你的海啸中受益。'
-        - '&6热点&7 和类似效果不与此叠加。'
+        - '&7来自同一用户的多個海嘯不能共存。'
+        - '&7其他玩家可以從你的海嘯中受益。'
+        - '&6熱點&7 和類似效果不與此疊加。'
         - ''
         - '%cost%'
         Name: '&b海神的祝福 &7| %unlocked%'
       LUCK_OF_THE_CATCH:
         Name: '&b豐收祭 &7| Level: &9%level%'
         Lore:
-        - '&7这个技能给你更多'
-        - '&b鱼露&7来自捕鱼.'
+        - '&7這個技能給你更多'
+        - '&b魚露&7来自捕魚.'
         - ''
-        - '&7统计数据:'
-        - '&8➵ &7积分: &9%points%'
-        - '&8➵ &7影响: &3%current%% 鱼露'
-        - '&8➵ &7下一个积分奖励: &b+%next%% 鱼露'
+        - '&7統計數據:'
+        - '&8➵ &7積分: &9%points%'
+        - '&8➵ &7影響: &3%current%% 魚露'
+        - '&8➵ &7下一個積分獎勵: &b+%next%% 魚露'
         - ''
-        - '&7此奖金独立于其他计算'
-        - '&7从捕鱼中获得额外鱼露的来源.'
+        - '&7此獎金獨立於其他計算'
+        - '&7從捕魚中獲得額外魚露的来源.'
         - ''
-        - '&b点击升级该技能。'
+        - '&b點擊升級該技能。'
     Misc:
-      Locked: '&4锁定'
-      Cost: '&7解锁成本：&c%points% 技能点 7.'
-      Unlocked: '&a解锁'
+      Locked: '&4鎖定'
+      Cost: '&7解鎖成本：&c%points% 技能點 7.'
+      Unlocked: '&a解鎖'
     Respec:
       Lore:
-      - '&7单击以重新指定您的积分允许'
-      - '&7你重新分配你的积分'
-      - '&7随你怎么便.'
+      - '&7單擊以重新指定您的積分允许'
+      - '&7你重新分配你的積分'
+      - '&7随你怎麼便.'
       - ''
-      - '&7成本: &b50,000 鱼露'
-      Name: '&a&l技能规格'
+      - '&7成本: &b50,000 魚露'
+      Name: '&a&l技能規格'
     Info:
       Name: '&a&l技能信息'
       Lore:
-      - '&7技能分为&b可升级的'
-      - '&7和 &b一次性购买 &7技能.'
+      - '&7技能分為&b可升級的'
+      - '&7和 &b一次性購買 &7技能.'
       - ''
-      - '&B可升级技能 &7成本 &9技能点&7'
-      - '&7升级，他们获得递减的回报'
-      - '&7你投入的点数越多.'
+      - '&B可升級技能 &7成本 &9技能點&7'
+      - '&7升級，他们獲得遞減的回报'
+      - '&7你投入的點數越多.'
       - ''
-      - '&b一次性购买 &7skills 花费固定金额'
-      - '&7技能点数，但永久解锁.'
-      - '&7这些技能会根据您的总技能水平提升'
-      - '&9钓鱼级别&7.'
+      - '&b一次性購買 &7skills 花費固定金額'
+      - '&7技能點數，但永久解鎖.'
+      - '&7這些技能會根據您的總技能水平提升'
+      - '&9釣魚級别&7.'
       - ''
-      - '&7技能点: &a%points%'
-      - '&7钓鱼级别: &a%level%'
-WithdrawnEntropy: '&7您撤回 &b10,000 &7鱼露并获得了鱼露水晶&7.'
-RemovedAugments: '&7您已经从鱼竿上移除了所有增强物!'
-RedeemEntropy: '&7您已兑换 &d10,000 &7鱼露.'
-WithdrawingDisabled: '&7提款 &b鱼露 &7已被您的管理员禁止.'
-ReturnToMainMenu: '&7单击以返回主菜单.'
+      - '&7技能點: &a%points%'
+      - '&7釣魚級别: &a%level%'
+WithdrawnEntropy: '&7您撤回 &b10,000 &7魚露並獲得了魚露水晶&7.'
+RemovedAugments: '&7您已經從魚竿上移除了所有增强物!'
+RedeemEntropy: '&7您已兌換 &d10,000 &7魚露.'
+WithdrawingDisabled: '&7提款 &b魚露 &7已被您的管理員禁止.'
+ReturnToMainMenu: '&7單擊以返回主菜單.'
 Biomes:
   TAIGA_HILLS: 大河山
   SNOWY_MOUNTAINS: 雪山
@@ -1489,7 +1489,7 @@ Biomes:
   BIRCH_FOREST: 桦木森林
   ICE_SPIKES: 冰刺
   END_MIDLANDS: 末地中型岛屿
-  MODIFIED_JUNGLE: 丛林变种
+  MODIFIED_JUNGLE: 丛林變種
   SMALL_END_ISLANDS: 末地小型岛屿
   OCEAN: 海洋
   FLOWER_FOREST: 繁花森林
@@ -1526,11 +1526,11 @@ Biomes:
   MANGROVE_SWAMP: 紅樹林沼澤
 Boosters:
   End: '&7您的 %name% &7用完了!'
-  InUse: '&7您已经有一个 %name% &7另一个的助推器 &3%seconds% &7秒.'
-  Use: '&7您已经使用了 %name%&7 它会持续下去 &330 &7分钟.'
+  InUse: '&7您已經有一個 %name% &7另一個的助推器 &3%seconds% &7秒.'
+  Use: '&7您已經使用了 %name%&7 它會持续下去 &330 &7分鐘.'
   Commands:
-    None: '&7您没有任何活跃的诱饵/助推器.'
-    Entropy: '&8➤ &b鱼露助推器 &3(%boost%x) &7与 &3%seconds% &7还剩几秒钟.'
+    None: '&7您没有任何活躍的誘餌/助推器.'
+    Entropy: '&8➤ &b魚露助推器 &3(%boost%x) &7與 &3%seconds% &7還剩機秒鐘.'
     List:
     - ''
     - '&8]&m--------------+&r&8[&r &6&l助推器 &8]&m+--------------&r&8['
@@ -1539,46 +1539,46 @@ Boosters:
     - ''
     - '&8]&m------------------------------------------&r&8['
     - ''
-    Mythical: '&8➤ &5神话般的诱惑 &7与 &3%seconds% &7还剩几秒钟.'
-    Crab: '&8➤ &b蟹饵 &7与 &3%seconds% &7还剩几秒钟.'
-    Platinum: '&8➤ &c铂金诱饵 &7与 &3%seconds% &7还剩几秒钟.'
+    Mythical: '&8➤ &5神話般的誘惑 &7與 &3%seconds% &7還剩機秒鐘.'
+    Crab: '&8➤ &b蟹餌 &7與 &3%seconds% &7還剩機秒鐘.'
+    Platinum: '&8➤ &c鉑金誘餌 &7與 &3%seconds% &7還剩機秒鐘.'
   Names:
-    MYTHICAL: 神话助推器
-    PLATINUM: 铂金助推器
+    MYTHICAL: 神話助推器
+    PLATINUM: 鉑金助推器
     ENTROPY: 魚滴助推器
     CRAB: 螃蟹助推器
 TierNames:
-  Platinum: 铂金
-  Mythical: 神话
-  Silver: 银
-  Bronze: 青铜
-  Diamond: 钻石
+  Platinum: 鉑金
+  Mythical: 神話
+  Silver: 銀
+  Bronze: 青銅
+  Diamond: 鑽石
   Gold: 金
 Totems:
   Break:
     Lore:
-    - '&7包含图腾的钓鱼图腾'
+    - '&7包含圖騰的釣魚圖騰'
     - '&7巨大的力量.'
     - ''
-    - '&7图腾信息:'
+    - '&7圖騰信息:'
     - '&8➛ &7所有者: &a%owner%'
     - '&8➛ &7半径: &a%radius%'
-    - '&8➛ &7活动时间: &a%active_time%'
-    - '&8➛ &7技能冷却时间: &a%cooldown_time%'
-    - '&8➛ &7最大被动插槽: &a%max_passive_slots%'
+    - '&8➛ &7活動時間: &a%active_time%'
+    - '&8➛ &7技能冷卻時間: &a%cooldown_time%'
+    - '&8➛ &7最大被動插槽: &a%max_passive_slots%'
     - ''
-    - '&3让我恢复数据.'
+    - '&3讓我恢復數據.'
     Name: '&e%player% &7Fishing Totem'
-  Placed: '&7您已将 &e图腾 &7放下，并且其数据已加载，确保 存在多块结构以使其工作.'
-  AlreadyOwnedOne: '&7您无法创建另一个 &C图腾 &7因为您已经拥有它!'
-  InvalidStructure: '&7检测到无效的多块结构。 请正确使用之前的结构.'
-  NotEnoughEntropy: '&7您没有足够的 &c鱼露&7 进行升级。.'
-  NotYours: '&7这个 &c图腾 &7不属于你。 它属于 &c%name%&7.'
-  Broken: '&7你打破了你的 &6钓鱼图腾&7!'
-  Upgraded: '&7您已升级升级 &3%upgrade%&7!'
-  Unlocked: '&7您已经注册并解锁了 &6钓鱼图腾&7!'
-  MythicalWaters: '&7你抓到了 %fish% &7在 &5神话般的水域&7 然后变成了 一种 %newfish%&7.'
-  AlreadyOwned: '&7你不能创建另一个 &C图腾 &7因为你已拥有一个! 它 位于 &cX: %x%&7, &cY: %y%&7, &cZ: %z%&7.'
+  Placed: '&7您已將 &e圖騰 &7放下，並且其數據已加载，确保 存在多塊結構以使其工作.'
+  AlreadyOwnedOne: '&7您無法創建另一個 &C圖騰 &7因為您已經擁有它!'
+  InvalidStructure: '&7檢測到無效的多塊結構。 請正确使用之前的結構.'
+  NotEnoughEntropy: '&7您没有足夠的 &c魚露&7 進行升級。.'
+  NotYours: '&7這個 &c圖騰 &7不屬於你。 它屬於 &c%name%&7.'
+  Broken: '&7你打破了你的 &6釣魚圖騰&7!'
+  Upgraded: '&7您已升級 &3%upgrade%&7!'
+  Unlocked: '&7您已經註冊並解鎖了 &6釣魚圖騰&7!'
+  MythicalWaters: '&7你抓到了 %fish% &7在 &5神話般的水域&7 然後變成了 一種 %newfish%&7.'
+  AlreadyOwned: '&7你不能創建另一個 &C圖騰 &7因為你已擁有一個! 它 位於 &cX: %x%&7, &cY: %y%&7, &cZ: %z%&7.'
   AlreadyOwnedTotem: '&7您無法創建另一個 &CTotem &7as you already own one!
     It is located at &cX: %x%&7, &cY: %y%&7, &cZ: %z%&7. If the Observer is missing,
     place one in this location and break it to retrieve it.'
@@ -1586,26 +1586,26 @@ Totems:
     the range because of this.'
 FishLoreExtra:
   AllBiomes: 所有生物群落
-  Weight: '&7这条鱼已经过秤了!'
+  Weight: '&7這條魚已經過秤了!'
 PartyFishing:
-  Boost: '&3派对钓鱼 &7为您赢得奖金 &3%entropy% &7鱼露和&3%xp% &7经验.'
+  Boost: '&3派對釣魚 &7為您赢得獎金 &3%entropy% &7魚露和&3%xp% &7經驗.'
 MoneyCooldown:
-  Limit: '&7您今天赚了最大的钱，你可以赚更多的钱 &b%time%&7.'
+  Limit: '&7您今天賺了最大的錢，你可以賺更多的錢 &b%time%&7.'
 ChristasEvent:
-  NotReady: '&7您还不能领取礼物。 尝试 &b12月25日 &7 至 &b至31日 &7再来领取.'
+  NotReady: '&7您還不能領取禮物。 嘗試 &b12月25日 &7 至 &b至31日 &7再来領取.'
 Misc:
   Time:
-    NoHours: '%minutes% 分钟 %seconds% 秒'
-    Hours: '%hours% 小时, %minutes% 分钟 %seconds% 秒'
-    Days: '%days% days, %hours% hours, %minutes% minutes and %seconds% seconds'
+    NoHours: '%minutes% 分鐘 %seconds% 秒'
+    Hours: '%hours% 小時, %minutes% 分鐘 %seconds% 秒'
+    Days: '%days% 天, %hours% 小時, %minutes% 分鐘 and %seconds% 秒'
   SimpleTime:
-    NoHours: '%minutes%m and %seconds%s'
-    Hours: '%hours%h, %minutes%m and %seconds%s'
-    Days: '%days%d, %hours%h, %minutes%m and %seconds%s'
+    NoHours: '%minutes% 分鐘 and %seconds% 秒'
+    Hours: '%hours% 小時, %minutes% 分 and %seconds% 秒'
+    Days: '%days% 天, %hours% 小時, %minutes% 分鐘 and %seconds% 秒'
   NA: N/A
-WithdrawEntropyNotEnough: '&7你没有足够的鱼露来提取 &c鱼露晶体&7.'
-FishShopLogging: '&7[&cPyroFishingPro&7] &f%player% 将 %fish% 出售至商店，获得 %money% 精靈幣.'
-TotemsDisabled: '&3钓鱼图腾 &7已被此服务器禁用.'
+WithdrawEntropyNotEnough: '&7你没有足夠的魚露来提取 &c魚露晶體&7.'
+FishShopLogging: '&7[&cPyroFishingPro&7] &f%player% 將 %fish% 出售至商店，獲得 %money% 精靈幣.'
+TotemsDisabled: '&3釣魚圖騰 &7已被此伺服器禁用.'
 SeasonalEvents:
   CRABMAS:
     SalmonName: '&3Electric Eel'
@@ -1633,46 +1633,46 @@ SeasonalEvents:
     CRABMAS: Crabmas
 FishSkills:
   Names:
-    TOTEM_LEADER: 图腾领袖
+    TOTEM_LEADER: 圖騰領袖
     AUGMENT_INFUSION: 增强灌注
     TRIBAL_SHOUT: 部落呐喊
-    MASTER_AUGMENTER: 大师增加
+    MASTER_AUGMENTER: 大師增加
     LUCK_OF_THE_CATCH: 豐收祭
     DIVINE_JUDGEMENT: 海神的祝福
-    COMBO_CATCHER: 幸运钓鱼
+    COMBO_CATCHER: 幸運釣魚
     BETTER_GUTTING: 更好的品質
 Bait:
-  Ranout: '&7你鱼竿上的鱼饵用完了.'
+  Ranout: '&7你魚竿上的魚餌用完了.'
   Information:
     Lore:
-    - '&7钓稀有鱼时使用鱼饵.'
-    - '&7买鱼饵要花钱，而且数量有限'
-    - '&7使用次数.'
+    - '&7釣稀有魚時使用魚餌.'
+    - '&7買魚餌要花錢，而且數量有限'
+    - '&7使用次數.'
     - ''
-    - '&7你可以找到什么鱼需要什么'
-    - '&7通过查看鱼法典来诱饵.'
+    - '&7你可以找到什麼魚需要什麼'
+    - '&7通過查看魚法典来誘餌.'
     Name: '&a&l信息'
-  Bought: '&7您已购买 %bait% &7花了 &b%cost%&7.'
-  Applied: '&7您已添加 %bait% &7到你的钓鱼竿.'
-  NoVault: '&7此功能需要经济提供者才能运行，并且此服务器 没有一个。'
-  NotHighEnoughLevel: '&7您的捕鱼水平不够高，无法购买此产品.'
+  Bought: '&7您已購買 %bait% &7花了 &b%cost%&7.'
+  Applied: '&7您已添加 %bait% &7到你的釣魚竿.'
+  NoVault: '&7此功能需要經濟提供者才能運行，並且此服务器 没有一個。'
+  NotHighEnoughLevel: '&7您的捕魚水平不夠高，無法購買此产品.'
   Shop:
     Cost:
     - '&7'
     - '&7成本: &a$%cost%'
     NoPermission:
     - ''
-    - '&c您无权购买此商品.'
-    Level: '&c您的钓鱼级别不够高.'
-  NoPermission: '&c您无权购买此商品.'
-  AlreadyHave: '&7你的鱼竿上已经有鱼饵了.'
-  FishingRod: '&7您只能在钓鱼竿上使用诱饵.'
-  NotEnoughSpace: '&7您没有足够的库存空间来购买此商品.'
-  NotEnoughMoney: '&7你没有足够的钱来负担​​这个.'
+    - '&c您無權購買此商品.'
+    Level: '&c您的釣魚級别不夠高.'
+  NoPermission: '&c您無權購買此商品.'
+  AlreadyHave: '&7你的魚竿上已經有魚餌了.'
+  FishingRod: '&7您只能在釣魚竿上使用誘餌.'
+  NotEnoughSpace: '&7您没有足夠的库存空間来購買此商品.'
+  NotEnoughMoney: '&7你没有足夠的錢来負擔​​這個.'
 Skills:
   Respec:
-    NoEntropy: '&7你没有足够的鱼露来做这件事.'
-    Done: '&7您的技能已重置，您现在可以重新分配您的积分.'
+    NoEntropy: '&7你没有足夠的魚露来做這件事.'
+    Done: '&7您的技能已重置，您現在可以重新分配您的積分.'
 TotemUpgrades:
   Names:
     RANGE: Range
