@@ -275,7 +275,7 @@ Descriptions:
   delwarp: 刪除指定的warp.
   movewarp: 將warp移動到新位置
   spawn: 將你傳送到重生點
-  setspawn: 設置一個重生點
+  setspawn: 設置一個重生點 
   mirrorspawn: Redirects people using /spawn in one world to another spawn point.
   setmainspawn: Sets a specified spawnpoint to become the main spawnpoint. If it does
     not exist, it will be created if you have /setspawn permissions.
