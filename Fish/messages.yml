@@ -1579,7 +1579,7 @@ Totems:
   Unlocked: '&7您已经注册并解锁了 &6钓鱼图腾&7!'
   MythicalWaters: '&7你抓到了 %fish% &7在 &5神话般的水域&7 然后变成了 一种 %newfish%&7.'
   AlreadyOwned: '&7你不能创建另一个 &C图腾 &7因为你已拥有一个! 它 位于 &cX: %x%&7, &cY: %y%&7, &cZ: %z%&7.'
-  AlreadyOwnedTotem: '&7You cannot create another &CTotem &7as you already own one!
+  AlreadyOwnedTotem: '&7您無法創建另一個 &CTotem &7as you already own one!
     It is located at &cX: %x%&7, &cY: %y%&7, &cZ: %z%&7. If the Observer is missing,
     place one in this location and break it to retrieve it.'
   GlobalRangeEnabled: '&7This server has global-totems enabled. You cannot upgrade
