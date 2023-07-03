@@ -243,49 +243,49 @@ Tooltip:
     &bWorld &8» &7{world}
 Descriptions:
   Subcommands:
-    help: Sends the help menu, providing a full list of commands.
-    info: Sends information regarding the plugin.
-    import: Imports data from another plugin so that it can be used within AT.
-    export: Exports data within AT to another plugin.
-    reload: Reloads the plugin's configuration.
-    clearcache: Clears the RTP cache.
-  at: The core command for AT.
-  tpa: Sends a request to teleport to the player.
-  tpahere: Sends a request to the player to teleport to you.
-  tpyes: Accepts a player's teleport request.
-  tpno: Declines a player's teleport request.
-  tpcancel: Cancels your teleport request to a player.
-  toggletp: Either stops or allows players to send teleport requests to you.
-  tpon: Allows players to send teleport requests to you.
-  tpoff: Stops players from sending teleport requests to you.
-  tpblock: Stops a specific player from sending teleport requests to you.
-  tpunblock: Allows a blocked player to send you teleport requests again.
-  back: Teleports you to your previous location.
-  tpalist: Lists all of your current teleport requests.
-  tpo: Instantly teleports you to a player.
-  tpohere: Instantly teleports a player to you.
-  tpall: Sends a teleport request to everyone in the server to you.
-  tploc: Teleports you to a specific location.
-  tpoffline: Teleports you to an offline player.
-  tpofflinehere: Teleports an offline player to you.
-  tpr: Teleports you to a random location.
-  warp: Teleports you to a given warp point.
-  warps: Gives you a list of warps you can teleport to.
-  setwarp: Sets a warp at your location.
-  delwarp: Deletes a warp.
-  movewarp: Moves a warp to a new location.
-  spawn: Teleports you to the spawnpoint.
-  setspawn: Sets a spawn with a name when specified.
+    help: 發送幫助菜單，提供完整的命令列表
+    info: 發送有關插件的信息
+    import: 從另一個插件導入數據，以便可以在 AT 中使用
+    export: 將 AT 中的數據導出到另一個插件
+    reload: 重新加載插件的配置
+    clearcache: 清除 RTP 緩存
+  at: AT的核心命令
+  tpa: 發送一個傳送請求給玩家
+  tpahere: 發送一個請求請玩家過來你這裡
+  tpyes: 接受玩家的傳送請求
+  tpno: 拒絕玩家的傳送請求
+  tpcancel: 取消您對玩家的傳送請求
+  toggletp: 停止或允許玩家向您發送傳送請求
+  tpon: 允許玩家向您發送傳送請求
+  tpoff: 阻止玩家向您發送傳送請求
+  tpblock: 阻止特定玩家向您發送傳送請求
+  tpunblock: 允許被阻止的玩家再次向您發送傳送請求
+  back: 傳送到你上次的位置
+  tpalist: 列出您當前的所有傳送請求.
+  tpo: 立即將您傳送到玩家身邊
+  tpohere: 立即將玩家傳送到您身邊
+  tpall: 向服務器中的每個人發送傳送請求.
+  tploc: 將您傳送到特定位置
+  tpoffline: 將你傳送到離線玩家處
+  tpofflinehere: 將離線玩家傳送到你這
+  tpr: 將你傳送到隨機位置
+  warp: 將你傳送到指定的warp點.
+  warps: 為您提供可以傳送到的warp列表.
+  setwarp: 在您的位置設置warp
+  delwarp: 刪除指定的warp.
+  movewarp: 將warp移動到新位置
+  spawn: 將你傳送到重生點
+  setspawn: 設置一個重生點
   mirrorspawn: Redirects people using /spawn in one world to another spawn point.
   setmainspawn: Sets a specified spawnpoint to become the main spawnpoint. If it does
     not exist, it will be created if you have /setspawn permissions.
   removespawn: Removes a specified spawnpoint. If none is specified, the one in your
     current world is removed.
-  home: Teleports you to your home.
-  homes: Gives you a list of homes you've set.
-  sethome: Sets a home at your current location.
-  delhome: Deletes a home.
-  movehome: Moves a home to a new location.
+  home: 傳送回家.
+  homes: 列出所有你設置的家
+  sethome: 設置一個家
+  delhome: 刪除家
+  movehome: 將家移動到新位置
   setmainhome: Sets a home at your location or makes an existing one your main home.
   purge: Removes all warps or homes for the specified player or world.
 Usages:
