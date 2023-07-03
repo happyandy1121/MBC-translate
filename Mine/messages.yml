@@ -81,7 +81,7 @@ GUI:
       Lore:
       - §3悉石 §7 可以從開採所有礦石中找到。
       - §7- §f基本 悉石 §7 將從 §f主世界 §7 礦石中掉落。
-      - §7- §c熾熱的悉石 §7 將從 §c下界 §7 礦石中掉落。
+      - §7- §c閃耀 悉石 §7 將從 §c下界 §7 礦石中掉落。
       - §7
       - §3悉石 §7可以賣給 §a/mine shop
       - §7為了錢。它們目前沒有其他用途.
@@ -314,7 +314,7 @@ GUI:
       - §7解鎖，因為你會知道的。
       - §7
       - §7如果您可以查看以前的嘗試
-      - §7將鼠標懸停在頂部的書上。
+      - §7將滑鼠懸停在頂部的書上。
       - §7
       - §7你得到 §4必需品 §7從 §a神器§7.
       - §7使用 §a/mine artifacts §7查看更多 訊息
@@ -740,19 +740,19 @@ Events:
     Name: '&7Unknown Shard'
 Fossils:
   Parts:
-    FOOT: Foot
-    TAIL: Tail
-    SPINE: Spine
-    LEG: Leg
-    ARM: Arm
-    SKULL: Skull
-    RIB: Rib
-    WING: Wing
+    FOOT: 腳
+    TAIL: 尾巴
+    SPINE: 脊柱
+    LEG: 腿
+    ARM: 手臂
+    SKULL: 顱骨
+    RIB: 肋骨
+    WING: 翅膀
   Species:
-    PHOENIX: Phoenix
-    WRAITH: Wraith
-    DRAGON: Dragon
-    MANTICORE: Manticore
+    PHOENIX: 鳳凰
+    WRAITH: 幽靈
+    DRAGON: 龍
+    MANTICORE: 蠍獅
   Unidentified:
     Name: '&6Unidentified %species% Fossil'
 LightRuneLore:
@@ -763,35 +763,35 @@ LightRuneLore:
 - §7summon §5Tohka§7.
 Gemstones:
   '6':
-    Name: '&eTiger''s Eye'
-    Description: '&7This Gemstone is stronger than every creature.'
+    Name: '&e虎眼石'
+Description: '&7這顆寶石比任何生物都強大'
     ColorA: '&6'
     ColorB: '&e'
   '2':
-    Name: '&cRuby'
-    Description: '&7This Gemstone shimmers in the light.'
-    ColorB: '&4'
+    Name: '&c紅寶石'
+    Description: '&7這顆寶石在燈光下閃閃發光.'
     ColorA: '&c'
+    ColorB: '&4'
   '1':
-    Description: '&7This bright Gemstone lights the way.'
+    Name: '&a橄欖石'
+    Description: '&7這顆明亮的寶石照亮了道路'
     ColorA: '&a'
     ColorB: '&2'
-    Name: '&aPeridot'
   '3':
-    Description: '&7This Gemstone''s beauty blinds you.'
-    ColorB: '&6'
+    Name: '&e黃玉'
+    Description: '&7這顆寶石的美麗讓你目眩'
     ColorA: '&e'
-    Name: '&eTopaz'
+    ColorB: '&6'
   '4':
-    Description: '&7This Gemstone glows in the night sky.'
-    Name: '&dAmethyst'
-    ColorB: '&5'
+    Name: '&d紫晶'
+    Description: '&7這顆寶石在夜空中閃閃發光'
     ColorA: '&d'
+    ColorB: '&5'
   '5':
-    Description: '&7This Gemstone glows in the sea.'
-    Name: '&9Sapphire'
-    ColorB: '&b'
+    Name: '&9藍寶石'
+    Description: '&7這顆寶石在海中閃閃發光'
     ColorA: '&9'
+    ColorB: '&b'
 Vessels:
   NEFARIS_SHADOWS:
     Lore:
@@ -1242,7 +1242,7 @@ Oracle:
     - §7§o很難打敗.
     - ''
     - '§6如何使用:'
-    - §7按住鼠標右鍵點擊綠寶石原礦
+    - §7按住滑鼠右鍵點擊綠寶石原礦
     - §7這是為了召喚神諭.
 GemLore:
 - §8§m-----------§r§8[%colorB% 訊息 §8]§8§m-----------
@@ -1267,8 +1267,8 @@ Commands:
     Target: '&7你獲得 &3%amount%&7 澤塔!'
   InvalidUsername: '&7您輸入了無效的用戶名.'
   AddZeta:
-    Sender: '&7You have given &3%amount% &7Zeta to &3%target%&7.'
-    Target: '&7You have been given &3%amount%&7 Zeta!'
+    Sender: '&7You have given &3%amount% &7澤塔 到 &3%target%&7.'
+    Target: '&7You have been given &3%amount%&7 澤塔!'
 RadaliteTear:
   Used: '&7你的 &5符文衛士 &7冷卻時間已重置!'
   CantUse: '&7你現在沒有冷卻時間.'
@@ -1302,7 +1302,7 @@ MysteriousDustDrops:
   - '&7- &5符文之塵 &7(&a%runedust%%&7)'
   - '&7- &e甲骨文 &7(&a%oracleite%%&7) -級別 20+'
   - '&7- &3遠古遺物 &7(&a%ancientrelic%%&7) -等級 25+'
-  - '&7- &c破碎的鎮魂球 & 7(&%shattered requiumorb%%&7) -等級 30+'
+  - '&7- &c破碎的鎮魂球 &7(&a%shattered requiumorb%%&7) -等級 30+'
 ShatteredRequium:
   Lore:
   - §7黑暗邪惡的能量源有
@@ -1310,7 +1310,7 @@ ShatteredRequium:
   - §7這些可以用來創建另一個
   - §4鎮魂曲 §7 及其剩餘能量。
   - ''
-  - §7§o鼠標右鍵消耗 4 個 碎片
+  - §7§o滑鼠右鍵消耗 4 個 碎片
   - §7§o創建一個隨機的 §4§o鎮魂球§7§o.
   Name: '&4破碎的鎮魂球'
 Misc:
@@ -1349,7 +1349,7 @@ GiveCommandLore:
 - §7► §9寶石：<名稱>
 - §7► §9神器：<名稱>
 - §7► §9化石：<名稱>
-- §7► §9熾熱悉石
+- §7► §9閃耀悉石
 - §7► §9基本通量
 - §7► §9破碎的鎮魂球
 - §7► §9未識別的龍化石
@@ -1366,7 +1366,7 @@ MysteriousDust:
   - §7可以使用§b精煉廠精煉§7.
   - §7製作一個§b精煉廠§7放置一個§f§n投擲器
   - §7面對§f§n向上§r§7，上面有一個§f§n柵欄§r§7。放置
-  - §7裡面的物品並與圍欄互動。
+  - §7裡面的物品並與柵欄互動。
   - ''
   - '§7可能掉落:'
 FoundFlux: '&7你找到了 &a悉石 &7悉石.'
@@ -1378,7 +1378,7 @@ MainGUIPrefix: '&9&l考古'
 HellRuneName: '&4地獄符文'
 Oracles:
   Oracleite:
-    Name: '&cUn帶電甲骨文'
+    Name: '&c不帶電甲骨文'
 SummonedPhase3Oracle: '&7你召喚了 &5&l十香 (Phase 3)&7!'
 NoPermission: '&7您無權執行此操作.'
 DisabledMobWorld: '&7自定義採礦暴徒在這個世界上被禁用.'
