@@ -620,7 +620,7 @@ Upgraded: '&7你已經升級你的&a奇點&7到等級&3%level%'
       &c%zeta% &7more &cZeta&7!'
   Oracle:
     Cancel:
-      Name: '&c&lCancel Summon'
+      Name: '&c&l取消召喚'
     Info:
       Name: '&6&lOracle 訊息'
       Lore:
@@ -640,15 +640,15 @@ Upgraded: '&7你已經升級你的&a奇點&7到等級&3%level%'
       - §7Hover over the Glass below to read 訊息
       - §7about each individual §eOracle §7and their phase.
     Summon:
-      Phase3: '&7You are about to summon &5Tohka&7.'
-      Phase2: '&7You are about to summon &eImpulse&7.'
-      Phase1: '&7You are about to summon &cRadalite&7.'
+      Phase3: '&7你即將召喚&5十香'
+      Phase2: '&7你即將召喚&e衝動'
+      Phase1: '&7你即將召喚&c拉達萊特'
       Lore:
       - §7Click to summon the §eOracle§7.
       - §7You should hover over the book to
       - §7read about how the §e神諭§7 work
       - §7before attempting to fight this.
-      Name: '&2&lConfirm Summon - Phase'
+      Name: '&2&l確認召喚 - 階段'
     Bosses:
       '3':
       - §5Tohka §7is the 3rd and final §eOracle§7.
@@ -666,9 +666,9 @@ Upgraded: '&7你已經升級你的&a奇點&7到等級&3%level%'
       - §7and will deal large amounts of damage.
       - ''
       - '§7Oracle Stats:'
-      - '§7- Health: §6%health%'
-      - '§7- Damage: §6%damage%'
-      - '§7- Element: §8Darkness'
+      - '§7- 血量: §6%health%'
+      - '§7- 傷害: §6%damage%'
+      - '§7- 元素: §8Darkness'
       - ''
       - '§7Drops:'
       '2':
@@ -684,9 +684,9 @@ Upgraded: '&7你已經升級你的&a奇點&7到等級&3%level%'
       - §7next Oracle.
       - ''
       - '§7Oracle Stats:'
-      - '§7- Health: §6%health%'
-      - '§7- Damage: §6%damage%'
-      - '§7- Element: §eLightning'
+      - '§7- 血量: §6%health%'
+      - '§7- 傷害: §6%damage%'
+      - '§7- 元素: §eLightning'
       - ''
       - '§7Drops:'
       '1':
@@ -701,9 +701,9 @@ Upgraded: '&7你已經升級你的&a奇點&7到等級&3%level%'
       - §7next Oracle.
       - ''
       - '§7Oracle Stats:'
-      - '§7- Health: §6%health%'
-      - '§7- Damage: §6%damage%'
-      - '§7- Element: §cFire'
+      - '§7- 血量: §6%health%'
+      - '§7- 傷害: §6%damage%'
+      - '§7- 元素: §cFire'
       - ''
       - '§7Drops:'
   FossilTransmutation:
