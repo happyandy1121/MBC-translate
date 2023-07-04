@@ -338,14 +338,14 @@ GUI:
       - §7
       - §7有一個 §b2§7 找到他們之間的分鐘冷卻時間.
     NotSet:
-      '2': '&7你的 &f第二 &4鎮魂曲 &c不是這樣設置的.'
       '1': '&7你的 &f第一 &4鎮魂曲 &c不是這樣設置的.'
+      '2': '&7你的 &f第二 &4鎮魂曲 &c不是這樣設置的.'
       '3': '&7你的 &f第三 &4鎮魂曲 &c不是這樣設置的.'
     NoPreviousAttempts: '&c您之前沒有嘗試過.'
     Set:
+      '1': '&7你的 &f第一 &4鎮魂曲 &7現在是: &c%requium%&7.'
       '2': '&7你的 &f第二 &4鎮魂曲 &7現在是: &c%requium%&7.'
       '3': '&7你的 &f第三 &4鎮魂曲 &7現在是: &c%requium%&7.'
-      '1': '&7你的 &f第一 &4鎮魂曲 &7現在是: &c%requium%&7.'
     RemovedVessels:
       Success: '&7您從鎬中移除了以下容器:'
     NoVessels: '&7這把鎬沒有任何容器!'
@@ -372,7 +372,7 @@ GUI:
       - '&7點擊您要查看的鎬'
       - '&7你的 &2容器 &7進展.'
     HoldingPickaxe: '&7做這件事之前你必須拿著鎬!'
-    WithdrawzetaMessage: '&7You have withdraw &e10,000 &7澤塔.'
+    WithdrawzetaMessage: '&7您已撤回 &e10,000 &7澤塔.'
     PreviousAttemptsInfo:
     - §7- §a 綠色 §7 中的鎮魂曲在正確的位置。
     - §7- §c 紅色 §7§中的§a鎮魂曲可能順序錯誤
@@ -521,83 +521,77 @@ GUI:
       - '&b&oSingularity &7upgrades can be purchased below.'
       - '&2&oVessels &7are crafted inside of &b/mine vessels&7.'
     Info:
-      Lore:
-      - §7To upgrade your §aSingularity §7to the
-      - §7下一級, you need different §5Runes§7.
-      - ''
-      - §5Runes §7can be earned from killing §5Rune
-      - §5Guardians §7which can be summoned using
-      - §cRedstone Ore §7and §dRune Dust§7.
-      - ''
-      - §7Every time you upgrade the §aSingularity
-      - §7you will need one additional §5Rune§7.
-      - ''
-      - §7This is no limit to the 最大等級 of this.
-      - ''
-      - §7Spend your points on the upgrades below.
-      - ''
-      - '§7Singularity Level: §3%level%'
-      - '§7Free Points: §3%points%'
       Name: '&a訊息'
-    NoPoints: '&7You do not have any &cSingularity Points &7left.'
-    NotEnoughRunes: '&7You do not have enough &5Runes &7to do this.'
-    Upgraded: '&7You have upgraded your &aSingularity &7to level &3%level%&7.'
+      Lore:
+      - §7要升級你的§a奇點§7到
+      - §7下一級, 你需要不同的§5符文
+      - ''
+      - §7殺死從§c紅石礦§7上使用
+      - §d符文之塵§7召喚的§5符文守衛者
+      - §7可以得到§5符文
+      - ''
+      - §7每次升級§a奇點§7時
+      - §7你將需要一個額外的§5符文
+      - ''
+      - §7這沒有最高等級限制
+      - ''
+      - §7將您的點數用於以下升級
+      - ''
+      - '§7奇點等級: §3%level%'
+      - '§7免費點數: §3%points%'
+    NoPoints: '&7你沒有剩下任何&c奇點點數'
+    NotEnoughRunes: '&7你沒有足夠的&5符文&7去升級'
+Upgraded: '&7你已經升級你的&a奇點&7到等級&3%level%'
   Names:
-    ManageArcanes: '&9&lManage Arcanes'
-    Singularity: '&9&lSingularity'
+    ManageArcanes: '&9&l管理奧術'
+    Singularity: '&9&l奇點'
     Journal:
-      VesselList: '&2&lVessel List'
-    Blacksmith: '&8&lBlacksmith'
-    JournalMain: '&9&lMiners Journal'
-    Shop: '&9&lMine Shop'
-    JournalGemstones: '&9&lGemstones'
-    Artifact: '&9&lArtifacts'
-    Vessel: '&9&lVessels'
+      VesselList: '&2&l船舶列表'
+    Blacksmith: '&8&l鐵匠'
+    JournalMain: '&9&l礦工雜誌'
+    Shop: '&9&l礦店'
+    JournalGemstones: '&9&l寶石'
+    Artifact: '&9&l文物'
+    Vessel: '&9&l船隻'
   Shop:
     Prices:
-      Name: '&2&lShop Prices:'
+      Name: '&2&l商店價格:'
       Lore:
-      - '§7These are the sell prices:'
+      - '§7這些是銷售價格:'
       - ''
-      - '§7Flux:'
-      - '§7- §eBasic Flux: %basic%'
-      - '§7- §4Blazed Flux: %blaze%'
+      - '§7悉石:'
+      - '§7- §e基本悉石: %basic%'
+      - '§7- §4閃耀悉石: %blaze%'
       - ''
-      - '§7Artifacts:'
-      - §7- Price is stated on the item.
+      - '§7文物:'
+      - '§7- 價格已在商品上註明'
       - ''
-      - '§7Gemstones: (Price §f§nbefore§r§7 examining)'
+      - '§7寶石: (檢查§f§n前§r§7價格)'
     SellPlayerInventory:
       Lore:
-      - '&7This will sell all of the sellable items'
-      - '&7inside of &f&nyour&r&7 inventory. Great if you don''t'
-      - '&7want to collect &5artifacts &7or &6fluxes&7.'
-      Name: '&bSell All &9(Player Inventory)'
+      - '&7這將出售所有你背包的&5文物&7或&6悉石'
+      Name: '&b全部賣掉 &9(玩家物品欄)'
     SellInventory:
       Lore:
-      - '&7This will sell all of the sellable items'
-      - '&7inside of the &bmining shop inventory&7. This'
-      - '&7will &f&nnot&r&7 sell anything inside of your'
-      - '&7inventory. Great if you want to sell &6fluxes'
-      - '&7but keep &5artifacts&7 and such instead.'
-      Name: '&2Sell All &a(Mine Shop Inventory)'
+      - '&7這將出售所有你放在&b商店&7內的&5文物&7或&6悉石'
+      - '&7在背包內的&5文物&7或&6悉石&7將不會被賣出'
+      Name: '&2全部賣掉 &a(商店物品欄)'
     Back:
-      Name: '&c&lBack'
+      Name: '&c&l後退'
       Lore:
-      - '&7Click to return to the main menu.'
+      - '&7單擊 返回主菜單'
   Artifacts:
     Indentifying:
-      Fossil: '&7You have started identifying an &6Unidentified Fossil &7and will
-        take %time% &7.'
+      Fossil: '&7你已經開始識別&6不明化石&7而且將花費%time%'
     EmptySlot:
       Lore:
-      - '&7Place an Artifact or Fossil here'
-      - '&7to begin the identification process.'
-      Name: '&cEmpty Slot'
+      - '&7在這裡放置文物或化石'
+      - '&7開始識別過程'
+      Name: '&c空位'
     Lore:
-      BeingIdentified: '&7This item is currently being identified.'
+      BeingIdentified: '&7該項目目前正在鑑定中'
     Upgrades:
-      MaxLevel: '&7This upgrade is already 最大等級!'
+      MaxLevel: '&7這次升級已經是最大等級!' #todo 翻譯便利貼
       Upgraded: '&7You spent &3%zeta% 澤塔 &7and upgraded &3%name% &7to level &b%level%&7.'
     Identifying: '&7This item is currently being identified.'
     NotEnough澤塔: '&7You do not have enough &c澤塔 &7to upgrade this. You need another
