@@ -12,3 +12,4 @@
 - 黏液科技 - 靈魂巧匠(SpiritsUnchained)
 - 成就數據(PlayerStats)
 - 查詢紀錄 - co i(CoreProtect)
+- 農業(Farm) `目前還未加入 公測版 沒意外預計 7/8 上市`

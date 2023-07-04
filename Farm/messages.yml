@@ -1,0 +1,1396 @@
+Trait:
+  Colours:
+    BAD: '#FF3E07'
+    NEUTRAL: '#E2FF00'
+    GOOD: '#07FF44'
+GUI:
+  ComposterCraftingMain:
+    Items:
+      Craftable:
+        CannotCraft: '&cYou do not meet the requirements for this.'
+        Enough: '&a✔'
+        NotEnough: '&c✖'
+        Item: '&8» &f%amount%x %name% &8(%enough%&8)'
+        Lore:
+        - '%itemlore%'
+        - '#1FCBBDCrafting Info'
+        - '&8» &fRequired Level: #1FCB37%level%'
+        - ''
+        - '#00FFC1Recipe'
+        - '%items%'
+        - ''
+        - '%meetsRequirements%'
+        CanCraft: '#2CF707Click to craft this item.'
+      Information:
+        Name: '#00FFC1Information'
+        Lore:
+        - '&7Craft &aCustom Items &7that will help you'
+        - '&7improve your &bGrowstations&7. Place these near'
+        - '&7your &bGrowstations &7and they will take effect.'
+        - ''
+        - '&7To craft an item, click on the item you want'
+        - '&7and make sure to have all the items required!'
+      BackToMenu:
+        Lore:
+        - '#FF2900▎ &7Click to close the menu.'
+        Name: '#FF2900Exit'
+  GrowstationMain:
+    Items:
+      GrowstationStats:
+        Misc:
+          PositiveAdjustment: '&a+%value%'
+          TemperamentAdjustment: '&8(%adjustment%&8)'
+          GrowthSpeed: '%adjustment%'
+          TemperatureAdjustment: '&8(%adjustment%&8)'
+          NegativeAdjustment: '&c%value%'
+        Name: '#69B4F3Growstation Stats:'
+        Lore:
+        - '#69B4F3▎ &7Below are your stats for this Growstation.'
+        - ''
+        - '#69B4F3▎ &7Growstation Level: #69B4F3%level%'
+        - '#69B4F3▎ &7Growstation XP: %bar% &7(#69B4F3%current%/%needed%&7)'
+        - '#69B4F3▎ &7Upgrade Points Left: #69B4F3%points%'
+        - ''
+        - '#00FFC1&lInformation:'
+        - '#69B4F3▎ &7Temperature: %temperature% %temperatureadjustment%'
+        - '#69B4F3▎ &7Temperament: %temperament% %temperamentadjustment%'
+        - '#69B4F3▎ &7Environment: %environment%'
+        - ''
+        - '#69B4F3▎ &7Growth Speed Bonus: %growthspeed%%'
+        - ''
+        - '&7(These are the current growstations values. Match'
+        - '&7these with the seeds required stats to grow).'
+      PlantSeed:
+        Lore:
+          Grown:
+            ConstantLimited:
+            - '#00FF51▎ &7This plant is currently constantly producing...'
+            - '#00FF51▎ &7Next Harvest In: #00FF51%constant_production_duration%'
+            - '#00FF51▎ &7This plant will only produce #00FF51%limited_amount% &7more
+              items.'
+            - ''
+            - '#00FF51▎ &7Click on the &6Growstation Inventory &7button'
+            - '#00FF51▎ &7to see the inventory for the items made.'
+            - ''
+            - '&6Growing Information: %growinginfo%'
+            - ''
+            - '#00FF51▎ #69B4F3Right-Click &7to harvest this plant.'
+            FinishedProducing:
+            - '#00FF51▎ &7This plant has finished producing items.'
+            - ''
+            - '#00FF51▎ &7Click on the &6Growstation Inventory &7button'
+            - '#00FF51▎ &7to see the inventory for the items made.'
+            - ''
+            - '#00FF51▎ #69B4F3Right-Click &7to clean this growstation out.'
+            Constant:
+            - '#00FF51▎ &7This plant is currently constantly producing...'
+            - '#00FF51▎ &7Next Harvest In: #00FF51%constant_production_duration%'
+            - ''
+            - '#00FF51▎ &7Click on the &6Growstation Inventory &7button'
+            - '#00FF51▎ &7to see the inventory for the items made.'
+            - ''
+            - '&6Growing Information: %growinginfo%'
+            - ''
+            - '#00FF51▎ #69B4F3Right-Click &7to harvest this plant.'
+            Withered:
+            - '#FF2900▎ &7This plant has withered.'
+            - ''
+            - '#FF2900▎ #69B4F3Left-Click &7to clean this growstation out.'
+            OneTime:
+            - '#00FF51▎ &7This plant is ready to be harvested.'
+            - ''
+            - '#00FF51▎ #69B4F3Left-Click &7to harvest this plant.'
+          GrowingInfo:
+            NoIssues: '&a▎ Everything looks good for growing!'
+            TemperatureWrong: '&c▎ The Growstations Temperature is not compatible
+              with this plant.'
+            NoWater: '&c▎ There is not enough water to continue growth.'
+            ProductionReached: '&c▎ The production limit has been reached. Empty the
+              inventory.'
+            EnvironmentWrong: '&c▎ The Growstations Environment is not compatible
+              with this plant.'
+            LowWater: '&e▎ There is less than 5 minutes of water remaining.'
+          Growing:
+          - '&e▎ &7This plant is still growing...'
+          - '&e▎ &7Make sure the needs are met to keep it growing.'
+          - ''
+          - '&6Information:'
+          - '&e▎ &7Growth Percent: &e%percent%%'
+          - '&e▎ &7Growing Time Left: &e%time_left%'
+          - ''
+          - '&6Growing Information: %growinginfo%'
+          - ''
+          - '&e▎ #69B4F3Shift-Left &7click to remove this plant.'
+          Empty:
+          - '&c▎ &7There is currently nothing in the Growstation.'
+          - '&c▎ &7Buy seeds from #00FF51/farm shop &7and grow them!'
+          - ''
+          - '&c▎ &7Drag and drop seeds onto this to plant them!'
+        Name:
+          Growing: '&e%plant% &7| &eSeed Growing...'
+          Withered: '#FF2900%plant% &7| #FF2900Withered'
+          FinishedProducing: '#00FF51%plant% &7| #00FF51Finished Producing'
+          Empty: '#FF2900Growstation Empty'
+          Ready: '#00FF51%plant% &7| #00FF51Ready For Harvest'
+      PlantInfo:
+        Lore:
+          Empty:
+          - '&c▎ &7Nothing is currently planted. Plant something'
+          - '&c▎ &7to see information about the plant!'
+          NotEmpty:
+          - '%plantinfo%'
+          - ''
+          - '#07FDFFTraits:'
+          - '%traits%'
+          Misc:
+            TraitFormat: '&7✦ %name%'
+            NoTraits: '&7✦ No Traits Available'
+        Name:
+          Full: '#FFA500%plant% Information'
+          Empty: '&cNo Plant Planted'
+      GrowthSpeed:
+        Name: '#69B4F3Growth Upgrade &8(#69B4F3Level: %level%&8)'
+        Lore:
+        - '&7This upgrade gives a small growth speed'
+        - '&7bonus when growing any type of plants.'
+        - ''
+        - '#00FFC1&lInformation:'
+        - '#69B4F3▎ &7Current Bonus: #69B4F3+%current%% quicker'
+        - '#5367B8▎ &7Next Level Bonus: #5367B8+%next%% quicker'
+        - ''
+        - '&7&oThis upgrade gives less the more'
+        - '&7&opoints you put into it.'
+        - ''
+        - '%havepoints%'
+      WaterStats:
+        Name: '#69B4F3Water Stats:'
+        Lore:
+        - '#69B4F3▎ &7Water Information:'
+        - ''
+        - '#69B4F3▎ &7Liquid Type: #69B4F3Water'
+        - '#69B4F3▎ &7Current Water: #69B4F3%water%/%maxwater% 🌊'
+        - ''
+        - '#69B4F3▎ #69B4F3Right-click &7with a water bucket to add water.'
+      ElysiumGain:
+        Lore:
+        - '&7This upgrade gives you more #22D302Elysium'
+        - '&7when harvesting any type of plant.'
+        - ''
+        - '#00FFC1&lInformation:'
+        - '#69B4F3▎ &7Current Bonus: #69B4F3+%current%% bonus'
+        - '#5367B8▎ &7Next Level Bonus: #5367B8+%next%% bonus'
+        - ''
+        - '&7&oThis upgrade gives less the more'
+        - '&7&opoints you put into it.'
+        - ''
+        - '%havepoints%'
+        Name: '#69B4F3Elysium Upgrade &8(#69B4F3Level: %level%&8)'
+      MutationChance:
+        Name: '#69B4F3Mutation Upgrade &8(#69B4F3Level: %level%&8)'
+        Lore:
+        - '&7This upgrade gives you a chance to get'
+        - '&f&nany&r &7random trait when planting a seed.'
+        - ''
+        - '#00FFC1&lInformation:'
+        - '#69B4F3▎ &7Trait Chance: #69B4F3%current%% &7-> #5367B8%next%% (next level)'
+        - ''
+        - '#69B4F3▎ &7Good Chance: %good%40%'
+        - '#69B4F3▎ &7Neutral Chance: %neutral%40%'
+        - '#69B4F3▎ &7Bad Chance: %bad%20%'
+        - ''
+        - '&c&oThis could potentionally make your'
+        - '&c&oplants harder or easier to grow. Consider'
+        - '&c&othis before investing in this option.'
+        - ''
+        - '%havepoints%'
+      WaterUpgrade:
+        Name: '#69B4F3Water Upgrade &8(#69B4F3Level: %level%&8)'
+        Lore:
+        - '&7This upgrade gives you more water when'
+        - '&7filling the &bGrowstation &7with a bucket.'
+        - ''
+        - '#00FFC1&lInformation:'
+        - '#69B4F3▎ &7Current Bonus: #69B4F3+%current% Extra'
+        - '#5367B8▎ &7Next Level Bonus: #5367B8+%next% Extra'
+        - ''
+        - '%havepoints%'
+      GrowstationInventory:
+        Name: '&eGrowstation Inventory'
+        Lore:
+        - '&e▎ &7Click to view the Growstation Inventory.'
+        - '&e▎ &7All &econstant production &7plant harvestables will'
+        - '&e▎ &7be added to this inventory automatically.'
+    Misc:
+      NotRequiredLevel: '&7You are not at a high enough level to plant this seed.
+        You require at least &cLevel %level%&7.'
+      NotASeed: '&7The item in your cursor is not a valid seed.'
+      Upgraded: '&7You have upgraded &b%upgrade% &7to level: &b%level%&7.'
+      AlreadyHasSeed: '&7This growstation already has a seed. You can remove it with
+        a &cShift-Right &7click.'
+      NoPointsLeft: '&7You do not have any points remaining to upgrade this.'
+      NoPoints: '&cYou do not have any points free.'
+      Emptied: '&7You have emptied your growstation. You can now plant another seed.'
+      HasPoints: '&eClick to upgrade for 1 point.'
+      PlantedPlant: '&7You have planted a #69B4F3%plant% &7in this growstation.'
+    Inventory: '&8&l» &8Growstation Inventory'
+    MenuName: '&8&l» &8Growstation Main Menu'
+  Codex:
+    MainMenu:
+      Items:
+        Information:
+          Name: '#00FFC1Information'
+          Lore:
+          - '&7Here is the &eFarming Codex&7.'
+          - '&7You will find every &aplant&7, &abush&7,'
+          - '&7and other various items. You can view information'
+          - '&7on them inside of their specific menu.'
+        Trees:
+          Lore:
+          - '&7Click to view the #00FFC1Trees &7Codex Menu.'
+          - ''
+          - '&c» Not implemented yet!'
+          Name: '&cTrees'
+        Bushes:
+          Name: '#00FF51Bushes'
+          Lore:
+          - '&7Click to view the #00FFC1Bushes &7Codex Menu.'
+          - ''
+          - '&e» Click to open!'
+        Vineyards:
+          Name: '&cVineyards'
+          Lore:
+          - '&7Click to view the #00FFC1Vineyards &7Codex Menu.'
+          - ''
+          - '&c» Not implemented yet!'
+        Food:
+          Lore:
+          - '&7Click to view the #00AAFFFood &7Codex Menu.'
+          - ''
+          - '&7Food can be used to complete quests, used'
+          - '&7as food, or for trading with the trading outpost.'
+          - ''
+          - '&c» Not implemented yet!'
+          Name: '&cFood'
+        Plants:
+          Name: '#00FF51Plants'
+          Lore:
+          - '&7Click to view the #00FFC1Plant &7Codex Menu.'
+          - ''
+          - '&e» Click to open!'
+        BackToMenu:
+          Name: '#FF2900Return to Main Menu'
+          Lore:
+          - '#FF2900▎ &fClick to return to the Main Menu.'
+        Crops:
+          Lore:
+          - '&7Click to view the #00FFC1Crops &7Codex Menu.'
+          - ''
+          - '&c» Not implemented yet!'
+          Name: '&cCrops'
+      MenuName: '&8&l» &8Farming Codex'
+    Plants:
+      Items:
+        NextPage:
+          Name: '#00FFC1Next Page'
+          Lore:
+          - '#00FFC1▎ &fClick to view the plants on the next page.'
+        FilterOption:
+          Misc:
+            Option: '#00AAFF▎ &8» %selected%%name%'
+            Selected: '&a'
+            Deselected: '&f'
+          Name: '#00AAFFFilter Options'
+          Lore:
+          - '#00AAFF▎ &fClick to change the filtering type.'
+          - ''
+          - '%filtertypes%'
+        BackToMenu:
+          Lore:
+          - '#FF2900▎ &fClick to return to the Previous Menu.'
+          Name: '#FF2900Return to Previous Menu'
+        Information:
+          Lore:
+          - '&7Here are the &aPlants &7that you can'
+          - '&7grow and harvest within &ePyroFarming&7.'
+          - ''
+          - '&7To grow plants, you require a &bGrowstation&7.'
+          Name: '#00FFC1Information'
+        Traits:
+          Lore:
+          - '#F0FF00▎ &fClick to view all of the traits that'
+          - '#F0FF00▎ &fplants can have, and what they do.'
+          - ''
+          - '#F0FF00▎ &fYou can view what traits a plant has by'
+          - '#F0FF00▎ &fdefault by hovering over it in the current menu.'
+          Name: '#F0FF00Traits'
+        PreviousPage:
+          Name: '&cPrevious Page'
+          Lore:
+          - '&c▎ &fClick to view the plants on the previous page.'
+      MenuName: '&8&l» &8Plant Codex &0|&8 Page: &8(&0%current%&8/&0%total%&8)'
+    Bushes:
+      Items:
+        FilterOption:
+          Lore:
+          - '#00AAFF▎ &fClick to change the filtering type.'
+          - ''
+          - '%filtertypes%'
+          Name: '#00AAFFFilter Options'
+          Misc:
+            Selected: '&a'
+            Deselected: '&f'
+            Option: '#00AAFF▎ &8» %selected%%name%'
+        Information:
+          Name: '#00FFC1Information'
+          Lore:
+          - '&7Here are the &aBushes &7that you can'
+          - '&7place and watch grow items for you.'
+          - ''
+          - '&7Break the fruit on top once it''s ready'
+          - '&7to harvest it.'
+        NextPage:
+          Lore:
+          - '#00FFC1▎ &fClick to view the bushes on the next page.'
+          Name: '#00FFC1Next Page'
+        PreviousPage:
+          Name: '&cPrevious Page'
+          Lore:
+          - '&c▎ &fClick to view the bushes on the previous page.'
+        BackToMenu:
+          Name: '#FF2900Return to Previous Menu'
+          Lore:
+          - '#FF2900▎ &fClick to return to the Previous Menu.'
+      MenuName: '&8&l» &8Bushes Codex &0|&8 Page: &8(&0%current%&8/&0%total%&8)'
+    BushesHarvestables:
+      MenuName: '&8&l» &8Bushes Codex &0|&8 %bush%'
+    PlantHarvestables:
+      MenuName: '&8&l» &8Plant Codex &0|&8 %plant%'
+  Confirmation:
+    Items:
+      Confirm:
+        RemoveSeed:
+          Name: '&a&lConfirm Seed Removal'
+          Lore:
+          - '&7Click to confirm the removal of the'
+          - '&7seed from the Growstation.'
+          - ''
+          - '&c&oYou do not get the seed back!'
+      Cancel:
+        RemoveSeed:
+          Lore:
+          - '&7Click to cancel the seed removal.'
+          Name: '&c&lCancel Removal'
+  FarmMarket:
+    MainMenu:
+      Items:
+        Rotating:
+          Lore:
+          - '&7Buy #00FFC1limited timed &7items that randomly'
+          - '&7appear in this store every so often.'
+          - ''
+          - '&7This stores stock rotates in: &e%time%'
+          - ''
+          - '%requiredlevel%'
+          RequiredLevel: '&cRequires Farming Level %level%'
+          NotRequiredLevel: '&7You are not at a high enough level to access this shop.
+            You need to be at least level &c%required% &7for this.'
+          ClickToOpen: '&e» Click to open!'
+          Name: '&aRotating Shop'
+        Permanent:
+          Lore:
+          - '&7Buy everything from #00FFC1seeds &7to #00FFC1bushes &7to #00FFC1saplings'
+          - '&7in this store. This store never changes'
+          - '&7and these items will always be available.'
+          - ''
+          - '&e» Click to open!'
+          Name: '&aPermanent Shop'
+        BuyConfirmation:
+          Status:
+            'On': '&aOn'
+            'Off': '&cOff'
+          Lore:
+          - '&7Swap between &aon &7and &coff &7settings for'
+          - '&7buying items in these shops. If this'
+          - '&7setting is on, you will need to accept'
+          - '&7the purchase before buying it.'
+          - ''
+          - '&7Buy Confirmation: %status%'
+          Name: '&aBuy Confirmation'
+        Information:
+          Lore:
+          - '&7Welcome to the &eFarmer''s Market&7!'
+          - '&7Here you can purchase various farming related'
+          - '&7items such as &aseeds&7, &abushes &7and more.'
+          - ''
+          - '&7The &3Permanent Store &7contains items that will'
+          - '&7always be available for purchase.'
+          - ''
+          - '&7The &cRotating Store &7contains items that will'
+          - '&7rotate out every so often. This means items'
+          - '&7available one day may not come back'
+          - '&7for a while. Buy while you can!'
+          Name: '#00FFC1Information'
+        BackToMenu:
+          Name: '#FF2900Return to Main Menu'
+          Lore:
+          - '#FF2900▎ &fClick to return to the Main Menu.'
+      MenuName: '&8&l» &8Farmers Market'
+    Permanent:
+      Items:
+        FilterOption:
+          Lore:
+          - '#00AAFF▎ &fClick to change the filtering type.'
+          - ''
+          - '%filtertypes%'
+          Misc:
+            Option: '#00AAFF▎ &8» %selected%%name%'
+            Deselected: '&f'
+            Selected: '&a'
+          Name: '#00AAFFFilter Options'
+        BackToMenu:
+          Lore:
+          - '#FF2900▎ &fClick to return to the Farmers Market.'
+          Name: '#FF2900Return to Farmers Market'
+        CategoryFilterOption:
+          Name: '#00AAFFCategory Options'
+          Lore:
+          - '#00AAFF▎ &fClick to change the category filtering type.'
+          - ''
+          - '%filtertypes%'
+          Misc:
+            Option: '#00AAFF▎ &8» %selected%%name%'
+            Selected: '&a'
+            Deselected: '&f'
+        NextPage:
+          Name: '#00FFC1Next Page'
+          Lore:
+          - '#00FFC1▎ &fClick to view the items on the next page.'
+        PreviousPage:
+          Name: '&cPrevious Page'
+          Lore:
+          - '&c▎ &fClick to view the items on the previous page.'
+      MenuName: '&8&l» &8Permanent Store &0|&8 Page: &8(&0%current%&8/&0%total%&8)'
+    Rotating:
+      MenuName: '&8&l» &8Rotating Store'
+      Items:
+        BackToMenu:
+          Lore:
+          - '#FF2900▎ &fClick to return to the Farmers Market.'
+          Name: '#FF2900Return to Farmers Market'
+        TimeLeft:
+          Lore:
+          - '&7This shop sells #00FFC1limited timed &7items.'
+          - ''
+          - '&7This stores stock rotates in: &e%time%'
+          Name: '&aTime Until Refresh'
+    Confirmation:
+      MenuName: '&8&l» Confirm Purchase'
+      Items:
+        Cancel:
+          Lore:
+          - '&7Click to cancel this purchase and'
+          - '&7return to your previous menu.'
+          Name: '&cCancel Purchase '
+        Accept:
+          Name: '&aAccept Purchase &8» &a%name%'
+          Lore:
+          - '&7Confirm the purchase of the item &a%name%&7.'
+          - ''
+          - '&7This item costs: &a$%cost%'
+          - ''
+          - '&eClick to confirm this purchase.'
+  Skills:
+    MainMenu:
+      Items:
+        UpgradeTree:
+          Misc:
+            NotYours: '&7That &cSkill Tree &7does not belong to you. It belongs to
+              &c%owner%&7.'
+            AreaNotClear:
+              Block: '&8» &b%loc% &7➛ &bBlock Detected'
+              NoPermission: '&8» &b%loc% &7➛ &bNo Build Permission'
+              Main: '&7The area around the &cSkill Tree &7is not clear to upgrade.
+                Ensure that no blocks are near the tree within a 5x5x5 area.'
+              Liquid: '&8» &b%loc% &7➛ &bLiquid or Air Detected'
+              Cooldown: '&7You are clicking too fast!'
+            Lore:
+              ElysiumLine: '&8» &7Required Elysium: #22D302%elysium% &8(%enough%&8)'
+              Enough: '&a✔'
+              CannotUpgrade: '&cYou do not meet the requirements for this.'
+              LevelLine: '&8» &7Required Level: #22D302%level% &8(%enough%&8)'
+              CanUpgrade: '#2CF707Click to upgrade your tree!.'
+              Item: '&8» &f%amount%x %name% &8(%enough%&8)'
+              NotEnough: '&c✖'
+            MaxLevel: '&7Your &bSkill Tree &7is already at the maximum level.'
+            Broken: '&7You have broken your &bSkill Tree&7.'
+            UpgradedTree: '&7You have upgraded your &bSkill Tree &7to level: &b%level%&7.'
+            NotRequirements: '&7You do not meet the requirements to upgrade your tree
+              yet.'
+            Built: '&7Your &bSkill Tree &7has been created!'
+            AlreadyHave: '&7You already have a &cSkill Archive&7 placed at: &cX: %x%&7,
+              &cY:%y%&7, &cZ:%z%&7.'
+          Lore:
+          - '&7Click to upgrade your #30DB5FSkill Tree &7Level.'
+          - ''
+          - '&8» &7Current Level: #30DB5F%current%'
+          - '&8» &7Max Level: #04E0FF%max%'
+          - ''
+          - '#04E0FFRequirements to Upgrade:'
+          - '%level%'
+          - '%elysium%'
+          - '%requiredItems%'
+          - ''
+          - '&fMake sure there is enough room'
+          - '&faround your tree before upgrading.'
+          - ''
+          - '%meetsRequirements%'
+          Name: '#04E0FFUpgrade Tree Level'
+        Skill:
+          Lore:
+            MaxLevel: '&eMax Level'
+            Bonus: '&a%from% ➛ &e%to%'
+            Requirements: '&cRequires %skill%.'
+            Cost: '&8» %symbol% &7Cost: #30DB5F%cost% Elysium'
+            Locked: '&cLOCKED'
+            BonusMaxed: '&a%from%'
+            Level: '&8» %symbol% &7Required Tree Level: &e%level%'
+            CurrentLevel: '&7Level: &8(&a%current%&7/&a%max%&8)'
+            'No': '&c❌'
+            'Yes': '&a✔'
+            Unlocked: '&aUNLOCKED'
+            Main:
+            - '%current_level%'
+            - ''
+            - '%description%'
+            - ''
+            - '&eUpgrade Information:'
+            - '%cost%'
+            - '%required_level%'
+            - ''
+            - '%requirement%'
+            - '%status%'
+          Misc:
+            MissingPrerequistes: '&7That skill requires that you have the following
+              skills unlocked first: &c%requirements%&7.'
+            NotEnoughElysium: '&7You need another &c%elysium% Elysium &7to upgrade
+              that skill.'
+            NotRequiredLevel: '&7That skill requires a &cSkill Tree Level &7of at
+              least &c%level%&7.'
+            Upgraded: '&7You have upgraded &b%skill% &7to level &a%level%&7.'
+            MaxLevel: '&7That skill is already at maximum level.'
+          Name: '&a%name%'
+        ResetTree:
+          Misc:
+            Reset: '&7You have reset your &bSkill Tree &7and got #30DB5F%elysium%
+              Elysium &7refunded.'
+          Name: '&aReset Skill Tree'
+          Lore:
+          - '&7Click to reset your Skill Tree.'
+          - ''
+          - '&7You will gain #30DB5F%elysium% Elysium &7from this.'
+          - ''
+          - '&7Note: Permanent skills cannot be reset.'
+          - '&cPermanent &7skills are shown as blocks of items.'
+        BackToMenu:
+          Name: '#FF2900Close Menu'
+          Lore:
+          - '#FF2900▎ &fClick to exit this menu.'
+        ScrollDown:
+          Lore:
+          - '&c▎ &fClick to scroll downwards.'
+          Name: '&cScroll Down'
+        ScrollUp:
+          Lore:
+          - '#00FFC1▎ &fClick to scroll upwards.'
+          Name: '#00FFC1Scroll Up'
+        Information:
+          Lore:
+          - '&7Welcome to the #30DB5FSkill Archive&7!'
+          - ''
+          - '&7Here you can upgrade various skills.'
+          - '&7Skills are split into two categories.'
+          - '&cPermanent &7and &aNon-Permanent&7. &CPermanent'
+          - '&7skills cannot be reset, while others can.'
+          - '&7These are indicated by &fblocks of ores&7.'
+          - ''
+          - '&7Some skills require you to level up your tree.'
+          - '&7You can do this in the bottom left.'
+          Name: '#00FFC1Information'
+        UpgradeLore:
+          LoreMax:
+          - '&7Your #30DB5FSkill Tree &7is currently the max level of #30DB5F%max%&7!'
+      MenuName: '&8&l» &8Farming Skills'
+  FarmMain:
+    Items:
+      Recipes:
+        Name: '#00FF51Recipes'
+        Lore:
+        - '&7Click to view all the recipes.'
+        - '&7Craft unique farming related items!'
+        - ''
+        - '&e» Click to open!'
+      GettingStarted:
+        Name: '#00FF51Getting Started'
+        Lore:
+        - '&7Welcome to &ePyroFarming&7.'
+        - ''
+        - '&7To get started you will need'
+        - '&7to make some &bGrowstations&7. You'
+        - '&7can craft these within a regular crafting'
+        - '&7table. Once made, place them down and buy'
+        - '&7some seeds from &6/farm market&7 to start!'
+        - ''
+        - '&7Use a crafting table to create a #30DB5FSkill Archive'
+        - '&7to learn new skills and abilities.'
+        - '&7Search for the recipe in the crafting table'
+        - '&7to see how to make one!'
+        - ''
+        - '&7You can always do &6/farm help <args> &7if'
+        - '&7you get stuck or need more information!'
+        - ''
+        - '&eClick to view the Growstation recipe.'
+      FarmShop:
+        Name: '#00FF51Farm Shop'
+        Lore:
+        - '&7Click to view the Farm Shop.'
+        - '&7You can sell the #00FFC1harvestables &7here.'
+        - ''
+        - '&e» Click to open!'
+      PlayerStats:
+        Name: '#00DFFF&lYour Stats:'
+        Lore:
+        - '#00DFFF▎ &fBelow is your player stats:'
+        - ''
+        - '#00DFFF▎ &fPlayer Level: #00DFFF%level%'
+        - '#00DFFF▎ &fCurrent XP: #00DFFF%bar% &8(#00DFFF%currentxp%&f/#00DFFF%requiredxp%&8)'
+        - '#00DFFF▎ &fElysium: #00DFFF%elysium%'
+        - ''
+        - '#00DFFF▎ &fNumber of Growstations: &8(#00DFFF%growstations%&f/#00DFFF%maxgrowstations%&8)'
+        - '#00DFFF▎ &fNumber of Bushes: &8(#00DFFF%bushes%&f/#00DFFF%maxbushes%&8)'
+      FarmMarket:
+        Name: '#00FF51Farmers Market'
+        Lore:
+        - '&7Click to view the Farmers Market.'
+        - '&7Buy your seeds here to grow your garden!'
+        - ''
+        - '&e» Click to open!'
+      Codex:
+        Lore:
+        - '&7Click to view the codex.'
+        - '&7View all of the #00FFC1crops&7, #00FFC1plants&7, #00FFC1bushes, #00FFC1trees
+          &7and'
+        - '&7other various information here!'
+        - ''
+        - '&e» Click to open!'
+        Name: '#00FF51Codex'
+      GuideBook:
+        Lore:
+        - '&7Click to view the Farming Guide Book.'
+        - '&7Learn about all the custom features here.'
+        - ''
+        - '&e» Click to open!'
+        Name: '#00FF51Guide Book'
+  GrowstationInventory:
+    Misc:
+      DroppedItems: '&7One or more items were dropped on the ground since the inventory
+        was full. This is caused by incorrect configuration. Please contact an administrator
+        regarding this issue.'
+    Items:
+      BackToMenu:
+        Lore:
+        - '#FF2900▎ &7Click to return to the Growstation Menu.'
+        Name: '#FF2900Return to Main Menu'
+  FarmShop:
+    Items:
+      BackToMenu:
+        Name: '#FF2900Return to Main Menu'
+        Lore:
+        - '#FF2900▎ &fClick to return to the Main Menu.'
+      SellButton:
+        Lore:
+        - '#00FF11▎ &fClick to sell the items within the menu.'
+        - ''
+        - '#00FF11▎ &fObtain items from growing #00FFC1plants&f, &fharvesting'
+        - '#00FF11▎ #00FFC1bushes&f, growing #00FFC1crops &for harvesting #00FFC1trees&f.'
+        Name: '#00FF11&lClick to Sell'
+    MenuName: '&8&l» &8Farmers Shop'
+  GrowstationRecipe:
+    Items:
+      BackToMenu:
+        Name: '#FF2900Return to Main Menu'
+        Lore:
+        - '#FF2900▎ &fClick to return to the Main Menu.'
+      CraftingTable:
+        Lore:
+        - '&7Copy the recipe above and craft this'
+        - '&7inside of any &aCrafting Table&7.'
+        Name: '#00FFC1Crafting'
+  ConfirmRemoveSeed:
+    MenuName: '&8&l» &8Confirm Seed Removal'
+  FarmMenu:
+    MenuName: '&8&l» &8PyroFarming Menu'
+  ShowGrowstationRecipe:
+    MenuName: '&8&l» &8Growstation Recipe'
+  CraftItems:
+    MenuName: '&8&l» &8Item Crafting'
+Items:
+  Bushes:
+    RotatingStore: '&8» #FF9600Rotating Market Exclusive Item'
+    DiscountedCost: '&8» &7Bush Price: &c&m$%cost%&r &a$%newcost% &8(&a15% Discount&8)'
+    Lore:
+    - '&7Place this bush and watch it'
+    - '&7grow items overtime for you.'
+    - ''
+    - '#00FFC1&lInformation:'
+    - '&8» &7Harvest Time: &a%harvest_interval%'
+    - '&8» &7Bush Price: &a$%cost%'
+    - '%rotating-store%'
+  Growstation:
+    Lore:
+    - '&7Placing this will create an empty'
+    - '&bGrowstation&7. Breaking this with'
+    - '&aupgrades &7will save the upgrades.'
+    - ''
+    - '&8» &7Owner: #16DDF9%owner%'
+    - ''
+    - '&8» &7Water Upgrades: #16DDF9%water-upgrade%'
+    - '&8» &7Elysium Upgrades: #16DDF9%elysium-upgrade%'
+    - '&8» &7Growth Upgrades: #16DDF9%growth-upgrade%'
+    - '&8» &7Mutation Upgrades: #16DDF9%mutation-upgrade%'
+    - ''
+    - '&e&oPyroFarming'
+    Name: '&b&lGrowstation'
+  Plants:
+    TraitLore:
+    - ''
+    - '&8» &7Traits:'
+    - '%trait%'
+    DiscountedCost: '&8» &7Seed Price: &c&m$%cost%&r &a$%newcost% &8(&a15% Discount&8)'
+    RotatingStore: '&8» #FF9600Rotating Market Exclusive Item'
+    Lore:
+    - '&7This is a seed for the %name% &7Plant.'
+    - '&7Plant this inside of a &bGrowstation&7.'
+    - ''
+    - '#00FFC1&lInformation:'
+    - '&8» &7Temperature: %temperature%'
+    - '&8» &7Temperament: %temperament%'
+    - '&8» &7Environment: %environment%'
+    - ''
+    - '&8» &7Growing Time: &a%growing_time%'
+    - '&8» &7Seed Price: &a$%cost%'
+    - '&8» &7Items Created: &a%items_made%'
+    - '%traits%'
+    - '%rotating-store%'
+    TraitLine: '&7  ↳ %traitcolor%%name%'
+  SkillArchive:
+    Name: '#30DB5F&lSkill Archive'
+    Lore:
+    - '&7Placing this will create your #30DB5FSkill Tree&7.'
+    - '&7Click on it when placed to form, or'
+    - '&7reform your tree.'
+    - ''
+    - '&8» &7Owner: #16DDF9%owner%'
+    - '&8» &7Tier: #16DDF9%tier%'
+    - ''
+    - '&e&oPyroFarming'
+Bushes:
+  Break:
+    Broken: '&7You have broken your %bush%&7.'
+    NotYours: '&7That &cBush &7does not belong to you. It belongs to &c%owner%&7.'
+  Click:
+    Harvestable: '&7This %bush% &7is &aready &7to be harvested!'
+    TimeTillHarvest: '&7This %bush% &7will be ready in &a%time%&7.'
+  Place:
+    Error: '&7There was an error placing this &cBush&7. Contact an admin to resolve
+      this issue.'
+    NotRequiredLevel: '&7You are not at a high enough level to place this! You must
+      be at least &cLevel %level%&7!'
+    Placed: '&7You have placed your %bush%!'
+    TooMany: '&7You can only place &c%num% Bushes&7!'
+CustomItems:
+  INDUSTRIAL_FAN:
+    Name: '#06A9EAIndustrial Fan'
+    Lore:
+    - '&7An industrial grade fan for cooling.'
+    - '&7Can be used to cool growstations slightly..'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Temperature: &c-1'
+    - '&8» &7Range: #07FDFF5 blocks'
+    - ''
+    - '&e&oPyroFarming'
+  BASIC_WATER_GOLEM:
+    Lore:
+    - '&7This helpful golem will tend to your'
+    - '&7growstations, helping them to grow plants faster.'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Growth Speed: #0EAD345%'
+    - '&8» &7Range: #07FDFF10 blocks'
+    - ''
+    - '&e&oPyroFarming'
+    Name: '#649E72Basic Water Golem'
+  HEART_OF_BELPHEGOR:
+    Lore:
+    - '&7The heart of a hellish demon. The'
+    - '&7heat from this boils nearby growstations.'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Temperature: &a+5'
+    - '&8» &7Range: #07FDFF3 blocks'
+    - ''
+    - '&e&oPyroFarming'
+    Name: '#FD7C7CHeart of Belphegor'
+  OVERWORLD_ORB:
+    Lore:
+    - '&7This orb resonates with the Overworld. This'
+    - '&7makes nearby growstations have the'
+    - '&7Overworld Environment attribute.'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Environment: #CB861FOverworld'
+    - '&8» &7Range: #07FDFF5 blocks'
+    - ''
+    - '&e&oPyroFarming'
+    Name: '#00FF4AOverworld Orb'
+  ADVANCED_WATER_GOLEM:
+    Lore:
+    - '&7This helpful golem will tend to your'
+    - '&7growstations, helping them to grow plants much faster.'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Growth Speed: #0EAD3415%'
+    - '&8» &7Range: #07FDFF10 blocks'
+    - ''
+    - '&e&oPyroFarming'
+    Name: '#00FF3EAdvanced Water Golem'
+  PYROTHEUM_ORB:
+    Lore:
+    - '&7A molten orb containing liquid Pyrotheum. The'
+    - '&7heat from this warms up nearby growstations.'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Temperature: &a+3'
+    - '&8» &7Range: #07FDFF4 blocks'
+    - ''
+    - '&e&oPyroFarming'
+    Name: '#FF4005Pyrotheum Orb'
+  INTERMEDIATE_WATER_GOLEM:
+    Lore:
+    - '&7This helpful golem will tend to your'
+    - '&7growstations, helping them to grow plants even faster.'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Growth Speed: #0EAD3410%'
+    - '&8» &7Range: #07FDFF10 blocks'
+    - ''
+    - '&e&oPyroFarming'
+    Name: '#5DCD78Intermediate Water Golem'
+  VESSEL_OF_BOREAS:
+    Lore:
+    - '&7The ancient vessel containing a fragment'
+    - '&7of the God of Winter. This can make'
+    - '&7growstations ice cold in an instant.'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Temperature: &c-5'
+    - '&8» &7Range: #07FDFF3 blocks'
+    - ''
+    - '&e&oPyroFarming'
+    Name: '#4844FDVessel of Boreas'
+  NETHER_ORB:
+    Lore:
+    - '&7This orb resonates with the Nether. This'
+    - '&7makes nearby growstations have the'
+    - '&7Nether Environment attribute.'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Environment: #CB861FNether'
+    - '&8» &7Range: #07FDFF5 blocks'
+    - ''
+    - '&e&oPyroFarming'
+    Name: '#FF3A07Nether Orb'
+  LAVA_LAMP:
+    Lore:
+    - '&7A cool looking lamp made from lava.'
+    - '&7Can be used to heat nearby growstations.'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Temperature: &a+1'
+    - '&8» &7Range: #07FDFF5 blocks'
+    - ''
+    - '&e&oPyroFarming'
+    Name: '#FDA87CLava Lamp'
+  END_ORB:
+    Lore:
+    - '&7This orb resonates with The End. This'
+    - '&7makes nearby growstations have the'
+    - '&7End Environment attribute.'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Environment: #CB861FThe End'
+    - '&8» &7Range: #07FDFF5 blocks'
+    - ''
+    - '&e&oPyroFarming'
+    Name: '#C5F916End Orb'
+  SUBZERO_WISP:
+    Name: '#1668F9Subzero Wisp'
+    Lore:
+    - '&7An ethereal creature that emits a wave'
+    - '&7of glacial wind cooling nearby growstations.'
+    - ''
+    - '#07FDFFInformation'
+    - '&8» &7Temperature: &c-3'
+    - '&8» &7Range: #07FDFF4 blocks'
+    - ''
+    - '&e&oPyroFarming'
+Tournaments:
+  Names:
+    MOST_CARROTS: Most Carrots
+    MOST_SUGARCANE: Most Sugarcane
+    MOST_WHEAT: Most Wheat
+    MOST_BEETROOT: Most Beetroot
+    MOST_POTATOES: Most Potatoes
+    MOST_NETHERWART: Most Netherwart
+  Time:
+    Disabled: '&7Automatic tournaments aren''t enabled on this server.'
+    TimeLeft: '&7There is a tournament currently active with &a%time% &7left.'
+    Time: '&7Time till next tournament: &e%time%'
+  NA:
+    Score: N/A
+    Name: N/A
+  InvalidArgument: '&7Invalid arguments. Do &c/farmt &7for a list of sub-commands.'
+Commands:
+  Plant:
+    GiveHarvestableItem:
+      NoHarvestItems: '&7The plant ''&c%plant%&7'' does not have any harvestable items.'
+      Given: '&7You have given yourself the harvest item &b%id%&7.'
+      NotEnoughArgs: '&7Correct command usage: &c/farm giveplantharvestable <plant>
+        <item id>&7.'
+      NoHarvestId: '&7A harvest item ID is required to spawn in an item for this plant.'
+      InvalidItem: '&7The plant ''&c%plant%&7'' does not have a harvestable item with
+        id ''&c%id%&7'''
+      InvalidHarvestId: '&7The plant ''&c%plant%&7'' does not have a harvestable item
+        with id ''&c%id%&7''.'
+  StartTournament:
+    InvalidArgs: '&7Correct Usage: &c/farmt start <tournament> [duration]'
+    TooShort: '&7The value &c%value% &7is too short. It must be greater then 0 seconds.'
+    Started: '&7You have started the Tournament &6%type%&7.'
+    InvalidDuration: '&7The value &c%value% &7is not a valid integer.'
+    InvalidType: '&7That Tournament Type does not exist.'
+  GiveCustomItem:
+    InvalidCustomItem: '&7The item ''&c%item%&7'' does not exist!'
+    NotEnoughArgs: '&7Correct command usage: &c/farm givecustomitem <name> [player]'
+    GivenPlayer: '&7You have been given the Custom Item &b%id%&7.'
+    GivenSender: '&7You have given &3%player% &7the Custom Item &b%id%&7.'
+    ConsolePlayer: '&7To run this command in console, provide a player name. &c/farm
+      givecustomitem %id% [player]'
+  Friends:
+    ListNone: '&7You do not have anyone added to your friend list currently.'
+    NotEnoughArgs: '&7Correct command usage: &c/farm friends <add/remove/list>'
+    Remove:
+      Removed: '&7You have removed &e%name% &7from your friends list.'
+      Contains: '&7The player &c%name% &7is not on your friend list.'
+      NoName: '&7You need to supply the name of the player you wish to remove.'
+    Add:
+      Yourself: '&7You can''t be your own friend. Sorry :('
+      Added: '&7You have added &e%name% &7to your friends list.'
+      NoName: '&7You need to supply the name of the player you wish to add.'
+      Invalid: '&7The player &c%name% &7does not exist.'
+      Contains: '&7The player &c%name% &7is already on your friend list.'
+    List: '&7Your friend list: &a%friends%'
+  Bush:
+    GiveHarvestableItem:
+      InvalidHarvestId: '&7The bush ''&c%bush%&7'' does not have a harvestable item
+        with id ''&c%id%&7''.'
+      NotEnoughArgs: '&7Correct command usage: &c/farm givebushharvestable <bush>
+        <item id>&7.'
+      NoHarvestItems: '&7The bush ''&c%bush%&7'' does not have any harvestable items.'
+      Given: '&7You have given yourself the harvest item &b%id%&7.'
+      InvalidItem: '&7The bush ''&c%bush%&7'' does not have a harvestable item with
+        id ''&c%id%&7'''
+      NoHarvestId: '&7A harvest item ID is required to spawn in an item for this bush.'
+  InvalidPlant: '&7The plant with id ''&c%plant%&7'' could not be found.'
+  AddXP:
+    Sender: '&7You have given &b%player% %xp% &7Farming XP.'
+    SupplyPlayer: '&7To run this command in console, you need a player argument.'
+    Target: '&7You have been given &b%xp% &7Farming XP.'
+    NotEnoughArgs: '&7Correct command usage: &c/farm addxp <amount> [player]&7.'
+  InvalidSubCommand: '&7Invalid sub-command. Do &c/farm &7for a list of sub-commands.'
+  GiveGrowstation:
+    Given: '&7You have been given &e%amount% &bGrowstations&7.'
+    NotEnoughArgs: '&7Correct command usage: &c/farm givegrowstation <player> [amount]&7.'
+    GivenSelf: '&7You have given yourself a &bGrowstation&7.'
+    GivenOther: '&7You have given &a%player% &e%amount% &bGrowstations&7.'
+  GiveSeed:
+    GivenPlayer: '&7You have been given the plant seed &b%id%&7.'
+    NotEnoughArgs: '&7Correct command usage: &c/farm giveseed <plant> [player]&7.'
+    GivenSender: '&7You have given &3%player% &7the plant seed &b%id%&7.'
+    ConsolePlayer: '&7To run this command in console, provide a player name. &c/farm
+      giveseed %id% [player]'
+  ReloadedPlugin: '&6PyroFarming &7has been successfully reloaded!'
+  CannotExecuteFromConsole: '&7You cannot execute this command from console!'
+  TournamentInfo:
+    NoTournament: '&7There is currently no tournament in progress.'
+  InvalidArgument: '&7Invalid arguments. Do &c/farm &7for a list of sub-commands.'
+  InvalidNumber: '&7The value &c''%value%'' &7is not a valid integer.'
+  GiveBush:
+    GivenSender: '&7You have given &3%player% &7the bush %bush%&7.'
+    GivenPlayer: '&7You have been given the bush %bush%&7.'
+    NotEnoughArgs: '&7Correct command usage: &c/farm givebush <bush> [player] [amount]&7.'
+  StopTournament:
+    NoTournament: '&7There is currently no tournament on-going.'
+    Stopped: '&7You have stopped the on-going tournament.'
+    Broadcast: '&7The current tournament was stopped by an administrator.'
+  PlayerNotFound: '&7That player was not found or isn''t online!'
+  PlacedItems:
+    Growstation: '&8» &bGrowstation &7- &eWorld: %world%, X: %x%, Y: %y%, Z: %z%'
+    Bushes: '&8» &aBush &7- &eWorld: %world%, X: %x%, Y: %y%, Z: %z%'
+    Initial: '&7Below are your placed items:'
+  Codex:
+    InvalidMenu: '&7That codex sub-menu does not exist.'
+  Market:
+    InvalidMenu: '&7That market sub-menu does not exist.'
+  Help:
+    InvalidPage: '&7That is an invalid page type.'
+  OnlyPlayer: '&7You cannot execute this command from console.'
+  Elysium:
+    Balance: '&7You currently have #22D302%elysium% Elysium&7.'
+Misc:
+  SimpleTime:
+    NoHours: '%minutes%m and %seconds%s'
+    NoMinutes: '%seconds%s'
+    Hours: '%hours%h, %minutes%m and %seconds%s'
+    Days: '%days%d, %hours%h, %minutes%m and %seconds%s'
+  Time:
+    Hours: '%hours% hours, %minutes% minutes and %seconds% seconds'
+    NoHours: '%minutes% minutes and %seconds% seconds'
+ConservationStatus:
+  EXTINCT_IN_THE_WILD: Extinct In The Wild
+  CONSERVATION_DEPENDENT: Conservation Dependent
+  ENDANGERED: Endangered
+  NEAR_THREATENED: Near Threatened
+  LEAST_CONCERN: Least Concern
+  CRITICALLY_ENDANGERED: Critically Endangered
+  VULNERABLE: Vulnerable
+  EXTINCT: Extinct
+ComposterCrafting:
+  Craft:
+    NotPlayerLevel: '&7You are not at a high enough level to make this item!'
+    Crafted: '&7You have crafted a %item%&7.'
+    NotComposterLevel: '&7Your composter is not a high enough level for this!'
+    NotEnoughItems: '&7You do not have all the required items to make this item.'
+FarmingLevelUp: '&7Your #22D302Farming &7level has increased to #22D302%level%&7!'
+CategoryFilterTypes:
+  ALL: All
+  PLANTS: Plants
+  BUSHES: Bushes
+SkillsLore:
+  BETTER_TANKS_2:
+  - '&7Gives your &bGrowstations &7%bonus% &7more'
+  - '&7total #69B4F3Water &7capacity.'
+  BETTER_TANKS_1:
+  - '&7Gives your &bGrowstations &7%bonus% &7more'
+  - '&7total #69B4F3Water &7capacity.'
+  MORE_BUSHES_1:
+  - '&7Allows you to place %bonus% &7more'
+  - '&aBushes &7down.'
+  RIGHT_CLICK_HARVEST:
+  - '&7Allows you to &aRight-Click &7crops'
+  - '&7to harvest them. This will automatically'
+  - '&7replant the seed, or crop for you.'
+  MORE_GROWSTATIONS_2:
+  - '&7Allows you to place %bonus% &7more'
+  - '&bGrowstations &7down for more plants.'
+  MORE_GROWSTATIONS_1:
+  - '&7Allows you to place %bonus% &7more'
+  - '&bGrowstations &7down for more plants.'
+Growstation:
+  Place:
+    Placed: '&7You have placed your &bGrowstation&7.'
+    Error: '&7There was an error placing this &cGrowstation&7. Contact an admin to
+      resolve this issue.'
+    TooMany: '&7You can only place &c%num% Growstations&7!'
+  Harvest:
+    Harvested: '&7You have harvested your &a%plant%&7.'
+  Water:
+    Full: '&7Your &bGrowstation &7is already full of water!'
+  Break:
+    NotYours: '&7That &cGrowstation &7does not belong to you. It belongs to &c%owner%&7.'
+    BrokenOther: '&7You have broken #16DDF9%owner%''s &bGrowstation&7.'
+    Broken: '&7You have broken your &bGrowstation&7.'
+GuideBook:
+  Category:
+    PLANTS:
+      Information:
+      - |2-
+             &lPlant Guide&r
+
+        Plants are one of the core systems in PyroFarming.
+
+        Plants can be bought from the &2/farm market &rand have to be grown inside of &3Growstations&r.
+      - |-
+        &3Growstations &rcan be crafted inside of a crafting table. Note: You can only place a limited number of &3Growstations&r. You can increase your limit by upgrading skills inside of a &2Skill Archive&r.
+
+        Once you have some seeds, you can then
+      - |-
+        plant them inside of the &3Growstation&r by dragging them onto the &cIron Bars&r. Once placed inside, you will need to ensure conditions are optimal for the seed to grow.
+
+        You will firstly need &9Water &rwhich you can add by &5Right-Clicking &ron
+      - |-
+        the &3Growstation &rwith a &9Water Bucket&r.
+
+        All Plants require a specific &cTemperature&r and &2Environment &rto grow. For information regarding both of these, see the specific help pages.
+      - |-
+        Once conditions are met, the plant will start to grow.
+
+        After it has grown, it will either be ready to collect, or it will create various items that will be placed inside of the &3Growstation Inventory&r.
+      - |-
+        The Plant will always show its growing status on the &cIron Bars&r. Anything blocking its growth will be shown in &cred text&r.
+
+        Plants can develop or have traits which can help, or have adverse effects
+      - on your plant and its surroundings. See the trait guide for more information
+        on what traits are, what plant temperaments do, and how to get traits.
+    TEMPERATURE:
+      Information:
+      - |-
+        &lTemperature Guide&r
+
+        Plants have various required temperatures in order to grow. To grow these plants, you must meet this requirement.
+
+        Different Biomes have various temperatures.
+      - These temperatures are based on Minecraft's inherited biome temperature. Cold
+        biomes will be cold, and warm biomes will be warm. The next page has all of
+        the temperatures that plants can have.
+      - |-
+        &lTemperatures:&r
+
+        » #0015FFGlacial &0(-3)
+        » #0073FFFreezing &0(-2)
+        » #00C9FFCold &0(-1)
+        » &0Normal &0(0)
+        » #FFA800Warm &0(1)
+        » #FF7400Hot &0(2)
+        » #FF1A00Boiling &0(3)
+
+        Temperatures with 'ANY' can be grown anywhere.
+      - |-
+        &lCustom Items&r
+
+        You can use various custom items to help you imitate a temperature anywhere such as a #FDA87CLava Lamp&r.
+
+        See the Custom Items help section for more information.
+    TRAITS:
+      Information:
+      - |2-
+             &lTraits Guide&r
+
+        Traits are special things that plants can have attached to them.
+
+        Traits can both positively, and negatively affect your plants growing, and harvest and also give it special unique effects.
+      - |-
+        To view a full list of traits, go to &2/farm codex plants &rand look inside of the 'Traits' tab at the bottom.
+
+        Traits can be affected by a Plant's Temperament. See the Temperament guide for more information.
+      - Traits such as &2Attractor &rwill pickup items in a radius around you and
+        put those items into a chest next to the &3Growstation&r. Traits can randomly
+        mutate onto a plant once planted if your &2Farming Level &ris above &235&r.
+      - |-
+        It is entirely random which effect(s) you will get from this.
+
+        Most traits will not be active until the plant is fully grown.
+    TEMPERAMENT:
+      Information:
+      - |-
+        &lTemperament Guide&r
+
+        When it comes to growing plants, you may see Temperament as an option on the item.
+
+        Temperament only affects Traits and how those traits will interact between players and other mobs.
+      - |-
+        If a plant has a 'Friendly' Temperament, it will not attack players, or passive mobs such as cows, sheep, or pigs.
+
+        If a plant has an 'Aggressive' Temperament, it will attack anything, including players.
+      - |-
+        Plants can also have a 'Normal' Temperament. This will mean that they will attack anything apart from players.
+
+        There is currently no way to modify a plants temperament rating.
+    BUSHES:
+      Information:
+      - |2-
+              &lBush Guide&r
+
+        Bushes are blocks that can be placed and will grow items over time for you.
+        These will appear as player heads above the placed bush.
+
+        You can break these and sell them to the &2/farm shop &rfor money.
+      - |-
+        Bushes are designed in a way that they cost a lot to purchase, and the items they produce sell for less.
+
+        Since they require very little work to harvest, they will be profitable in the long run.
+      - |-
+        You can increase the amount of Bushes that you can place by upgrading various skills inside of the Skill Archive.
+
+        To purchase Bushes, open the &2/farm market&r and find some for sale.
+    CUSTOM_ITEMS:
+      Information:
+      - |2-
+         &lCustom Item Guide&r
+
+        Custom Items are various items that can be placed near farming related items such as &3Growstations &rto give them various buffs and benefits.
+
+        Custom Items have a radius in which they can work.
+      - "        &lCrafting&r\n\nTo craft Custom Items, you will require any type\
+        \ of &2Hoe &rand a &2Composter&r.\n\nOnce you have both, right click on the\
+        \ &2Composter &rwith the &2Hoe&r. \n\nContinued on next page..."
+      - |-
+        Once inside of the menu, find the item you wish to craft.
+
+        Ensure that you have the required items, and are a high enough level. If you do, click on the item and it will craft for you!
+    ENVIRONMENT:
+      Information:
+      - |-
+        &lEnvironment Guide&r
+
+        Plants have various required environments in order to grow. Environments can be considered world types, such as the Overworld, Nether or End. However, some environments are custom and
+      - require special Custom Items in order to imitate that environment. The page
+        after shows you a list of all the current environments plants can have.
+      - |-
+        &lEnvironments:&r
+
+        » Overworld&r
+        » Nether&r
+        » The End&r
+
+        Environments with 'ANY' can be grown anywhere.
+      - |-
+        &lCustom Items&r
+
+        You can use various custom items to help you imitate an environment anywhere such as a #FF3A07Nether Orb&r.
+
+        See the Custom Items help section for more information.
+    SKILL_ARCHIVE:
+      Information:
+      - |-
+        &lSkill Archive Guide&r
+
+        The &2Skill Archive&r is a special structure that you can craft inside of a crafting table. Once you have crafted it, place it down in an area that has a lot of space and that's it!
+      - |-
+        The &2Skill Archive &ris home to a host of various skills that can help to improve your farming capabilities, and allow you to place more &3Growstations &ror &2Bushes &ras examples.
+
+        Some skills require
+      - |-
+        you to level up your &2Skill Archive &rto a higher level. You can do this in the bottom left of the menu. You will see the requirements listed in the lore.
+
+        The &2Skill Archive &rhas &3four &rlevels.
+      - |-
+        Some skills are considered &cPermanent &rand cannot be refunded at all.
+
+        These are designated as &5Blocks of Items&r such as Coal Blocks, Redstone Blocks etc.
+      - |-
+        It is completely free to reset your &2Skill Archive &rand you will get all the #30DB5FElysium &rspent refunded for free.
+
+        The &2Skill Archive &rcan be broken and relocated at any time for free.
+  MainCategory:
+  - |2-
+     &lPyroFarming Help&r
+
+    Welcome to the main help guidebook. This book will contain various information to help you along your journey to becoming the best farmer out there.
+
+    If you are stuck, you can view individual
+  - |-
+    guides on this page, or by using &5/farm help <args>&0.
+
+    » <CLICK:Plant Guide:/farm help plants>
+    » <CLICK:Temperature Guide:/farm help temperature>
+    » <CLICK:Temperament Guide:/farm help temperament>
+    » <CLICK:Environment Guide:/farm help environment>
+    » <CLICK:Trait Guide:/farm help traits>
+
+    » <CLICK:Bushes Guide:/farm help bushes>
+    » <CLICK:Skill Archive:/farm help skill_archive>
+    » <CLICK:Custom Items:/farm help custom_items>
+  Exception: '&7An error occurred when opening this book. Report this to an administator.'
+FarmMarket:
+  NotHighEnoughLevel: '&7You are not at a high enough level to purchase this. You
+    need to be at least level &c%level%&7.'
+  BoughtItem: '&7You have purchased a &a%item% &7for &a$%price%&7.'
+  NotEnoughMoney: '&7You do not have enough money for this! You need at least &c$%money%&7.'
+TemperatureType:
+  BOILING: Boiling
+  HOT: Hot
+  COLD: Cold
+  GLACIAL: Glacial
+  WARM: Warm
+  ANY: Any
+  FREEZING: Freezing
+  NORMAL: Normal
+Placeholders:
+  TimeTillTournament:
+    OnGoing: Currently Active for %time%
+SkillTypes:
+  NO_CROP_TRAMPLE: No Crop Trample
+  MORE_BUSHES_1: More Bushes 1
+  MORE_GROWSTATIONS_1: More Growstations 1
+  MORE_GROWSTATIONS_2: More Growstations 2
+  RIGHT_CLICK_HARVEST: Right Click Harvest
+  BETTER_TANKS_1: Better Tanks 1
+  BETTER_TANKS_2: Better Tanks 2
+  RAIN_FILL: Rain Fill
+SuccessPrefix: '&e&lPyroFarming &8➤ '
+FilterTypes:
+  BUY_PRICE: Buy Price
+  REQUIRED_LEVEL: Required Level
+  ALPHABETICAL: Alphabetical
+FarmShop:
+  SellShopItems: '&7You have sold &b%amount% &7items for &b$%total%&7!'
+  ConsoleLog: '&b%player% &7sold &b%amount%&7 items for &b$%total%&7.'
+TemperamentType:
+  AGGRESSIVE: Aggressive
+  NORMAL: Normal
+  FRIENDLY: Friendly
+EnvironmentType:
+  NETHER: Nether
+  THE_END: The End
+  OVERWORLD: Overworld
+  ANY: Any
+NoPermission: '&7You do not have permission for that. You require &c%permission% &7for
+  this.'
+CommandList:
+- ''
+- '&8]&m-----------+&r&8[ &6&lPyroFarming &r&8]&m+-----------&r&8['
+- ''
+- '&e/farm &7- Shows this command list.'
+- '&e/farm menu &7- Open the farm menu.'
+- '&e/farm help &7- Opens the guidebook.'
+- '&e/farm shop &7- Opens the farm shop.'
+- '&e/farm market &7- Opens the farm market.'
+- '&e/farm codex [menu] &7- Opens the farm codex.'
+- '&6/farm givegrowstation <player> &7- Give a Growstation.'
+- '&6/farm giveplantharvestable <plant> <id> &7- Give Harvestable Item.'
+- '&6/farm givebushharvestable <plant> <id> &7- Give Harvestable Item.'
+- '&6/farm givebush <bush> <player> &7- Give a plant seed.'
+- '&6/farm giveseed <plant> <player> &7- Give a plant seed.'
+- '&6/farm reload &7- Reloads the plugin.'
+- ''
+- '&8]&m-----------+&r&8[ &6Page (1/1) &r&8]&m+--------------&r&8['
+- ''
+Traits:
+  VENOM: Venom
+  DEHYDRATION: Dehydration
+  ATTRACTOR: Attractor
+  RESTRAIN: Restrain
+  CORROSION: Corrosion
+  SLICE_N_DICE: Slice N Dice
+ErrorPrefix: '&c&lPyroFarming &8➤ '
+TournamentCommands:
+- ''
+- '&8]&8&m----------+&r&8[ &e&lFarm Tournaments &8]&8&m+-----------&r&8['
+- ''
+- '&6/fht start <tournamentType> [time] &7- Starts the specified tournament.'
+- '&6/fht stop [giveRewards] &7- Stops the tournament. Gives rewards if true.'
+- '&e/fht time &7- Shows time till next tournament.'
+- ''
+- '&8]&m--------------------------------------------&r&8['
+- ''
+NotApplicible: N/A
