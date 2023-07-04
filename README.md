@@ -8,3 +8,4 @@
 - 傳送(Teleport)
 - 黏液科技 - 靈魂巧匠(SpiritsUnchained)
 - 成就數據(PlayerStats)
+- 查詢紀錄 - co i(CoreProtect)
