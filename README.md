@@ -7,3 +7,4 @@
 - 釣魚(Fish)
 - 傳送(Teleport)
 - 黏液科技 - 靈魂巧匠(SpiritsUnchained)
+- 成就數據(PlayerStats)
