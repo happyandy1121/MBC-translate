@@ -1373,7 +1373,7 @@ HellRuneName: '&4地獄符文'
 Oracles:
   Oracleite:
     Name: '&c不帶電甲骨文'
-SummonedPhase3Oracle: '&7你召喚了 &5&l十香 (Phase 3)&7!'
+SummonedPhase3Oracle: '&7你召喚了 &5&l十香 (第三階段)&7!'
 NoPermission: '&7您無權執行此操作.'
 DisabledMobWorld: '&7自定義採礦暴徒在這個世界上被禁用.'
 CreativeMode: '&7您無法在 &ccreative 模式下訪問此菜單&7.'
